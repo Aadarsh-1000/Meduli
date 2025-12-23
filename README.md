@@ -46,5 +46,6 @@
 ## 📄 License
 
 This project is created for educational purposes only.
+
 [Sources taken for the website](https://www.endlessmedical.com/dictionaries-json/)
 
