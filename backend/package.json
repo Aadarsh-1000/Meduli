@@ -1,0 +1,26 @@
+{
+  "symptomVocabulary": [
+    "fever",
+    "cough",
+    "headache",
+    "chest pain",
+    "shortness of breath",
+    "nausea",
+    "vomiting",
+    "fatigue"
+  ],
+  "conditions": [
+    {
+      "id": "mi",
+      "name": "Myocardial Infarction",
+      "aliases": ["Heart attack", "MI"],
+      "symptoms": ["chest pain", "shortness of breath", "nausea"]
+    },
+    {
+      "id": "flu",
+      "name": "Influenza",
+      "aliases": ["Flu"],
+      "symptoms": ["fever", "cough", "headache", "fatigue"]
+    }
+  ]
+}
