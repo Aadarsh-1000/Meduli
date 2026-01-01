@@ -289,7 +289,18 @@ function initApp() {
         Risk: (c.Risk != null ? Number(c.Risk) : undefined)
       };
 
-      return { id, name: displayName, demographics, features: { present, absent }, pearls, redFlags, studyTreatment, prevalenceWeight, meta };
+      return {
+        id,
+        name: displayName,
+        aliases: Array.isArray(c.aliases) ? c.aliases : [],
+        demographics,
+        features: { present, absent },
+        pearls,
+        redFlags,
+        studyTreatment,
+        prevalenceWeight,
+        meta
+      };
     });
 
   // ---------- State ----------
@@ -401,13 +412,23 @@ function initApp() {
       // Info panel (with defaults)
       const infoPanel = document.createElement('div'); infoPanel.className = 'info-panel';
       const grid = document.createElement('div'); grid.className = 'kv';
-      const icd10 =
-        cond.ref?.references?.icd10?.join(', ') ||
-        cond.meta?.ICD10 ||
-        'Not provided';
+      const icd10 = Array.isArray(cond.ref?.references?.icd10)
+        ? cond.ref.references.icd10.join(', ')
+        : typeof cond.ref?.references?.icd10 === 'string'
+          ? cond.ref.references.icd10
+          : cond.meta?.ICD10 || 'Not provided';
+
 
       grid.appendChild(row('ICD-10', icd10));
-      grid.appendChild(row('Alias', cond.meta?.alias || 'Not provided'));
+      grid.appendChild(
+        row(
+          'Also known as',
+          cond.aliases.length
+            ? cond.aliases.join(', ')
+            : 'Not provided'
+        )
+      );
+
       if (typeof cond.demographics?.minAge === 'number' || typeof cond.demographics?.maxAge === 'number') {
         const range = `${cond.demographics?.minAge ?? '—'} to ${cond.demographics?.maxAge ?? '—'}`; grid.appendChild(row('Age range', range));
       }
