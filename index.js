@@ -323,19 +323,41 @@ function initApp() {
     const ranked = KB.map(cond => {
       const d = cond.demographics;
       if (d) {
-        if (typeof d.minAge === 'number' && age < d.minAge) return { id: cond.id, name: cond.name, score: 0, ref: cond };
-        if (typeof d.maxAge === 'number' && age > d.maxAge) return { id: cond.id, name: cond.name, score: 0, ref: cond };
-        if (d.gender && gender && d.gender !== gender) return { id: cond.id, name: cond.name, score: 0, ref: cond };
+        if (typeof d.minAge === 'number' && age < d.minAge)
+          return { id: cond.id, name: cond.name, score: 0, ref: cond };
+        if (typeof d.maxAge === 'number' && age > d.maxAge)
+          return { id: cond.id, name: cond.name, score: 0, ref: cond };
+        if (d.gender && gender && d.gender !== gender)
+          return { id: cond.id, name: cond.name, score: 0, ref: cond };
       }
+
+      // ✅ Baseline score (risk / prevalence)
       let score = cond.prevalenceWeight;
+
+      // ✅ Add symptom matches
       const present = cond.features.present || {};
       const absent = cond.features.absent || {};
-      for (const feat in present) if (symptomsSet.has(feat)) score += Number(present[feat]) || 0;
-      for (const feat in absent) if (!symptomsSet.has(feat) && explicitNegatives.has(feat)) score += (Number(absent[feat]) || 0) * 0.5;
+
+      for (const feat in present) {
+        if (symptomsSet.has(feat)) {
+          score += Number(present[feat]) || 0;
+        }
+      }
+
+      for (const feat in absent) {
+        if (!symptomsSet.has(feat) && explicitNegatives.has(feat)) {
+          score += (Number(absent[feat]) || 0) * 0.5;
+        }
+      }
+
       return { id: cond.id, name: cond.name, score, ref: cond };
-    }).sort((a, b) => b.score - a.score).slice(0, 6);
+    })
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 6);
+
     return ranked;
   }
+
 
   // ---------- Tiny UI builders ----------
   function badge(text, kind = 'neutral') { const b = document.createElement('span'); b.className = `badge badge-${kind}`; b.textContent = text; return b; }
