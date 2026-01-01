@@ -318,27 +318,30 @@ function initApp() {
   // ---------- Utils ----------
   function tokenize(text) { return String(text).toLowerCase().split(/[^a-zA-Z\u00C0-\u024F0-9]+/).filter(Boolean); }
   function normalizeSymptom(s) { return String(s || '').trim().toLowerCase(); }
-function scoreCondition({ age, gender }) {
-  return KB.map(cond => {
-    const d = cond.demographics;
-    if (d) {
-      if (typeof d.minAge === 'number' && age < d.minAge)
-        return { id: cond.id, name: cond.name, score: 0.0, ref: cond };
-      if (typeof d.maxAge === 'number' && age > d.maxAge)
-        return { id: cond.id, name: cond.name, score: 0.0, ref: cond };
-      if (d.gender && gender && d.gender !== gender)
-        return { id: cond.id, name: cond.name, score: 0.0, ref: cond };
-    }
 
-    // 🔒 HARD-CODE SCORE
-    return {
-      id: cond.id,
-      name: cond.name,
-      score: 0.0,
-      ref: cond
-    };
-  }).slice(0, 6);
-}
+  function scoreCondition({ age, gender }) {
+    return KB.map(cond => {
+      const d = cond.demographics;
+
+      // Keep demographic filtering (safe + logical)
+      if (d) {
+        if (typeof d.minAge === 'number' && age < d.minAge) return null;
+        if (typeof d.maxAge === 'number' && age > d.maxAge) return null;
+        if (d.gender && gender && d.gender !== gender) return null;
+      }
+
+      // 🔒 HARD LOCK SCORE
+      return {
+        id: cond.id,
+        name: cond.name,
+        score: 0.0,
+        ref: cond
+      };
+    })
+      .filter(Boolean)
+      .slice(0, 6);
+  }
+
 
   // ---------- Tiny UI builders ----------
   function badge(text, kind = 'neutral') { const b = document.createElement('span'); b.className = `badge badge-${kind}`; b.textContent = text; return b; }
