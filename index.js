@@ -536,14 +536,30 @@ function initApp() {
   function tokenizeInput() {
     return String(freeText?.value || '').toLowerCase().split(/[^a-zA-Z\u00C0-\u024F0-9]+/).filter(Boolean);
   }
-  function computeAndRender() {
-    const tokens = tokenizeInput();
-    const fromText = new Set(tokens.filter(t => SYMPTOMS.includes(t)));
-    const symptomsSet = new Set([...(state.selectedSymptoms || []), ...fromText]);
-    const input = { age: state.age, gender: state.sex, symptomsSet, explicitNegatives: state.negatives };
-    const ranked = scoreCondition(input);
-    renderResults(ranked);
+  function scoreCondition({ age, gender, symptomsSet, explicitNegatives }) {
+    const ranked = KB.map(cond => {
+      const d = cond.demographics;
+      if (d) {
+        if (typeof d.minAge === 'number' && age < d.minAge)
+          return { id: cond.id, name: cond.name, score: 0, ref: cond };
+        if (typeof d.maxAge === 'number' && age > d.maxAge)
+          return { id: cond.id, name: cond.name, score: 0, ref: cond };
+        if (d.gender && gender && d.gender !== gender)
+          return { id: cond.id, name: cond.name, score: 0, ref: cond };
+      }
+
+      // 👇 FORCE SCORE TO ZERO
+      return {
+        id: cond.id,
+        name: cond.name,
+        score: 0.0,
+        ref: cond
+      };
+    });
+
+    return ranked.slice(0, 6);
   }
+
 
   // ---------- Events ----------
   ageEl?.addEventListener('input', e => { state.age = parseInt(e.target.value || '0', 10); if (ageOut) ageOut.textContent = state.age; computeAndRender(); });
