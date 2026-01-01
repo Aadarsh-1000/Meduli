@@ -19,7 +19,7 @@ fetch('diseases.json', { cache: 'no-store' })
             : [];
 
     PACK = { symptomVocabulary: vocab, conditions: rootArr };
-
+    console.log('resultsEl:', resultsEl)
     initApp();
   })
   .catch(err => {
@@ -242,7 +242,14 @@ function initApp() {
       const ICD10 = str(keyPickCI(c, ['ICD10', 'icd10', 'ICD', 'icd']) || '');
       const alias = str(keyPickCI(c, ['alias', 'aka', 'otherNames']) || '');
       const category = str(keyPickCI(c, ['category', 'type', 'class']) || '');
-      const wikiList = [c.wiki, c.wiki2, c.wiki3, c.wiki4].concat(toArray(c.references)).map(x => str(x)).filter(Boolean);
+      const wikiList = [
+        c.references?.wikidata,
+        c.wiki,
+        c.wiki2,
+        c.wiki3,
+        c.wiki4
+      ].filter(Boolean);
+
 
       const pearls = toArray(c.pearls);
       const redFlags = toArray(c.redFlags || c.redflags);
