@@ -74,8 +74,8 @@
         "Viral Upper Respiratory Infection (Common Cold)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/viralupperrespiratoryinfectioncommoncold.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Viral%20Upper%20Respiratory%20Infection%20%28Common%20Cold%29"
       }
     },
     {
@@ -97,7 +97,7 @@
       },
       "pearls": [
         "Abrupt onset fever, myalgia, and headache are typical.",
-        "Consider antivirals for high\u2011risk per guidelines."
+        "Consider antivirals for high‑risk per guidelines."
       ],
       "redFlags": [
         "Dyspnoea",
@@ -106,19 +106,19 @@
       ],
       "studyTreatment": [
         "Supportive care",
-        "Antivirals for high\u2011risk or severe disease (verify local guidance)"
+        "Antivirals for high‑risk or severe disease (verify local guidance)"
       ],
       "aliases": [
         "Influenza"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/influenza.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Influenza"
       }
     },
     {
       "id": "covid19",
-      "name": "COVID\u201119",
+      "name": "COVID‑19",
       "prevalenceWeight": 0.4,
       "features": {
         "present": {
@@ -148,16 +148,16 @@
         "Consider antivirals per current protocols"
       ],
       "aliases": [
-        "COVID\u201119"
+        "COVID‑19"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/covid19.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=COVID%E2%80%9119"
       }
     },
     {
       "id": "pneumonia",
-      "name": "Community\u2011Acquired Pneumonia",
+      "name": "Community‑Acquired Pneumonia",
       "prevalenceWeight": 0.3,
       "features": {
         "present": {
@@ -174,7 +174,7 @@
       },
       "pearls": [
         "Pleuritic chest pain and focal findings suggest consolidation.",
-        "Assess severity scores in practice (e.g., CURB\u201165)"
+        "Assess severity scores in practice (e.g., CURB‑65)"
       ],
       "redFlags": [
         "Hypoxia",
@@ -183,14 +183,14 @@
       ],
       "studyTreatment": [
         "Empiric antibiotics per local guidelines if clinical diagnosis",
-        "Consider chest X\u2011ray and oximetry"
+        "Consider chest X‑ray and oximetry"
       ],
       "aliases": [
-        "Community\u2011Acquired Pneumonia"
+        "Community‑Acquired Pneumonia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/communityacquiredpneumonia.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Community%E2%80%91Acquired%20Pneumonia"
       }
     },
     {
@@ -217,15 +217,15 @@
         "Sepsis signs"
       ],
       "studyTreatment": [
-        "First\u2011line oral options vary by region; verify local antibiogram",
+        "First‑line oral options vary by region; verify local antibiogram",
         "Hydration; consider urine dipstick/urinalysis"
       ],
       "aliases": [
         "Uncomplicated Urinary Tract Infection"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/uncomplicatedurinarytractinfection.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Uncomplicated%20Urinary%20Tract%20Infection"
       }
     },
     {
@@ -246,7 +246,7 @@
         }
       },
       "pearls": [
-        "Watch for warning signs around defervescence (days 3\u20137).",
+        "Watch for warning signs around defervescence (days 3–7).",
         "Avoid NSAIDs if bleeding risk; confirm with labs in practice."
       ],
       "redFlags": [
@@ -263,13 +263,13 @@
         "Dengue Fever"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/denguefever.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Dengue%20Fever"
       }
     },
     {
       "id": "malaria",
-      "name": "Malaria (falciparum/non\u2011falciparum)",
+      "name": "Malaria (falciparum/non‑falciparum)",
       "prevalenceWeight": 0.2,
       "features": {
         "present": {
@@ -297,11 +297,11 @@
         "Antimalarial regimen depends on species/resistance; follow national guidelines"
       ],
       "aliases": [
-        "Malaria (falciparum/non\u2011falciparum)"
+        "Malaria (falciparum/non‑falciparum)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/malariafalciparumnonfalciparum.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Malaria%20%28falciparum/non%E2%80%91falciparum%29"
       }
     },
     {
@@ -338,8 +338,8 @@
         "Acute Appendicitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acuteappendicitis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Acute%20Appendicitis"
       }
     },
     {
@@ -358,7 +358,7 @@
         }
       },
       "pearls": [
-        "Most cases are viral and self\u2011limited.",
+        "Most cases are viral and self‑limited.",
         "Assess dehydration."
       ],
       "redFlags": [
@@ -375,8 +375,8 @@
         "Acute Gastroenteritis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutegastroenteritis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Acute%20Gastroenteritis"
       }
     },
     {
@@ -404,14 +404,14 @@
       ],
       "studyTreatment": [
         "Inhaled bronchodilators",
-        "Systemic steroids if moderate\u2013severe"
+        "Systemic steroids if moderate–severe"
       ],
       "aliases": [
         "Asthma"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/asthma.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Asthma"
       }
     },
     {
@@ -444,8 +444,8 @@
         "Acute Coronary Syndrome (MI/UA)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutecoronarysyndromemiua.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Acute%20Coronary%20Syndrome%20%28MI/UA%29"
       }
     },
     {
@@ -469,10 +469,10 @@
         "Benign prostatic hypertrophy (BPH)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/benignprostatichypertrophybph.html",
         "icd10": [
           "N40.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BPHC"
       },
       "features": {
         "present": {},
@@ -501,8 +501,8 @@
         "PNA"
       ],
       "references": {
-        "medline": "https://emedicine.medscape.com/article/234753-overview",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HCAP"
       },
       "features": {
         "present": {},
@@ -533,10 +533,10 @@
         "Pneumonia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pneumonia.html",
         "icd10": [
           "J18.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CAPPNA"
       },
       "features": {
         "present": {},
@@ -564,10 +564,10 @@
         "DM2"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/diabetesmelltustype2.html",
         "icd10": [
           "E11"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=DM2"
       },
       "features": {
         "present": {},
@@ -594,10 +594,10 @@
         "Anemia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/anemia.html",
         "icd10": [
           "D64.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ANEMIAA"
       },
       "features": {
         "present": {},
@@ -624,10 +624,10 @@
         "Thrombocytopenia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/thrombocytopenia.html",
         "icd10": [
           "D69.6"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Thrombocytopenia"
       },
       "features": {
         "present": {},
@@ -655,10 +655,10 @@
         "Gonococcal urethritis (cervicitis)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/gonococcalurethritiscervicitis.html",
         "icd10": [
           "A54.03"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=GcCervicitis"
       },
       "features": {
         "present": {},
@@ -686,10 +686,10 @@
         "Prostate cancer"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/prostatecancer.html",
         "icd10": [
           "C61"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PCaC"
       },
       "features": {
         "present": {},
@@ -717,10 +717,10 @@
         "History of prostate cancer"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/historyofprostatecancer.html",
         "icd10": [
           "C61"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HxOfPCaC"
       },
       "features": {
         "present": {},
@@ -748,10 +748,10 @@
         "Prostatitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/prostatitis.html",
         "icd10": [
           "N41.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ProstatisA"
       },
       "features": {
         "present": {},
@@ -779,10 +779,10 @@
         "Gonococcal urethritis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/gonococcalurethritis.html",
         "icd10": [
           "A54.01"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=GcUA"
       },
       "features": {
         "present": {},
@@ -811,10 +811,10 @@
         "SARS-CoV-2"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/covid19virusidentified.html",
         "icd10": [
           "U07.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Covid19Test"
       },
       "features": {
         "present": {},
@@ -842,10 +842,10 @@
         "Ulcerative colitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/ulcerativecolitis.html",
         "icd10": [
           "K51.90"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CUC"
       },
       "features": {
         "present": {},
@@ -873,10 +873,10 @@
         "Ulcerative colitis exacerbation"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/ulcerativecolitisexacerbation.html",
         "icd10": [
           "K51.90"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CUA"
       },
       "features": {
         "present": {},
@@ -905,10 +905,10 @@
         "SARS-CoV-2"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/contactwithandsuspectedexposuretocovid19.html",
         "icd10": [
           "Z20.822"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Covid19Contact"
       },
       "features": {
         "present": {},
@@ -938,10 +938,10 @@
         "SARS-CoV-2"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/coronavirusdisease2019covid19mostlyupperrespiratorytractinfectionwithorwithoutbronchitisbutwithoutsignificantpneumonia.html",
         "icd10": [
           "U07.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Covid19URTI"
       },
       "features": {
         "present": {},
@@ -971,10 +971,10 @@
         "SARS-CoV-2 pneumonia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/coronavirusdisease2019covid19withpneumonia.html",
         "icd10": [
           "J12.82"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Covid19PNA"
       },
       "features": {
         "present": {},
@@ -1005,10 +1005,10 @@
         "URTI"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/commoncold.html",
         "icd10": [
           "J00"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CommonCold"
       },
       "features": {
         "present": {},
@@ -1036,10 +1036,10 @@
         "Acute pancreatitis triggered by alcohol"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutepancreatitistriggeredbyalcohol.html",
         "icd10": [
           "K85.2"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PancreatitisETOH"
       },
       "features": {
         "present": {},
@@ -1067,10 +1067,10 @@
         "Idiopathic acute pancreatitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/idiopathicacutepancreatitis.html",
         "icd10": [
           "K85.00"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PancreatitisA"
       },
       "features": {
         "present": {},
@@ -1098,10 +1098,10 @@
         "Cluster headaches"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/clusterheadaches.html",
         "icd10": [
           "G44.009"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ClusterHeadache"
       },
       "features": {
         "present": {},
@@ -1129,11 +1129,11 @@
         "Uncontrolled hypertension."
       ],
       "references": {
-        "medline": "https://medlineplus.gov/uncontrolledhypertension.html",
         "icd10": [
           "I10",
           "R03.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=UncontrolledHTN"
       },
       "features": {
         "present": {},
@@ -1161,10 +1161,10 @@
         "Diabetic ketoacidosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/diabeticketoacidosis.html",
         "icd10": [
           "E11.10"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=DiabetesKACA"
       },
       "features": {
         "present": {},
@@ -1192,10 +1192,10 @@
         "Fusobacterium necrophorum pharyngitis complicated with Lemierre syndrome"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/fusobacteriumnecrophorumpharyngitiscomplicatedwithlemierresyndrome.html",
         "icd10": [
           "A69.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=FusobacteriumNecrophorumPharyngitisComplicatedWithLemierreSyndrome"
       },
       "features": {
         "present": {},
@@ -1223,10 +1223,10 @@
         "Primary systemic arterial hypertension"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/primarysystemicarterialhypertension.html",
         "icd10": [
           "I10"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PrimaryArterialHypertension"
       },
       "features": {
         "present": {},
@@ -1254,10 +1254,10 @@
         "History of systemic hypertension"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/historyofsystemichypertension.html",
         "icd10": [
           "I10"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PrimaryArterialHypertensionByHx"
       },
       "features": {
         "present": {},
@@ -1285,10 +1285,10 @@
         "Acute pancreatitis due to hyperglyceridemia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutepancreatitisduetohyperglyceridemia.html",
         "icd10": [
           "K85.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PancreatitisHyperTGL"
       },
       "features": {
         "present": {},
@@ -1316,10 +1316,10 @@
         "Acute pancreatitis due to gallstones"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutepancreatitisduetogallstones.html",
         "icd10": [
           "K85.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PancreatitisGAP"
       },
       "features": {
         "present": {},
@@ -1347,10 +1347,10 @@
         "Acute pancreatitis due to HIV"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutepancreatitisduetohiv.html",
         "icd10": [
           "K85.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PancreatitisHIV"
       },
       "features": {
         "present": {},
@@ -1378,10 +1378,10 @@
         "Hypertensive emergency"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hypertensiveemergency.html",
         "icd10": [
           "I16.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HypertensiveEmergencyA"
       },
       "features": {
         "present": {},
@@ -1409,10 +1409,10 @@
         "Acute pancreatitis due to pancreatic cancer"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutepancreatitisduetopancreaticcancer.html",
         "icd10": [
           "C25.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PancreatitisPancreaticCa"
       },
       "features": {
         "present": {},
@@ -1440,11 +1440,11 @@
         "Arterial hypertension (chronic) secondary to obesity"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/arterialhypertensionchronicsecondarytoobesity.html",
         "icd10": [
           "I15.9",
           "E66.01"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SecondaryArterialHypertensionObesity"
       },
       "features": {
         "present": {},
@@ -1472,10 +1472,10 @@
         "headache from nitrates"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/headacheafteruseofnitroglycerinornitrates.html",
         "icd10": [
           "T46.3X5A"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HeadacheAfterNitrates"
       },
       "features": {
         "present": {},
@@ -1503,10 +1503,10 @@
         "Coronary artery disease, stable angina (CAD)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/coronaryarterydiseasestableanginacad.html",
         "icd10": [
           "I25.119"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CoronaryArteryDiseaseCAD"
       },
       "features": {
         "present": {},
@@ -1534,10 +1534,10 @@
         "Unstable angina (CAD)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/unstableanginacad.html",
         "icd10": [
           "I20.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=UnstableAngina"
       },
       "features": {
         "present": {},
@@ -1565,10 +1565,10 @@
         "headache from hypertension"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/headacheduetouncontrolledhypertension.html",
         "icd10": [
           "I67.4"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HeadacheDueToHTN"
       },
       "features": {
         "present": {},
@@ -1596,10 +1596,10 @@
         "Hypertensive urgency"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hypertensiveurgency.html",
         "icd10": [
           "I16.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HypertensiveUrgencyA"
       },
       "features": {
         "present": {},
@@ -1627,10 +1627,10 @@
         "Headache due to caffeine withdrawal"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/headacheduetocaffeinewithdrawal.html",
         "icd10": [
           "F15.93"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HeadacheDueToCaffeineWithdrawal"
       },
       "features": {
         "present": {},
@@ -1658,10 +1658,10 @@
         "Acute pancreatitis due to medications"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutepancreatitisduetomedications.html",
         "icd10": [
           "K85.30"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PancreatitisDueToMeds"
       },
       "features": {
         "present": {},
@@ -1689,10 +1689,10 @@
         "Acute pancreatitis due to hypercalcemia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutepancreatitisduetohypercalcemia.html",
         "icd10": [
           "K85.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PancreatitisHyperCalcemia"
       },
       "features": {
         "present": {},
@@ -1720,10 +1720,10 @@
         "Arterial hypertension (chronic) secondary to chronic kidney disease"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/arterialhypertensionchronicsecondarytochronickidneydisease.html",
         "icd10": [
           "I12"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SecondaryArterialHypertensionCKD"
       },
       "features": {
         "present": {},
@@ -1751,10 +1751,10 @@
         "Tension headaches"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/tensionheadaches.html",
         "icd10": [
           "G44.209"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=TensionHeadache"
       },
       "features": {
         "present": {},
@@ -1782,8 +1782,8 @@
         "Acute pancreatitis due to sphincter of Oddi dysfunction"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutepancreatitisduetosphincterofoddidysfunction.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PancreatitisOddis"
       },
       "features": {
         "present": {},
@@ -1811,10 +1811,10 @@
         "Acute pancreatitis due to recent endoscopic retrograde cholangiopancreatography (ERCP)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutepancreatitisduetorecentendoscopicretrogradecholangiopancreatographyercp.html",
         "icd10": [
           "K86.89"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PancreatitisERCP"
       },
       "features": {
         "present": {},
@@ -1842,10 +1842,10 @@
         "Gastritis related upper GI bleeding "
       ],
       "references": {
-        "medline": "https://medlineplus.gov/gastritisrelateduppergibleeding.html",
         "icd10": [
           "K29.71"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=GastrittisBleedingA"
       },
       "features": {
         "present": {},
@@ -1873,10 +1873,10 @@
         "Migraines"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/migraineheadaches.html",
         "icd10": [
           "G43.909"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MigraineHeadache"
       },
       "features": {
         "present": {},
@@ -1904,10 +1904,10 @@
         "Fusobacterium necrophorum pharyngitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/fusobacteriumnecrophorumpharyngitis.html",
         "icd10": [
           "A69.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=FusobacteriumNecrophorumPharyngitis"
       },
       "features": {
         "present": {},
@@ -1936,10 +1936,10 @@
         "low WBC"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/leukopenialeukocytopenia.html",
         "icd10": [
           "D72.819"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Leukopenia"
       },
       "features": {
         "present": {},
@@ -1968,10 +1968,10 @@
         "Chest infection"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/bronchitis.html",
         "icd10": [
           "J20.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BRONCHITISA"
       },
       "features": {
         "present": {},
@@ -2001,10 +2001,10 @@
         "Seasonal influenza"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/flu.html",
         "icd10": [
           "J10.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=FluA"
       },
       "features": {
         "present": {},
@@ -2032,8 +2032,8 @@
         "Thoracic aortic dissection"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/thoracicaorticdissection.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AorticDissectionThoracic"
       },
       "features": {
         "present": {},
@@ -2060,10 +2060,10 @@
         "Peritonitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/peritonitis.html",
         "icd10": [
           "K65.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PeritionitisA"
       },
       "features": {
         "present": {},
@@ -2090,10 +2090,10 @@
         "Variceal (esophagus) bleeding"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/varicealesophagusbleeding.html",
         "icd10": [
           "I85.01"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=VaricealBleedingA"
       },
       "features": {
         "present": {},
@@ -2121,10 +2121,10 @@
         "Chronic pancreatitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronicpancreatitis.html",
         "icd10": [
           "K86.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PancreatitisC"
       },
       "features": {
         "present": {},
@@ -2152,10 +2152,10 @@
         "Secondary arterial hypertension (chronic)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/secondaryarterialhypertensionchronic.html",
         "icd10": [
           "I15.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SecondaryArterialHypertension"
       },
       "features": {
         "present": {},
@@ -2183,10 +2183,10 @@
         "Acute pneumothorax"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutepneumothorax.html",
         "icd10": [
           "J93.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PTXA"
       },
       "features": {
         "present": {},
@@ -2214,10 +2214,10 @@
         "Crohn's disease exacerbation"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/crohnsdiseaseexacerbation.html",
         "icd10": [
           "K50.90"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ChronsA"
       },
       "features": {
         "present": {},
@@ -2244,10 +2244,10 @@
         "Acute tracheobronchitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutetracheobronchitis.html",
         "icd10": [
           "J20.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=TracheobronchitisA"
       },
       "features": {
         "present": {},
@@ -2275,10 +2275,10 @@
         "Ureterolithiasis (ureteral stones)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/ureterolithiasisureteralstones.html",
         "icd10": [
           "N20.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Ureterolithiasis"
       },
       "features": {
         "present": {},
@@ -2305,10 +2305,10 @@
         "Pericarditis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pericarditis.html",
         "icd10": [
           "I30.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PericarditisA"
       },
       "features": {
         "present": {},
@@ -2336,10 +2336,10 @@
         "Viral pharyngitis (etiology usually rhinovirus, coronavirus, adenovirus, parainfluenza)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/viralpharyngitisetiologyusuallyrhinoviruscoronavirusadenovirusparainfluenza.html",
         "icd10": [
           "J02.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ViralPharyngitis"
       },
       "features": {
         "present": {},
@@ -2367,10 +2367,10 @@
         "Allergic rhinitis to pollen"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/allergicrhinitistopollen.html",
         "icd10": [
           "J30.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AllergicRhinitisToPollen"
       },
       "features": {
         "present": {},
@@ -2398,10 +2398,10 @@
         "Allergic rhinitis to dust mites"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/allergicrhinitistodustmites.html",
         "icd10": [
           "J30.89"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AllergicRhinitisToDustMites"
       },
       "features": {
         "present": {},
@@ -2429,10 +2429,10 @@
         "Streptococcal pharyngitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/streptococcalpharyngitis.html",
         "icd10": [
           "J02"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=StrepThroatA"
       },
       "features": {
         "present": {},
@@ -2460,10 +2460,10 @@
         "Acute left ventricle heart failure"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acuteleftventricleheartfailure.html",
         "icd10": [
           "I50.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=LVFA"
       },
       "features": {
         "present": {},
@@ -2491,10 +2491,10 @@
         "Gastroesophageal reflux without esophagitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/gastroesophagealrefluxwithoutesophagitis.html",
         "icd10": [
           "K21.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=GERDA"
       },
       "features": {
         "present": {},
@@ -2522,10 +2522,10 @@
         "Secondary arterial hypertension secondary to renal artery stenosis secondary to atherosclerosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/secondaryarterialhypertensionsecondarytorenalarterystenosissecondarytoatherosclerosis.html",
         "icd10": [
           "I15. 0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SecondaryArterialHypertensionSecondaryRASAtherosclerotic"
       },
       "features": {
         "present": {},
@@ -2552,8 +2552,8 @@
         "Esophageal spasm"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/esophagealspasm.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=EsophagealSpasmA"
       },
       "features": {
         "present": {},
@@ -2581,10 +2581,10 @@
         "Arterial hypertension (chronic) secondary to hyperaldosteronism"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/arterialhypertensionchronicsecondarytohyperaldosteronism.html",
         "icd10": [
           "E26.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SecondaryArterialHypertensionHyperaldo"
       },
       "features": {
         "present": {},
@@ -2612,10 +2612,10 @@
         "Gastroesophageal reflux with esophagitis without bleed"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/gastroesophagealrefluxwithesophagitiswithoutbleed.html",
         "icd10": [
           "K21.00"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=GERDAWEsophagitisWOBleed"
       },
       "features": {
         "present": {},
@@ -2643,10 +2643,10 @@
         "Chronic sinusitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronicsinusitis.html",
         "icd10": [
           "J32.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SinusitisC"
       },
       "features": {
         "present": {},
@@ -2676,10 +2676,10 @@
         "ESRD"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronickidneydiseasestagesiiiivandv.html",
         "icd10": [
           "N18.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CKD"
       },
       "features": {
         "present": {},
@@ -2709,10 +2709,10 @@
         "ESRD"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronickidneydisease.html",
         "icd10": [
           "N18.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=%21CKD"
       },
       "features": {
         "present": {},
@@ -2740,10 +2740,10 @@
         "Acute right ventricle heart failure"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acuterightventricleheartfailure.html",
         "icd10": [
           "I50.811"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=RVFA"
       },
       "features": {
         "present": {},
@@ -2771,10 +2771,10 @@
         "Pleural effusion"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pleuraleffusion.html",
         "icd10": [
           "J90"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PleuralEffusionA"
       },
       "features": {
         "present": {},
@@ -2802,10 +2802,10 @@
         "Perirectal fissure"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/perirectalfissure.html",
         "icd10": [
           "K60.2"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=FissureA"
       },
       "features": {
         "present": {},
@@ -2833,10 +2833,10 @@
         "Acute sinusitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutesinusitis.html",
         "icd10": [
           "J01.90"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SinusitisA"
       },
       "features": {
         "present": {},
@@ -2864,10 +2864,10 @@
         "Gastroesophageal reflux with esophagitis with bleed"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/gastroesophagealrefluxwithesophagitiswithbleed.html",
         "icd10": [
           "K21.01"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=GERDAWEsophagitisWBleed"
       },
       "features": {
         "present": {},
@@ -2895,10 +2895,10 @@
         "Acute laryngitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutelaryngitis.html",
         "icd10": [
           "J04.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=LaryngitisA"
       },
       "features": {
         "present": {},
@@ -2926,10 +2926,10 @@
         "Respiratory acidosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/respiratoryacidosis.html",
         "icd10": [
           "J96.02"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=RespiratoryAcidosis"
       },
       "features": {
         "present": {},
@@ -2957,10 +2957,10 @@
         "Anemia from acute blood loss"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/anemiafromacutebloodloss.html",
         "icd10": [
           "D62"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ANEMIAAFromAcuteBloodLoss"
       },
       "features": {
         "present": {},
@@ -2976,8 +2976,8 @@
         "Obesity hypoventilation syndrome"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/obesityhypoventilationsyndrome.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ObesityHypeventA"
       },
       "features": {
         "present": {},
@@ -3006,10 +3006,10 @@
         "BRCA2"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/brca12breastorovariangenecarierstatus.html",
         "icd10": [
           "Z15.01"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BRCA12Carier"
       },
       "features": {
         "present": {},
@@ -3037,10 +3037,10 @@
         "Pulmonary embolus"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pulmonaryembolus.html",
         "icd10": [
           "I26.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PE"
       },
       "features": {
         "present": {},
@@ -3068,8 +3068,8 @@
         "Past history of pulmonary embolus"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pasthistoryofpulmonaryembolus.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HxOfPE"
       },
       "features": {
         "present": {},
@@ -3097,8 +3097,8 @@
         "Past history of deep vein thrombosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pasthistoryofdeepveinthrombosis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HxOfDVT"
       },
       "features": {
         "present": {},
@@ -3126,8 +3126,8 @@
         "Past history of congestive heart failure (CHF)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pasthistoryofcongestiveheartfailurechf.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HxOfCHF"
       },
       "features": {
         "present": {},
@@ -3155,8 +3155,8 @@
         "Past history of coronary artery disease (CAD)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pasthistoryofcoronaryarterydiseasecad.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HxOfCAD"
       },
       "features": {
         "present": {},
@@ -3184,8 +3184,8 @@
         "Past history of atrial fibrillation (Afib) or atrial flutter (Aflut)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pasthistoryofatrialfibrillationafiboratrialflutteraflut.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HxOfAfibAflut"
       },
       "features": {
         "present": {},
@@ -3213,8 +3213,8 @@
         "Past history of cebrovascular accident (CVA)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pasthistoryofcebrovascularaccidentcva.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HxOfCVA"
       },
       "features": {
         "present": {},
@@ -3241,10 +3241,10 @@
         "Gastroenteritis likely viral"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/gastroenteritislikelyviral.html",
         "icd10": [
           "A09"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=GastroenteritisViralA"
       },
       "features": {
         "present": {},
@@ -3272,10 +3272,10 @@
         "Transaminitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/transaminitis.html",
         "icd10": [
           "R74.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Transaminitis"
       },
       "features": {
         "present": {},
@@ -3303,11 +3303,11 @@
         "Arterial hypertension (chronic) secondary to OSA"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/arterialhypertensionchronicsecondarytoosa.html",
         "icd10": [
           "I15.9",
           "G47.33"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SecondaryArterialHypertensionOSA"
       },
       "features": {
         "present": {},
@@ -3335,10 +3335,10 @@
         "DM1"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pastmedicalhistoryofdiabetesmelltustype1perhistory.html",
         "icd10": [
           "E10"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=DM1ByHx"
       },
       "features": {
         "present": {},
@@ -3365,10 +3365,10 @@
         "Diabetic Nephropathy"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/diabeticnephropathy.html",
         "icd10": [
           "N18.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=DiabeticNephropathy"
       },
       "features": {
         "present": {},
@@ -3394,10 +3394,10 @@
         "!!!"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/.html",
         "icd10": [
           "K35.80"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AppendicitisA"
       },
       "features": {
         "present": {},
@@ -3425,10 +3425,10 @@
         "Perforated peptic or duodenal ulcer"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/perforatedpepticorduodenalulcer.html",
         "icd10": [
           "K25.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PUDPerfA"
       },
       "features": {
         "present": {},
@@ -3456,10 +3456,10 @@
         "Septic shock"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/septicshock.html",
         "icd10": [
           "R65.21"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SepsticShockA"
       },
       "features": {
         "present": {},
@@ -3488,10 +3488,10 @@
         "hypotension"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/shock.html",
         "icd10": [
           "R57.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Shock"
       },
       "features": {
         "present": {},
@@ -3519,10 +3519,10 @@
         "shocky liver"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/shockliver.html",
         "icd10": [
           "K72.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ShockLiver"
       },
       "features": {
         "present": {},
@@ -3551,8 +3551,8 @@
         "HTN Nephropathy"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hypertensivenephropathy.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HypertensiveNephropathy"
       },
       "features": {
         "present": {},
@@ -3580,10 +3580,10 @@
         "Anaphylactic shock"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/anaphylacticshock.html",
         "icd10": [
           "T78.00XA"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AnaphylacticShock"
       },
       "features": {
         "present": {},
@@ -3611,10 +3611,10 @@
         "Superficial vein thrombosis (SVT) of lower extremities"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/superficialveinthrombosissvtoflowerextremities.html",
         "icd10": [
           "I82.819"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SVT"
       },
       "features": {
         "present": {},
@@ -3642,10 +3642,10 @@
         "Deep vein thrombosis (DVT)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/deepveinthrombosisdvt.html",
         "icd10": [
           "I82.40"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=DVT"
       },
       "features": {
         "present": {},
@@ -3673,10 +3673,10 @@
         "COPD exacerbation"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/copdexacerbation.html",
         "icd10": [
           "J44.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=COPDA"
       },
       "features": {
         "present": {},
@@ -3704,10 +3704,10 @@
         "Cough caused by ACE (angiotensin converting enzyme) inhibitor, or ARB (angiotensin receptor blocker)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/coughcausedbyaceangiotensinconvertingenzymeinhibitororarbangiotensinreceptorblocker.html",
         "icd10": [
           "T46.4X5A"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ACEinhibitorRelatedCough"
       },
       "features": {
         "present": {},
@@ -3735,10 +3735,10 @@
         "Asthma exacerbation without acute respiratory failure"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/asthmaexacerbationwithoutacuterespiratoryfailure.html",
         "icd10": [
           "J45.901"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AsthmaA"
       },
       "features": {
         "present": {},
@@ -3766,10 +3766,10 @@
         "Atopic dermatitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/atopicdermatitis.html",
         "icd10": [
           "l20.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AtopicDermatitis"
       },
       "features": {
         "present": {},
@@ -3797,10 +3797,10 @@
         "Bowel obstruction"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/bowelobstruction.html",
         "icd10": [
           "K56.60"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BowelObstructionA"
       },
       "features": {
         "present": {},
@@ -3828,8 +3828,8 @@
         "Asthma exacerbation with acute respiratory failure"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/asthmaexacerbationwithacuterespiratoryfailure.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AsthmaARFA"
       },
       "features": {
         "present": {},
@@ -3856,10 +3856,10 @@
         "Obstructive sleep apnea"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/obstructivesleepapnea.html",
         "icd10": [
           "G47.33"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=OSA"
       },
       "features": {
         "present": {},
@@ -3887,8 +3887,8 @@
         "Pulmonary tuberculosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pulmonarytuberculosis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PulmTBA"
       },
       "features": {
         "present": {},
@@ -3916,8 +3916,8 @@
         "Acute nontuberculous mycobacterial lung infection"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutenontuberculousmycobacteriallunginfection.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=NonTBMycobacteriaeA"
       },
       "features": {
         "present": {},
@@ -3945,8 +3945,8 @@
         "Lung abscess"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/lungabscess.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=LungAbscessA"
       },
       "features": {
         "present": {},
@@ -3974,8 +3974,8 @@
         "Empyema"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/empyema.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=EmpyemaA"
       },
       "features": {
         "present": {},
@@ -4003,10 +4003,10 @@
         "AOM"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/otitismedia.html",
         "icd10": [
           "H66.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=OtitisMediaA"
       },
       "features": {
         "present": {},
@@ -4034,10 +4034,10 @@
         "AOE"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/otitisexterna.html",
         "icd10": [
           "H60"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=OtitisExternaA"
       },
       "features": {
         "present": {},
@@ -4053,8 +4053,8 @@
         "Acute eye emergency"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acuteeyeemergency.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AcuteEyeEmergencyA"
       },
       "features": {
         "present": {},
@@ -4079,8 +4079,8 @@
         "Anxiety"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/anxiety.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AnxietyA"
       },
       "features": {
         "present": {},
@@ -4107,8 +4107,8 @@
         "Acute aortic stenosis (AS)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acuteaorticstenosisas.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AorticStenosisA"
       },
       "features": {
         "present": {},
@@ -4134,8 +4134,8 @@
         "Uncontrolled diabetes"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/uncontrolleddiabetes.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PCDiabetesC"
       },
       "features": {
         "present": {},
@@ -4162,8 +4162,8 @@
         "Acute aortic regurgitation (AR or AI)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acuteaorticregurgitationarorai.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AorticRegurgitationA"
       },
       "features": {
         "present": {},
@@ -4190,8 +4190,8 @@
         "Acute mitral regurgitation (MR)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutemitralregurgitationmr.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MitralRegurgitationA"
       },
       "features": {
         "present": {},
@@ -4218,8 +4218,8 @@
         "Pulmonary regurgitation (PR)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pulmonaryregurgitationpr.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PulmonaryRegurgitationA"
       },
       "features": {
         "present": {},
@@ -4235,8 +4235,8 @@
         "Acute thyroid goiter airway obstruction"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutethyroidgoiterairwayobstruction.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ThyroidGoiterA"
       },
       "features": {
         "present": {},
@@ -4264,10 +4264,10 @@
         "Myocardial infarction"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/myocardialinfarction.html",
         "icd10": [
           "I21.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MIA"
       },
       "features": {
         "present": {},
@@ -4295,10 +4295,10 @@
         "Diabetic hyperosmolar hyperglycemic state"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/diabetichyperosmolarhyperglycemicstate.html",
         "icd10": [
           "E11. 00"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=DiabetesHONKA"
       },
       "features": {
         "present": {},
@@ -4325,10 +4325,10 @@
         "Acute coronary syndrome"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutecoronarysyndrome.html",
         "icd10": [
           "I24.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ACSA"
       },
       "features": {
         "present": {},
@@ -4344,8 +4344,8 @@
         "Acute ventricular septal (rupture) defect"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acuteventricularseptalrupturedefect.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=VSDA"
       },
       "features": {
         "present": {},
@@ -4374,10 +4374,10 @@
         "chest pain"
       ],
       "references": {
-        "medline": "Costochondritis or otherwise musculoskeletal chest pain",
         "icd10": [
           "R07.89"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CostochondritisAMSKChestPain"
       },
       "features": {
         "present": {},
@@ -4393,8 +4393,8 @@
         "Spinal facet joints related chest pain"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/spinalfacetjointsrelatedchestpain.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SpinalfacetjointsCPA"
       },
       "features": {
         "present": {},
@@ -4410,8 +4410,8 @@
         "Thoracic spine fracture related chest pain"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/thoracicspinefracturerelatedchestpain.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=TSpineCPA"
       },
       "features": {
         "present": {},
@@ -4427,8 +4427,8 @@
         "Spinal discopathy related chest pain"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/spinaldiscopathyrelatedchestpain.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SpinalDiscopathyCPA"
       },
       "features": {
         "present": {},
@@ -4455,8 +4455,8 @@
         "Pleuritis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pleuritis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PleuritisA"
       },
       "features": {
         "present": {},
@@ -4483,8 +4483,8 @@
         "Atelectasis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/atelectasis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AtelectasisA"
       },
       "features": {
         "present": {},
@@ -4500,8 +4500,8 @@
         "Lobar obstruction"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/lobarobstruction.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=LobarObstructionA"
       },
       "features": {
         "present": {},
@@ -4517,8 +4517,8 @@
         "Patient seems free from acute respiratory issues"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/patientseemsfreefromacuterespiratoryissues.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HealthyA"
       },
       "features": {
         "present": {},
@@ -4534,8 +4534,8 @@
         "Patient seems free from acute issues"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/patientseemsfreefromacuteissues.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HealthyAllA"
       },
       "features": {
         "present": {},
@@ -4551,8 +4551,8 @@
         "Ovarian torsion"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/ovariantorsion.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=OvarianTorsionA"
       },
       "features": {
         "present": {},
@@ -4578,10 +4578,10 @@
         "Missed abortion"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/missedabortion.html",
         "icd10": [
           "O02.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MissedAA"
       },
       "features": {
         "present": {},
@@ -4597,8 +4597,8 @@
         "Risk of death within 24 hours"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/riskofdeathwithin24hours.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=DeathA"
       },
       "features": {
         "present": {},
@@ -4614,8 +4614,8 @@
         "Testicular torsion"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/testiculartorsion.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=TesticularTorsionA"
       },
       "features": {
         "present": {},
@@ -4643,10 +4643,10 @@
         "Hemorrhoids - acute thrombosis or infection"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hemorrhoidsacutethrombosisorinfection.html",
         "icd10": [
           "K64.8"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HemorrhoidsA"
       },
       "features": {
         "present": {},
@@ -4674,10 +4674,10 @@
         "Bleeding peptic or duodenal ulcer"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/bleedingpepticorduodenalulcer.html",
         "icd10": [
           "K25.6"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PUDBleed"
       },
       "features": {
         "present": {},
@@ -4705,10 +4705,10 @@
         "Peptic ulcer disease"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pepticulcerdisease.html",
         "icd10": [
           "K27.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PUDA"
       },
       "features": {
         "present": {},
@@ -4736,10 +4736,10 @@
         "Helicobacter pylory infection"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/helicobacterpyloryinfection.html",
         "icd10": [
           "B96.81"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HPylor"
       },
       "features": {
         "present": {},
@@ -4766,10 +4766,10 @@
         "Gastroenteritis likely bacterial (i.e. Shigella)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/gastroenteritislikelybacterialieshigella.html",
         "icd10": [
           "A09"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=GastroenteritisBacterialA"
       },
       "features": {
         "present": {},
@@ -4795,10 +4795,10 @@
         "Portal vein thrombosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/portalveinthrombosis.html",
         "icd10": [
           "I81"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PortalVeinThrombosisA"
       },
       "features": {
         "present": {},
@@ -4814,8 +4814,8 @@
         "Budd-Chiari syndrome"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/buddchiarisyndrome.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BuddChiariA"
       },
       "features": {
         "present": {},
@@ -4843,10 +4843,10 @@
         "DM1"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/diabetesmelltustype1.html",
         "icd10": [
           "E10"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=DM1"
       },
       "features": {
         "present": {},
@@ -4874,10 +4874,10 @@
         "Hyperglyceridemia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hyperglyceridemia.html",
         "icd10": [
           "E78.5"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HyperTGL"
       },
       "features": {
         "present": {},
@@ -4905,10 +4905,10 @@
         "Pancreatic cancer"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pancreaticcancer.html",
         "icd10": [
           "C25.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PancreaticCaA"
       },
       "features": {
         "present": {},
@@ -4936,10 +4936,10 @@
         "Acute cholecystitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutecholecystitis.html",
         "icd10": [
           "K81.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CholecystitisA"
       },
       "features": {
         "present": {},
@@ -4967,10 +4967,10 @@
         "Gout flair"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/goutflair.html",
         "icd10": [
           "M10.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=GoutFlair"
       },
       "features": {
         "present": {},
@@ -4998,10 +4998,10 @@
         "Trauma to the toe"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/traumatothetoe.html",
         "icd10": [
           "S90.93"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ToeTraumaPain"
       },
       "features": {
         "present": {},
@@ -5029,10 +5029,10 @@
         "Gout flair related to diuretic use"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/goutflairrelatedtodiureticuse.html",
         "icd10": [
           "M10.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=GoutFlairFromDiuretics"
       },
       "features": {
         "present": {},
@@ -5060,10 +5060,10 @@
         "Esophageal rupture (rupture)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/esophagealrupturerupture.html",
         "icd10": [
           "K22.3"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=GerdA"
       },
       "features": {
         "present": {},
@@ -5090,8 +5090,8 @@
         "Bowel ischaemia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/bowelischaemia.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BIA"
       },
       "features": {
         "present": {},
@@ -5119,10 +5119,10 @@
         "Clostridium difficile colitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/clostridiumdifficilecolitis.html",
         "icd10": [
           "A04.7"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CDCA"
       },
       "features": {
         "present": {},
@@ -5150,10 +5150,10 @@
         "Sepsis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/sepsis.html",
         "icd10": [
           "A41.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SepsisA"
       },
       "features": {
         "present": {},
@@ -5181,10 +5181,10 @@
         "DM2"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pastmedicalhistoryofdiabetesmelltustype2perhistorychronic.html",
         "icd10": [
           "E11"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=DM2ByHx"
       },
       "features": {
         "present": {},
@@ -5211,10 +5211,10 @@
         "Suicidal or purposeful overdose"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/suicidalorpurposefuloverdose.html",
         "icd10": [
           "T50.902A"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SuicidialOverdoseA"
       },
       "features": {
         "present": {},
@@ -5230,8 +5230,8 @@
         "Beer potomania"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/beerpotomania.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BeerA"
       },
       "features": {
         "present": {},
@@ -5247,8 +5247,8 @@
         "Hyponatremia acute"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hyponatremiaacute.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HypoNaA"
       },
       "features": {
         "present": {},
@@ -5264,8 +5264,8 @@
         "Hyponatremia SIADH"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hyponatremiasiadh.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HypoNaSIADHA"
       },
       "features": {
         "present": {},
@@ -5281,8 +5281,8 @@
         "Hyperkalemia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hyperkalemia.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HyperKA"
       },
       "features": {
         "present": {},
@@ -5308,8 +5308,8 @@
         "Hypercalcemia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hypercalcemia.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HyperCaA"
       },
       "features": {
         "present": {},
@@ -5334,8 +5334,8 @@
         "Hyperparathyroidism"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hyperparathyroidism.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HyperParaCaA"
       },
       "features": {
         "present": {},
@@ -5363,10 +5363,10 @@
         "Bacgterial meningitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/bacgterialmeningitis.html",
         "icd10": [
           "G00.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MeningitisA"
       },
       "features": {
         "present": {},
@@ -5393,10 +5393,10 @@
         "Encephalitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/encephalitis.html",
         "icd10": [
           "G04.90"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=EncephalitisA"
       },
       "features": {
         "present": {},
@@ -5424,10 +5424,10 @@
         "Hypercapnic coma"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hypercapniccoma.html",
         "icd10": [
           "J96.02"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HypercapnicA"
       },
       "features": {
         "present": {},
@@ -5455,10 +5455,10 @@
         "Serotoninergic syndrome"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/serotoninergicsyndrome.html",
         "icd10": [
           "T43. 221A"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SSA"
       },
       "features": {
         "present": {},
@@ -5486,10 +5486,10 @@
         "Opiates overdose"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/opiatesoverdose.html",
         "icd10": [
           "T40.605"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=OpiatesA"
       },
       "features": {
         "present": {},
@@ -5517,10 +5517,10 @@
         "Tricyclic antidepressant overdose (TCA) overdose"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/tricyclicantidepressantoverdosetcaoverdose.html",
         "icd10": [
           "T43.011A"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=TCAA"
       },
       "features": {
         "present": {},
@@ -5548,10 +5548,10 @@
         "Starvation ketoacidosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/starvationketoacidosis.html",
         "icd10": [
           "T73.0XXA"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=StarvationKA"
       },
       "features": {
         "present": {},
@@ -5578,10 +5578,10 @@
         "Starvation"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/starvation.html",
         "icd10": [
           "T73.0XXA"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Starvation"
       },
       "features": {
         "present": {},
@@ -5609,10 +5609,10 @@
         "Metabolic acidosis with elevated anion gap"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/metabolicacidosiswithelevatedaniongap.html",
         "icd10": [
           "E87.2"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MetabolicGapAcidosis"
       },
       "features": {
         "present": {},
@@ -5640,10 +5640,10 @@
         "Metabolic acidosis without elevated anion gap"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/metabolicacidosiswithoutelevatedaniongap.html",
         "icd10": [
           "E87.2"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MetabolicNonGapAcidosis"
       },
       "features": {
         "present": {},
@@ -5670,10 +5670,10 @@
         "Lactic acidosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/lacticacidosis.html",
         "icd10": [
           "E87.2"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=LacticAcidosis"
       },
       "features": {
         "present": {},
@@ -5700,10 +5700,10 @@
         "Hypoglycemia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hypoglycemia.html",
         "icd10": [
           "E16.2"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HypoA"
       },
       "features": {
         "present": {},
@@ -5730,10 +5730,10 @@
         "Hypothyroidism severe (myxedema coma or crisis)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hypothyroidismseveremyxedemacomaorcrisis.html",
         "icd10": [
           "E03.5"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HypoThyroA"
       },
       "features": {
         "present": {},
@@ -5760,10 +5760,10 @@
         "Hyperthyroidism acute (hyperthyroid crisis or thyrotoxic storm)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hyperthyroidismacutehyperthyroidcrisisorthyrotoxicstorm.html",
         "icd10": [
           "E05. 41"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HyperthyroidCrisisA"
       },
       "features": {
         "present": {},
@@ -5791,10 +5791,10 @@
         "Gastroparesis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/gastroparesis.html",
         "icd10": [
           "K31.84"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=GastroparesisA"
       },
       "features": {
         "present": {},
@@ -5822,10 +5822,10 @@
         "Secondary arterial hypertension secondary to renal artery stenosis, secondary to fibromuscular dysplasia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/secondaryarterialhypertensionsecondarytorenalarterystenosissecondarytofibromusculardysplasia.html",
         "icd10": [
           "I15"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SecondaryArterialHypertensionSecondaryRASFibromuscularDysplasia"
       },
       "features": {
         "present": {},
@@ -5852,10 +5852,10 @@
         "Acute renal failure"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acuterenalfailure.html",
         "icd10": [
           "N17.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ARFA"
       },
       "features": {
         "present": {},
@@ -5882,10 +5882,10 @@
         "UTI"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/uti.html",
         "icd10": [
           "N39.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=UTIA"
       },
       "features": {
         "present": {},
@@ -5901,8 +5901,8 @@
         "Membranous nephropathy"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/membranousnephropathy.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MNKD"
       },
       "features": {
         "present": {},
@@ -5930,10 +5930,10 @@
         "Pelvic inflammatory disease"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pelvicinflammatorydisease.html",
         "icd10": [
           "N73.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PIDA"
       },
       "features": {
         "present": {},
@@ -5961,10 +5961,10 @@
         "Ectopic pregnancy"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/ectopicpregnancy.html",
         "icd10": [
           "O00.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=EPA"
       },
       "features": {
         "present": {},
@@ -5992,8 +5992,8 @@
         "Past history of pregnancy"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pasthistoryofpregnancy.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PastHxOfPregnancy"
       },
       "features": {
         "present": {},
@@ -6021,8 +6021,8 @@
         "Past history of spontaneous abortion"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pasthistoryofspontaneousabortion.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PastHxOfSpontaneousAbortion"
       },
       "features": {
         "present": {},
@@ -6049,10 +6049,10 @@
         "Neutropenia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/neutropenia.html",
         "icd10": [
           "D70.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=NeutropA"
       },
       "features": {
         "present": {},
@@ -6079,11 +6079,11 @@
         "Neutropenic fever"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/neutropenicfever.html",
         "icd10": [
           "R50.81",
           "D70.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=NeutroponicFeverA"
       },
       "features": {
         "present": {},
@@ -6110,10 +6110,10 @@
         "Morning sickness (pregnancy)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/morningsicknesspregnancy.html",
         "icd10": [
           "O21.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MSPregnancyA"
       },
       "features": {
         "present": {},
@@ -6129,8 +6129,8 @@
         "Other acute diagnoses"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/otheracutediagnoses.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=OtherDxA"
       },
       "features": {
         "present": {},
@@ -6157,10 +6157,10 @@
         "Acute bacterial endocarditis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutebacterialendocarditis.html",
         "icd10": [
           "I33.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BacterialEndocarditisA"
       },
       "features": {
         "present": {},
@@ -6188,10 +6188,10 @@
         "Tricuspid valve bacterial endocarditis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/tricuspidvalvebacterialendocarditis.html",
         "icd10": [
           "I33.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=TVBacterialEndocarditisA"
       },
       "features": {
         "present": {},
@@ -6218,10 +6218,10 @@
         "Metastatic abscesses from endocarditis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/metastaticabscessesfromendocarditis.html",
         "icd10": [
           "I33.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MetastaticAbscessesA"
       },
       "features": {
         "present": {},
@@ -6249,10 +6249,10 @@
         "Acute pleurisy"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutepleurisy.html",
         "icd10": [
           "R09.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PleurisyA"
       },
       "features": {
         "present": {},
@@ -6280,11 +6280,11 @@
         "Acute hemopneumothorax"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutehemopneumothorax.html",
         "icd10": [
           "J94.2",
           "J93.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HPTXA"
       },
       "features": {
         "present": {},
@@ -6312,10 +6312,10 @@
         "Acute hemothorax"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutehemothorax.html",
         "icd10": [
           "J94.2"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HTXA"
       },
       "features": {
         "present": {},
@@ -6342,10 +6342,10 @@
         "Sciatica (radicular low back pain)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/sciaticaradicularlowbackpain.html",
         "icd10": [
           "M54.16"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SciaticaA"
       },
       "features": {
         "present": {},
@@ -6372,10 +6372,10 @@
         "Mechanical low back pain (muscle strain)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/mechanicallowbackpainmusclestrain.html",
         "icd10": [
           "S39.012A"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MechanicalLBPA"
       },
       "features": {
         "present": {},
@@ -6403,10 +6403,10 @@
         "Cystitis (urinary tract infection)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/cystitisurinarytractinfection.html",
         "icd10": [
           "N39.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CystitisUTIA"
       },
       "features": {
         "present": {},
@@ -6434,10 +6434,10 @@
         "Pyelonephritis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pyelonephritis.html",
         "icd10": [
           "N10"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PyelonephritisUTIA"
       },
       "features": {
         "present": {},
@@ -6464,10 +6464,10 @@
         "Suicide attempt"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/suicideattempt.html",
         "icd10": [
           "T14.91"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SuicideA"
       },
       "features": {
         "present": {},
@@ -6494,10 +6494,10 @@
         "Acetaminophen overdose"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acetaminophenoverdose.html",
         "icd10": [
           "T39.1X4"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AcetaminophenOverdoseA"
       },
       "features": {
         "present": {},
@@ -6525,10 +6525,10 @@
         "Ethylene glycol poisoning"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/ethyleneglycolpoisoning.html",
         "icd10": [
           "T59.894"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=EthyleneGlycolOverdoseA"
       },
       "features": {
         "present": {},
@@ -6554,8 +6554,8 @@
         "Patient in immediate life-threatening condition"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/patientinimmediatelifethreateningcondition.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=STATA"
       },
       "features": {
         "present": {},
@@ -6582,10 +6582,10 @@
         "Cryptococcus neoformans meningoencephalitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/cryptococcusneoformansmeningoencephalitis.html",
         "icd10": [
           "B45.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CNeoMeningitisA"
       },
       "features": {
         "present": {},
@@ -6612,10 +6612,10 @@
         "Fungal meningitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/fungalmeningitis.html",
         "icd10": [
           "B37.5"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=FungoMeningitisA"
       },
       "features": {
         "present": {},
@@ -6642,10 +6642,10 @@
         "HSV-1 encephalitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hsv1encephalitis.html",
         "icd10": [
           "B00.4"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HSVEncephalitisA"
       },
       "features": {
         "present": {},
@@ -6673,10 +6673,10 @@
         "Intracranial (i.e. brain) primary neoplasm or metastatic disease to the brain"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/intracranialiebrainprimaryneoplasmormetastaticdiseasetothebrain.html",
         "icd10": [
           "C71.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BrainCaA"
       },
       "features": {
         "present": {},
@@ -6706,10 +6706,10 @@
         "brain hemorrhage."
       ],
       "references": {
-        "medline": "https://medlineplus.gov/intracranialhemorrhage.html",
         "icd10": [
           "I63.50"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ICH"
       },
       "features": {
         "present": {},
@@ -6737,10 +6737,10 @@
         "Brain contusion"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/braincontusion.html",
         "icd10": [
           "S06.330A"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ContusionA"
       },
       "features": {
         "present": {},
@@ -6767,10 +6767,10 @@
         "Lower spine vertebral or lower spinal tumor"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/lowerspinevertebralorlowerspinaltumor.html",
         "icd10": [
           "C41.2"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SpineCaA"
       },
       "features": {
         "present": {},
@@ -6798,10 +6798,10 @@
         "Subarachnoid hemorrhage (SAH)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/subarachnoidhemorrhagesah.html",
         "icd10": [
           "S06.6X9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SAHA"
       },
       "features": {
         "present": {},
@@ -6829,10 +6829,10 @@
         "Ischemic cerebrovascular accident (CVA)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/ischemiccerebrovascularaccidentcva.html",
         "icd10": [
           "I63.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=IschemicCVADisease"
       },
       "features": {
         "present": {},
@@ -6859,10 +6859,10 @@
         "Lambert-Eaton Myasthenic Syndrome (LEMS)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/lamberteatonmyasthenicsyndromelems.html",
         "icd10": [
           "G73.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=LEMSA"
       },
       "features": {
         "present": {},
@@ -6888,8 +6888,8 @@
         "Myasthenia gravis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/myastheniagravis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MyastheniaA"
       },
       "features": {
         "present": {},
@@ -6916,10 +6916,10 @@
         "Benzodiazepines overdose"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/benzodiazepinesoverdose.html",
         "icd10": [
           "T42.4X1A"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BenzosA"
       },
       "features": {
         "present": {},
@@ -6946,10 +6946,10 @@
         "Stomach cancer"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/stomachcancer.html",
         "icd10": [
           "C16.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=StomachCa"
       },
       "features": {
         "present": {},
@@ -6977,10 +6977,10 @@
         "Mechanical small bowel obstruction"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/mechanicalsmallbowelobstruction.html",
         "icd10": [
           "K56.609"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MechanicalSmallBowelObstructionA"
       },
       "features": {
         "present": {},
@@ -7008,11 +7008,11 @@
         "Adynamic (paralytic) ileus"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/adynamicparalyticileus.html",
         "icd10": [
           "K56.0",
           "K56.609"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AdynamicSmallBowelObstructionA"
       },
       "features": {
         "present": {},
@@ -7040,10 +7040,10 @@
         "LBO"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/largebowelobstruction.html",
         "icd10": [
           "K56.69"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=LargeBowelObstructionA"
       },
       "features": {
         "present": {},
@@ -7071,10 +7071,10 @@
         "SBO"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/smallbowelobstruction.html",
         "icd10": [
           "K56.69"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SmallBowelObstruction"
       },
       "features": {
         "present": {},
@@ -7102,10 +7102,10 @@
         "Acute mesenteric ischemia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutemesentericischemia.html",
         "icd10": [
           "K55.059"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MesentericIschemiaA"
       },
       "features": {
         "present": {},
@@ -7133,10 +7133,10 @@
         "Chronic mesenteric ischemia (intestinal angina)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronicmesentericischemiaintestinalangina.html",
         "icd10": [
           "K55.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MesentericIschemiaC"
       },
       "features": {
         "present": {},
@@ -7164,10 +7164,10 @@
         "Arterial embolism (embolization) caused lower extremity ischemia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/arterialembolismembolizationcausedlowerextremityischemia.html",
         "icd10": [
           "I74.3"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=EmbolicLowerLimbIschemiaA"
       },
       "features": {
         "present": {},
@@ -7195,10 +7195,10 @@
         "Plaque"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/atheroscleroticlowerextremitiesischemia.html",
         "icd10": [
           "I70.229"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Atheroscleroticlowerextremitiesischemia"
       },
       "features": {
         "present": {},
@@ -7226,10 +7226,10 @@
         "Acute ischemic colitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acuteischemiccolitis.html",
         "icd10": [
           "K55.059"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=IschCoitisA"
       },
       "features": {
         "present": {},
@@ -7257,10 +7257,10 @@
         "Acute diverticulitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutediverticulitis.html",
         "icd10": [
           "K57.00"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AcuteDiverticulitisA"
       },
       "features": {
         "present": {},
@@ -7276,8 +7276,8 @@
         "Diabetes mellitus related kidney disease"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/diabetesmellitusrelatedkidneydisease.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=DMKD"
       },
       "features": {
         "present": {},
@@ -7305,10 +7305,10 @@
         "Acute appendicitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acuteappendicitis.html",
         "icd10": [
           "K35.32"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AcuteappendicitisA"
       },
       "features": {
         "present": {},
@@ -7336,10 +7336,10 @@
         "C. trachomatis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chlamydiatrachomatisurethritiscervicitis.html",
         "icd10": [
           "A56.01"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ChlamydialUA"
       },
       "features": {
         "present": {},
@@ -7367,10 +7367,10 @@
         "C. trachomatis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chlamydiatrachomatiscervicitis.html",
         "icd10": [
           "A74.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ChlamydialCervicitis"
       },
       "features": {
         "present": {},
@@ -7398,10 +7398,10 @@
         "Urethritis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/urethritis.html",
         "icd10": [
           "N34.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Urethritis"
       },
       "features": {
         "present": {},
@@ -7429,10 +7429,10 @@
         "Bacterial vaginosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/bacterialvaginosis.html",
         "icd10": [
           "N77.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BacterialvagA"
       },
       "features": {
         "present": {},
@@ -7460,10 +7460,10 @@
         "Candidal vaginitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/candidalvaginitis.html",
         "icd10": [
           "B37.3"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CandidalvagA"
       },
       "features": {
         "present": {},
@@ -7491,10 +7491,10 @@
         "Trichomonas vaginitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/trichomonasvaginitis.html",
         "icd10": [
           "A59.01"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=TrichomonasvagA"
       },
       "features": {
         "present": {},
@@ -7522,10 +7522,10 @@
         "Atrophic vaginitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/atrophicvaginitis.html",
         "icd10": [
           "N95.2"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AtrophicVaginitis"
       },
       "features": {
         "present": {},
@@ -7553,10 +7553,10 @@
         "Urinary retention"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/urinaryretention.html",
         "icd10": [
           "R33.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=URetenA"
       },
       "features": {
         "present": {},
@@ -7583,10 +7583,10 @@
         "Acute orchitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acuteorchitis.html",
         "icd10": [
           "N45.2"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=OrchitisA"
       },
       "features": {
         "present": {},
@@ -7613,10 +7613,10 @@
         "Menstrual pain"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/menstrualpain.html",
         "icd10": [
           "N94.6"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MENPA"
       },
       "features": {
         "present": {},
@@ -7642,8 +7642,8 @@
         "Menstruation"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/menstruation.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Menstruation"
       },
       "features": {
         "present": {},
@@ -7659,8 +7659,8 @@
         "Acute aspiration"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acuteaspiration.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderAcuteDiagnosisAlias1AcuteDxAlias"
       },
       "features": {
         "present": {},
@@ -7676,8 +7676,8 @@
         "Atrial fibrillation with rapid ventricular response (Afib with RVR)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/atrialfibrillationwithrapidventricularresponseafibwithrvr.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderAcuteDiagnosisAlias2AcuteDxAlias"
       },
       "features": {
         "present": {},
@@ -7693,8 +7693,8 @@
         "Atrial fibrillation episode (Afib)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/atrialfibrillationepisodeafib.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderAcuteDiagnosisAlias3AcuteDxAlias"
       },
       "features": {
         "present": {},
@@ -7721,8 +7721,8 @@
         "Fever of unknown origin (FUO)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/feverofunknownoriginfuo.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=FUO"
       },
       "features": {
         "present": {},
@@ -7750,10 +7750,10 @@
         "Pulmonary edema."
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pulmonaryedema.html",
         "icd10": [
           "J81.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PulmonaryEdema"
       },
       "features": {
         "present": {},
@@ -7781,10 +7781,10 @@
         "Bile duct stone in (with obstruction of) common bile duct (choledocholithiasis)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/choledocholithiasis.html",
         "icd10": [
           "K80"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Choledocholithiasis"
       },
       "features": {
         "present": {},
@@ -7811,8 +7811,8 @@
         "Anticholinergics overdose"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/anticholinergicsoverdose.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AnticholinergicsOverdose"
       },
       "features": {
         "present": {},
@@ -7839,8 +7839,8 @@
         "Ethanol overdose"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/ethanoloverdose.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=EthanolOverdose"
       },
       "features": {
         "present": {},
@@ -7867,8 +7867,8 @@
         "Pulmonary hypertension (PulmHTN)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pulmonaryhypertensionpulmhtn.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PulmonaryHypertensionC"
       },
       "features": {
         "present": {},
@@ -7884,8 +7884,8 @@
         "Clonidine overdose"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/clonidineoverdose.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderAcuteDiagnosisAlias12AcuteDxAlias"
       },
       "features": {
         "present": {},
@@ -7901,8 +7901,8 @@
         "Acute respiratory distress syndrome (ARDS)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acuterespiratorydistresssyndromeards.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderAcuteDiagnosisAlias13AcuteDxAlias"
       },
       "features": {
         "present": {},
@@ -7918,8 +7918,8 @@
         "Hypersensitivity pneumonitis (HP)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hypersensitivitypneumonitishp.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderAcuteDiagnosisAlias14AcuteDxAlias"
       },
       "features": {
         "present": {},
@@ -7947,10 +7947,10 @@
         "Hypoxic respiratory failure"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hypoxicrespiratoryfailure.html",
         "icd10": [
           "J96.01"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HypoxicRespiratoryfailure"
       },
       "features": {
         "present": {},
@@ -7978,10 +7978,10 @@
         "Hypercapnic respiratory failure"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hypercapnicrespiratoryfailure.html",
         "icd10": [
           "J96.12"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HypercapnicRespiratoryfailure"
       },
       "features": {
         "present": {},
@@ -8009,10 +8009,10 @@
         "Angina cause by pulmonary artery aneurysm causing left main coronary"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/anginacausebypulmonaryarteryaneurysmcausingleftmaincoronary.html",
         "icd10": [
           "I25.41"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PulmonaryArteryPressingOnLMCAAngina"
       },
       "features": {
         "present": {},
@@ -8039,10 +8039,10 @@
         "Pulmonary artery aneurysm"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pulmonaryarteryaneurysm.html",
         "icd10": [
           "I28.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PulmonaryArteryAneurysm"
       },
       "features": {
         "present": {},
@@ -8069,10 +8069,10 @@
         "Angina caused by low cardiac output"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/anginacausedbylowcardiacoutput.html",
         "icd10": [
           "I20.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AnginaCausedByLowCardiacOutput"
       },
       "features": {
         "present": {},
@@ -8100,10 +8100,10 @@
         "Low (cardiac) output syndrome"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/lowcardiacoutputsyndrome.html",
         "icd10": [
           "I50.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=LowCardiacOutputSyndrome"
       },
       "features": {
         "present": {},
@@ -8131,10 +8131,10 @@
         "Angina caused by aortic stenosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/anginacausedbyaorticstenosis.html",
         "icd10": [
           "I35.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AnginaAS"
       },
       "features": {
         "present": {},
@@ -8162,10 +8162,10 @@
         "Demand myocardial ischaemia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/demandmyocardialischaemia.html",
         "icd10": [
           "I21.A1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=DemandMyocardialIschaemia"
       },
       "features": {
         "present": {},
@@ -8192,10 +8192,10 @@
         "Graves' hyperthyroidism"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/graveshyperthyroidism.html",
         "icd10": [
           "E05.00"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Graves"
       },
       "features": {
         "present": {},
@@ -8222,10 +8222,10 @@
         "Painless thyroiditis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/painlessthyroiditis.html",
         "icd10": [
           "E06.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Painlessthyroiditis"
       },
       "features": {
         "present": {},
@@ -8253,10 +8253,10 @@
         "Non-ST-elevation myocardial infarction (NSTEMI)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/nonstelevationmyocardialinfarctionnstemi.html",
         "icd10": [
           "I21.4"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=NSTEMI"
       },
       "features": {
         "present": {},
@@ -8284,10 +8284,10 @@
         "Myocarditis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/myocarditis.html",
         "icd10": [
           "I51.4"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Myocarditis"
       },
       "features": {
         "present": {},
@@ -8315,10 +8315,10 @@
         "ST-elevation myocardial infarction (STEMI)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/stelevationmyocardialinfarctionstemi.html",
         "icd10": [
           "I21.3"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=STEMI"
       },
       "features": {
         "present": {},
@@ -8346,10 +8346,10 @@
         "Delirium"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/delirium.html",
         "icd10": [
           "R41.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Delirium"
       },
       "features": {
         "present": {},
@@ -8377,10 +8377,10 @@
         "Gastritis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/gastritis.html",
         "icd10": [
           "K29"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Gastritis"
       },
       "features": {
         "present": {},
@@ -8408,10 +8408,10 @@
         "Acute upper gastrointestinal tract bleeding"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acuteuppergastrointestinaltractbleeding.html",
         "icd10": [
           "K92.2"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AcutUpperGIBleed"
       },
       "features": {
         "present": {},
@@ -8439,10 +8439,10 @@
         "Acute lower gastrointestinal tract bleeding"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutelowergastrointestinaltractbleeding.html",
         "icd10": [
           "K92.2"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AcuteLowerGIBleed"
       },
       "features": {
         "present": {},
@@ -8470,10 +8470,10 @@
         "Hemorrhagic shock from gastrointestinal bleeding"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hemorrhagicshockfromgastrointestinalbleeding.html",
         "icd10": [
           "R57.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HemorrhaficShock"
       },
       "features": {
         "present": {},
@@ -8489,8 +8489,8 @@
         "Metastatic diseases to the liver or primary neoplasm of the liver"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/metastaticdiseasestotheliverorprimaryneoplasmoftheliver.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderAcuteDiagnosisAlias32AcuteDxAlias"
       },
       "features": {
         "present": {},
@@ -8517,10 +8517,10 @@
         "Anaphylaxis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/anaphylaxis.html",
         "icd10": [
           "T78.2"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Anaphylaxis"
       },
       "features": {
         "present": {},
@@ -8536,8 +8536,8 @@
         "Seasonal (pollen) allergies"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/seasonalpollenallergies.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderAcuteDiagnosisAlias35AcuteDxAlias"
       },
       "features": {
         "present": {},
@@ -8553,8 +8553,8 @@
         "Hepatic encephalopathy"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hepaticencephalopathy.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderAcuteDiagnosisAlias36AcuteDxAlias"
       },
       "features": {
         "present": {},
@@ -8582,10 +8582,10 @@
         "Chronic obstructive pulmonary disease (COPD)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronicobstructivepulmonarydiseasecopd.html",
         "icd10": [
           "J44.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=COPDC"
       },
       "features": {
         "present": {},
@@ -8613,10 +8613,10 @@
         "Chronic asthma"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronicasthma.html",
         "icd10": [
           "J45.909"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AsthmaC"
       },
       "features": {
         "present": {},
@@ -8643,10 +8643,10 @@
         "Churg-Strauss syndrome"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/churgstrausssyndrome.html",
         "icd10": [
           "M30.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CSSC"
       },
       "features": {
         "present": {},
@@ -8674,10 +8674,10 @@
         "Chronic left ventricle heart failure (LVHF)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronicleftventricleheartfailurelvhf.html",
         "icd10": [
           "I50.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=LVFC"
       },
       "features": {
         "present": {},
@@ -8705,10 +8705,10 @@
         "Hypertrophic cardiomyopathy"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hypertrophiccardiomyopathy.html",
         "icd10": [
           "I42.2"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HypertrophicCardiomyopathyC"
       },
       "features": {
         "present": {},
@@ -8736,10 +8736,10 @@
         "Dilated cardiomyopathy"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/dilatedcardiomyopathy.html",
         "icd10": [
           "I42.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=DilatedCardiomyopathyC"
       },
       "features": {
         "present": {},
@@ -8767,10 +8767,10 @@
         "Chronic tricuspid regurgitation (TR)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronictricuspidregurgitationtr.html",
         "icd10": [
           "I36.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=TricuspidRegurgitationC"
       },
       "features": {
         "present": {},
@@ -8798,10 +8798,10 @@
         "Hydronephrosis."
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hydronephrosis.html",
         "icd10": [
           "N13.2"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Hydronephrosis"
       },
       "features": {
         "present": {},
@@ -8828,10 +8828,10 @@
         "Pancreatic insulinoma"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pancreaticinsulinoma.html",
         "icd10": [
           "D137"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=InsulinomaC"
       },
       "features": {
         "present": {},
@@ -8847,8 +8847,8 @@
         "Atrial septal defect (ASD)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/atrialseptaldefectasd.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ASDC"
       },
       "features": {
         "present": {},
@@ -8864,8 +8864,8 @@
         "Ventricular septal defect (VSD) (chronic)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/ventricularseptaldefectvsdchronic.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=VSDC"
       },
       "features": {
         "present": {},
@@ -8881,8 +8881,8 @@
         "Patent ductus arteriosus (PTA)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/patentductusarteriosuspta.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PDAC"
       },
       "features": {
         "present": {},
@@ -8909,8 +8909,8 @@
         "Chronic mitral regurgitation (MR)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronicmitralregurgitationmr.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MitralRegurgitationC"
       },
       "features": {
         "present": {},
@@ -8937,8 +8937,8 @@
         "Chronic mitral stenosis (MS)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronicmitralstenosisms.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MitralStenosisC"
       },
       "features": {
         "present": {},
@@ -8965,8 +8965,8 @@
         "Chronic right ventricle heart failure (RVHF)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronicrightventricleheartfailurervhf.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=RVFC"
       },
       "features": {
         "present": {},
@@ -8993,8 +8993,8 @@
         "Non constrictive pericarditis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/nonconstrictivepericarditis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=NonConstrictivePericarditisC"
       },
       "features": {
         "present": {},
@@ -9021,8 +9021,8 @@
         "Constrictive pericarditis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/constrictivepericarditis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ConstrictivePericarditisC"
       },
       "features": {
         "present": {},
@@ -9050,10 +9050,10 @@
         "Hyperaldosteronism"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hyperaldosteronism.html",
         "icd10": [
           "E26.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Hyperaldosteronism"
       },
       "features": {
         "present": {},
@@ -9081,10 +9081,10 @@
         "Brain neoplasm"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/brainneoplasm.html",
         "icd10": [
           "C71.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BrainNeoC"
       },
       "features": {
         "present": {},
@@ -9111,10 +9111,10 @@
         "Multiple sclerosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/multiplesclerosis.html",
         "icd10": [
           "G35"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MSC"
       },
       "features": {
         "present": {},
@@ -9140,8 +9140,8 @@
         "Chronic anemia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronicanemia.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ANEMIAC"
       },
       "features": {
         "present": {},
@@ -9169,10 +9169,10 @@
         "Obesity"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/obesity.html",
         "icd10": [
           "E66"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ObesityC"
       },
       "features": {
         "present": {},
@@ -9200,10 +9200,10 @@
         "Normal weight"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/normalweight.html",
         "icd10": [
           "E66"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=NormalWeightC"
       },
       "features": {
         "present": {},
@@ -9231,10 +9231,10 @@
         "Overweight"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/overweight.html",
         "icd10": [
           "E66.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=OverweightC"
       },
       "features": {
         "present": {},
@@ -9262,10 +9262,10 @@
         "Extreme obesity"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/extremeobesity.html",
         "icd10": [
           "E66"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ExtremeObesityC"
       },
       "features": {
         "present": {},
@@ -9292,8 +9292,8 @@
         "Chronic bronchitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronicbronchitis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BRONCHITISC"
       },
       "features": {
         "present": {},
@@ -9320,8 +9320,8 @@
         "Interstitial lung disease"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/interstitiallungdisease.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ILDC"
       },
       "features": {
         "present": {},
@@ -9348,8 +9348,8 @@
         "Lung cancer"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/lungcancer.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=LCC"
       },
       "features": {
         "present": {},
@@ -9376,8 +9376,8 @@
         "Idiopathic pulmonary fibrosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/idiopathicpulmonaryfibrosis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PFC"
       },
       "features": {
         "present": {},
@@ -9393,8 +9393,8 @@
         "Chronic thyroid goiter airway obstruction"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronicthyroidgoiterairwayobstruction.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ThyroidGoiterC"
       },
       "features": {
         "present": {},
@@ -9410,8 +9410,8 @@
         "Chronic nontuberculous mycobacterial lung infection"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronicnontuberculousmycobacteriallunginfection.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=NonTBMycobacteriaeC"
       },
       "features": {
         "present": {},
@@ -9427,8 +9427,8 @@
         "Patient seems free from chronic respiratory issues"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/patientseemsfreefromchronicrespiratoryissues.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HealthyC"
       },
       "features": {
         "present": {},
@@ -9455,10 +9455,10 @@
         "Colon cancer"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/coloncancer.html",
         "icd10": [
           "C18.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CCC"
       },
       "features": {
         "present": {},
@@ -9474,8 +9474,8 @@
         "Endometrial neoplasm"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/endometrialneoplasm.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=EndomC"
       },
       "features": {
         "present": {},
@@ -9491,8 +9491,8 @@
         "Ovarian neoplasm"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/ovarianneoplasm.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=OvarianC"
       },
       "features": {
         "present": {},
@@ -9508,8 +9508,8 @@
         "Cervical neoplasm"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/cervicalneoplasm.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CervicalC"
       },
       "features": {
         "present": {},
@@ -9525,8 +9525,8 @@
         "Esophageal achalasia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/esophagealachalasia.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=EAC"
       },
       "features": {
         "present": {},
@@ -9553,10 +9553,10 @@
         "Iron deficiency anemia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/irondeficiencyanemia.html",
         "icd10": [
           "D50.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=IDAC"
       },
       "features": {
         "present": {},
@@ -9584,10 +9584,10 @@
         "Iron deficiency"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/irondeficiency.html",
         "icd10": [
           "E61.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ID"
       },
       "features": {
         "present": {},
@@ -9615,10 +9615,10 @@
         "Anemia related to chronic kidney disease"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/anemiarelatedtochronickidneydisease.html",
         "icd10": [
           "D63.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CKDAnemia"
       },
       "features": {
         "present": {},
@@ -9646,10 +9646,10 @@
         "Anemia from vitamin B12 deficiency"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/anemiafromvitaminb12deficiency.html",
         "icd10": [
           "D51.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=B12DAC"
       },
       "features": {
         "present": {},
@@ -9677,10 +9677,10 @@
         "Vitamin B12 deficiency"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/vitaminb12deficiency.html",
         "icd10": [
           "E53.8"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=B12D"
       },
       "features": {
         "present": {},
@@ -9708,10 +9708,10 @@
         "Vitamin B12 deficiency due intrinsic factor deficiency"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/vitaminb12deficiencydueintrinsicfactordeficiency.html",
         "icd10": [
           "E53.8"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=B12DFromLackOfIntrinsicFactor"
       },
       "features": {
         "present": {},
@@ -9739,10 +9739,10 @@
         "Anemia from folate (vitamin B9) deficiency"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/anemiafromfolatevitaminb9deficiency.html",
         "icd10": [
           "D52.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=FolateDAC"
       },
       "features": {
         "present": {},
@@ -9770,10 +9770,10 @@
         "Folate (vitamin B9) deficiency"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/folatevitaminb9deficiency.html",
         "icd10": [
           "E53.8"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=FolateD"
       },
       "features": {
         "present": {},
@@ -9801,10 +9801,10 @@
         "Pernicious anemia (anemia from b12 deficiency due to autoantibodies to intrinsic factor IF)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/perniciousanemiaanemiafromb12deficiencyduetoautoantibodiestointrinsicfactorif.html",
         "icd10": [
           "D51.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PernDAC"
       },
       "features": {
         "present": {},
@@ -9832,10 +9832,10 @@
         "Hemolytic anemia"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hemolyticanemia.html",
         "icd10": [
           "D59"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HemolyticAnemia"
       },
       "features": {
         "present": {},
@@ -9851,8 +9851,8 @@
         "Intestinal parasites"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/intestinalparasites.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=IntenParasC"
       },
       "features": {
         "present": {},
@@ -9880,10 +9880,10 @@
         "Hepatitis A"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hepatitisa.html",
         "icd10": [
           "B15"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HepA"
       },
       "features": {
         "present": {},
@@ -9911,10 +9911,10 @@
         "Acute hepatitis C"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutehepatitisc.html",
         "icd10": [
           "B17.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HepCA"
       },
       "features": {
         "present": {},
@@ -9942,10 +9942,10 @@
         "Hepatitis B"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hepatitisb.html",
         "icd10": [
           "B19"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HepBC"
       },
       "features": {
         "present": {},
@@ -9972,10 +9972,10 @@
         "Human immunodeficiency virus (HIV) infection"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/humanimmunodeficiencyvirushivinfection.html",
         "icd10": [
           "B20"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HIVC"
       },
       "features": {
         "present": {},
@@ -10002,10 +10002,10 @@
         "Syphilis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/syphilis.html",
         "icd10": [
           "A53.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SyphilisC"
       },
       "features": {
         "present": {},
@@ -10032,10 +10032,10 @@
         "Hemorrhoids - chronic"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hemorrhoidschronic.html",
         "icd10": [
           "K64"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HemorrhoidsC"
       },
       "features": {
         "present": {},
@@ -10063,10 +10063,10 @@
         "Chronic ischemic colitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronicischemiccolitis.html",
         "icd10": [
           "K55.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=IschCoitisC"
       },
       "features": {
         "present": {},
@@ -10093,8 +10093,8 @@
         "Endometriosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/endometriosis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=EndometriosisC"
       },
       "features": {
         "present": {},
@@ -10110,8 +10110,8 @@
         "Depression"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/depression.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=DepressC"
       },
       "features": {
         "present": {},
@@ -10127,8 +10127,8 @@
         "Hypogonadism"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hypogonadism.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HypogonadismC"
       },
       "features": {
         "present": {},
@@ -10144,8 +10144,8 @@
         "Kidney neoplasm"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/kidneyneoplasm.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=KCC"
       },
       "features": {
         "present": {},
@@ -10173,10 +10173,10 @@
         "Bladder cancer"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/bladdercancer.html",
         "icd10": [
           "C67.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BladderCC"
       },
       "features": {
         "present": {},
@@ -10204,10 +10204,10 @@
         "Stress incontinence "
       ],
       "references": {
-        "medline": "https://medlineplus.gov/stressincontinence.html",
         "icd10": [
           "N39.3"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=StressIC"
       },
       "features": {
         "present": {},
@@ -10235,10 +10235,10 @@
         "Mixed incontinence "
       ],
       "references": {
-        "medline": "https://medlineplus.gov/mixedincontinence.html",
         "icd10": [
           "N39.46"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MixedIC"
       },
       "features": {
         "present": {},
@@ -10266,10 +10266,10 @@
         "Urge incontinence "
       ],
       "references": {
-        "medline": "https://medlineplus.gov/urgeincontinence.html",
         "icd10": [
           "N39.41"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=UrgencyIC"
       },
       "features": {
         "present": {},
@@ -10297,10 +10297,10 @@
         "Overflow incontinence "
       ],
       "references": {
-        "medline": "https://medlineplus.gov/overflowincontinence.html",
         "icd10": [
           "N39.490"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=OverflowIC"
       },
       "features": {
         "present": {},
@@ -10327,8 +10327,8 @@
         "Ureter neoplasm"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/ureterneoplasm.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=UreterCC"
       },
       "features": {
         "present": {},
@@ -10356,10 +10356,10 @@
         "Goodpasture syndrome"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/goodpasturesyndrome.html",
         "icd10": [
           "M31.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=GDS"
       },
       "features": {
         "present": {},
@@ -10386,8 +10386,8 @@
         "Anti-GBM disease"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/antigbmdisease.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AntiGBM"
       },
       "features": {
         "present": {},
@@ -10403,8 +10403,8 @@
         "Ankylosing spondylitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/ankylosingspondylitis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ASpondC"
       },
       "features": {
         "present": {},
@@ -10420,8 +10420,8 @@
         "Spinal stenosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/spinalstenosis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SSC"
       },
       "features": {
         "present": {},
@@ -10437,8 +10437,8 @@
         "Metastatic disease to spine or bones, or primary spine or bones neoplasm"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/metastaticdiseasetospineorbonesorprimaryspineorbonesneoplasm.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MetasSpineC"
       },
       "features": {
         "present": {},
@@ -10454,8 +10454,8 @@
         "Kidneys' disease related to vasculitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/kidneysdiseaserelatedtovasculitis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=VascKD"
       },
       "features": {
         "present": {},
@@ -10471,8 +10471,8 @@
         "IgA nephropathy"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/iganephropathy.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=IgAKD"
       },
       "features": {
         "present": {},
@@ -10488,8 +10488,8 @@
         "Fibrillary glomerulonephritis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/fibrillaryglomerulonephritis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=FGKD"
       },
       "features": {
         "present": {},
@@ -10505,8 +10505,8 @@
         "Poststreptococcal glomerulonephritis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/poststreptococcalglomerulonephritis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PSKD"
       },
       "features": {
         "present": {},
@@ -10522,8 +10522,8 @@
         "Minimal change disease"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/minimalchangedisease.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MCKD"
       },
       "features": {
         "present": {},
@@ -10539,8 +10539,8 @@
         "Focal segmental glomerulosclerosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/focalsegmentalglomerulosclerosis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=FSGSKD"
       },
       "features": {
         "present": {},
@@ -10556,8 +10556,8 @@
         "Membranoproliferative glomerulonephritis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/membranoproliferativeglomerulonephritis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MPKD"
       },
       "features": {
         "present": {},
@@ -10573,8 +10573,8 @@
         "Kidney cysts"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/kidneycysts.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=KC"
       },
       "features": {
         "present": {},
@@ -10590,8 +10590,8 @@
         "Acute tubular necrosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acutetubularnecrosis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ATN"
       },
       "features": {
         "present": {},
@@ -10607,8 +10607,8 @@
         "Acute interstitial nephritis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/acuteinterstitialnephritis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AIN"
       },
       "features": {
         "present": {},
@@ -10624,8 +10624,8 @@
         "Cushing syndrome or disease"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/cushingsyndromeordisease.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CSDC"
       },
       "features": {
         "present": {},
@@ -10641,8 +10641,8 @@
         "Addisons disease (adrenal insufficiency)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/addisonsdiseaseadrenalinsufficiency.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ADC"
       },
       "features": {
         "present": {},
@@ -10670,10 +10670,10 @@
         "Pregnancy"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pregnancy.html",
         "icd10": [
           "Z34.90"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PregnancyC"
       },
       "features": {
         "present": {},
@@ -10701,10 +10701,10 @@
         "Bladder tumor."
       ],
       "references": {
-        "medline": "https://medlineplus.gov/bladdertumor.html",
         "icd10": [
           "C67.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BladderTumorC"
       },
       "features": {
         "present": {},
@@ -10732,10 +10732,10 @@
         "History of Benign prostatic hypertrophy (BPH)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/historyofbenignprostatichypertrophybph.html",
         "icd10": [
           "N40.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HxOfBPHC"
       },
       "features": {
         "present": {},
@@ -10763,10 +10763,10 @@
         "Testicular cancer"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/testicularcancer.html",
         "icd10": [
           "C62.90"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=TesticC"
       },
       "features": {
         "present": {},
@@ -10782,8 +10782,8 @@
         "Varicocele"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/varicocele.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=VaricoceleC"
       },
       "features": {
         "present": {},
@@ -10810,10 +10810,10 @@
         "Epididymitis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/epididymitis.html",
         "icd10": [
           "N45.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=EpididymitisC"
       },
       "features": {
         "present": {},
@@ -10840,8 +10840,8 @@
         "Epididymal cysts or spermatocele"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/epididymalcystsorspermatocele.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=EpiSperC"
       },
       "features": {
         "present": {},
@@ -10869,10 +10869,10 @@
         "Gallbladder stones (cholelithiasis)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/gallbladderstonescholelithiasis.html",
         "icd10": [
           "K80.20"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=GallStonesC"
       },
       "features": {
         "present": {},
@@ -10900,10 +10900,10 @@
         "Irritable bowel syndrome"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/irritablebowelsyndrome.html",
         "icd10": [
           "K58.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=IBSC"
       },
       "features": {
         "present": {},
@@ -10919,8 +10919,8 @@
         "Ascariasis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/ascariasis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AscariasisC"
       },
       "features": {
         "present": {},
@@ -10936,8 +10936,8 @@
         "Enterobiasis (pinworm)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/enterobiasispinworm.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=EnterobiasisC"
       },
       "features": {
         "present": {},
@@ -10953,8 +10953,8 @@
         "Giardiasis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/giardiasis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=GiardiasisC"
       },
       "features": {
         "present": {},
@@ -10982,10 +10982,10 @@
         "Crohn's disease"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/crohnsdisease.html",
         "icd10": [
           "K50.90"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ChronsC"
       },
       "features": {
         "present": {},
@@ -11001,8 +11001,8 @@
         "Patient seems free from chronic issues"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/patientseemsfreefromchronicissues.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HealthyAllC"
       },
       "features": {
         "present": {},
@@ -11018,8 +11018,8 @@
         "Chronic hypothyroidism"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronichypothyroidism.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HypoThyroC"
       },
       "features": {
         "present": {},
@@ -11035,8 +11035,8 @@
         "Chronic hyperthyroidism"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronichyperthyroidism.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=HyperThyroC"
       },
       "features": {
         "present": {},
@@ -11063,8 +11063,8 @@
         "Pheochromocytoma"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pheochromocytoma.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PheoC"
       },
       "features": {
         "present": {},
@@ -11080,8 +11080,8 @@
         "Carcinoid"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/carcinoid.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=CarcinoidC"
       },
       "features": {
         "present": {},
@@ -11097,8 +11097,8 @@
         "Metabolic syndrome"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/metabolicsyndrome.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MetSynC"
       },
       "features": {
         "present": {},
@@ -11125,8 +11125,8 @@
         "Patent ductus arteriosus"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/patentductusarteriosus.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PDA"
       },
       "features": {
         "present": {},
@@ -11153,10 +11153,10 @@
         "Chronic aspiration"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronicaspiration.html",
         "icd10": [
           "Y84.4"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ChronicAspiration"
       },
       "features": {
         "present": {},
@@ -11184,10 +11184,10 @@
         "Nephrolithiasis (kidney stones)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/nephrolithiasiskidneystones.html",
         "icd10": [
           "N20.0"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Nephrolithiasis"
       },
       "features": {
         "present": {},
@@ -11215,10 +11215,10 @@
         "Breast cancer"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/breastcancer.html",
         "icd10": [
           "C50.919"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BreastCancer"
       },
       "features": {
         "present": {},
@@ -11246,10 +11246,10 @@
         "Thromboembolic pulmonary hypertension (CTEPH)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/thromboembolicpulmonaryhypertensioncteph.html",
         "icd10": [
           "I27.24"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=ThromboembolicPulmonaryHypertensionCTEPH"
       },
       "features": {
         "present": {},
@@ -11276,10 +11276,10 @@
         "Pulmonary hypertension secondary to left heart disease"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/pulmonaryhypertensionsecondarytoleftheartdisease.html",
         "icd10": [
           "I27.22"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PulmonaryHTNSecondaryToLHD"
       },
       "features": {
         "present": {},
@@ -11307,10 +11307,10 @@
         "cholesterol"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/hypercholesterolemia.html",
         "icd10": [
           "E78.5"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Hypercholesterolemia"
       },
       "features": {
         "present": {},
@@ -11326,8 +11326,8 @@
         "Chronic atrial fibrillation (Afib)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/chronicatrialfibrillationafib.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderChronicDiagnosisAlias8ChronicDxAlias"
       },
       "features": {
         "present": {},
@@ -11343,8 +11343,8 @@
         "Esophageal cancer (i.e. adenocarcinoma)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/esophagealcancerieadenocarcinoma.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderChronicDiagnosisAlias9ChronicDxAlias"
       },
       "features": {
         "present": {},
@@ -11360,8 +11360,8 @@
         "Barrett's esophagus"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/barrettsesophagus.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderChronicDiagnosisAlias10ChronicDxAlias"
       },
       "features": {
         "present": {},
@@ -11377,8 +11377,8 @@
         "Stomach cancer (i.e. adenocarcinoma)"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/stomachcancerieadenocarcinoma.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderChronicDiagnosisAlias11ChronicDxAlias"
       },
       "features": {
         "present": {},
@@ -11394,8 +11394,8 @@
         "Metastatic disease to lungs or primary lungs neoplasm"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/metastaticdiseasetolungsorprimarylungsneoplasm.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderChronicDiagnosisAlias12ChronicDxAlias"
       },
       "features": {
         "present": {},
@@ -11411,8 +11411,8 @@
         "Metastatic disease to brain or primary brain neoplasm"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/metastaticdiseasetobrainorprimarybrainneoplasm.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderChronicDiagnosisAlias13ChronicDxAlias"
       },
       "features": {
         "present": {},
@@ -11440,10 +11440,10 @@
         "Below-the-bladder urinary tract obstruction."
       ],
       "references": {
-        "medline": "https://medlineplus.gov/belowthebladderurinarytractobstruction.html",
         "icd10": [
           "N13.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BladderOutletObstructionMale"
       },
       "features": {
         "present": {},
@@ -11471,10 +11471,10 @@
         "Below-the-bladder urinary tract obstruction."
       ],
       "references": {
-        "medline": "https://medlineplus.gov/belowthebladderurinarytractobstruction.html",
         "icd10": [
           "N13.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=BladderOutletObstructionFeMale"
       },
       "features": {
         "present": {},
@@ -11490,8 +11490,8 @@
         "Portal hypertension"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/portalhypertension.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderChronicDiagnosisAlias14ChronicDxAlias"
       },
       "features": {
         "present": {},
@@ -11507,8 +11507,8 @@
         "Cirrhosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/cirrhosis.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PlaceHolderChronicDiagnosisAlias15ChronicDxAlias"
       },
       "features": {
         "present": {},
@@ -11537,10 +11537,10 @@
         "nephrosis"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/nephroticsyndrome.html",
         "icd10": [
           "N04.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=NephroticSyndrome"
       },
       "features": {
         "present": {},
@@ -11568,10 +11568,10 @@
         "nephritic syndrome"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/nephriticsyndrome.html",
         "icd10": [
           "N00.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=NephriticSyndrome"
       },
       "features": {
         "present": {},
@@ -11599,8 +11599,8 @@
         "MN"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/membranousnephropathy.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=MembranousNephropathy"
       },
       "features": {
         "present": {},
@@ -11628,10 +11628,10 @@
         "Primary MN"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/primarymembranousnephropathy.html",
         "icd10": [
           "N05.2"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=PrimaryMembranousNephropathy"
       },
       "features": {
         "present": {},
@@ -11659,8 +11659,8 @@
         "Secondary MN"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/secondarymembranousnephropathy.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=SecondaryMembranousNephropathy"
       },
       "features": {
         "present": {},
@@ -11687,10 +11687,10 @@
         "AnemiaM"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/anemiainmale.html",
         "icd10": [
           "D64.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AnemiaInMale"
       },
       "features": {
         "present": {},
@@ -11717,10 +11717,10 @@
         "AnemiaF"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/anemiainfemale.html",
         "icd10": [
           "D64.9"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=AnemiaInFemale"
       },
       "features": {
         "present": {},
@@ -11747,8 +11747,8 @@
         "Healthy patient"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/stateofhealthnohealthissues.html",
-        "icd10": []
+        "icd10": [],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=StateOfHealth"
       },
       "features": {
         "present": {},
@@ -11779,10 +11779,10 @@
         "Pontiac fever"
       ],
       "references": {
-        "medline": "https://medlineplus.gov/legionellapneumoniapneumoniacausedbylegionellabacteria.html",
         "icd10": [
           "A48.1"
-        ]
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=LegionellaPneumonia_AI"
       },
       "features": {
         "present": {},
