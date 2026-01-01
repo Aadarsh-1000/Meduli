@@ -583,3 +583,4 @@ function initApp() {
   // ---------- Initial draws ----------
   renderSymptomChips(); renderNegatives(); computeAndRender();
 }
+// ===================== End of App Boot ====================
