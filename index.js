@@ -147,6 +147,7 @@ function initApp() {
     .filter(Boolean)
     .map((c, i) => {
       const id = str(c.id || c.code || c.name || c.text || `cond_${i}`);
+      console.log(c.name || c.text, c.aliases);
       const displayName = str(
         c.laytext ||
         c.text ||
