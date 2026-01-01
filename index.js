@@ -318,24 +318,27 @@ function initApp() {
   // ---------- Utils ----------
   function tokenize(text) { return String(text).toLowerCase().split(/[^a-zA-Z\u00C0-\u024F0-9]+/).filter(Boolean); }
   function normalizeSymptom(s) { return String(s || '').trim().toLowerCase(); }
+function scoreCondition({ age, gender }) {
+  return KB.map(cond => {
+    const d = cond.demographics;
+    if (d) {
+      if (typeof d.minAge === 'number' && age < d.minAge)
+        return { id: cond.id, name: cond.name, score: 0.0, ref: cond };
+      if (typeof d.maxAge === 'number' && age > d.maxAge)
+        return { id: cond.id, name: cond.name, score: 0.0, ref: cond };
+      if (d.gender && gender && d.gender !== gender)
+        return { id: cond.id, name: cond.name, score: 0.0, ref: cond };
+    }
 
-  function scoreCondition({ age, gender, symptomsSet, explicitNegatives }) {
-    const ranked = KB.map(cond => {
-      const d = cond.demographics;
-      if (d) {
-        if (typeof d.minAge === 'number' && age < d.minAge) return { id: cond.id, name: cond.name, score: 0, ref: cond };
-        if (typeof d.maxAge === 'number' && age > d.maxAge) return { id: cond.id, name: cond.name, score: 0, ref: cond };
-        if (d.gender && gender && d.gender !== gender) return { id: cond.id, name: cond.name, score: 0, ref: cond };
-      }
-      let score = cond.prevalenceWeight;
-      const present = cond.features.present || {};
-      const absent = cond.features.absent || {};
-      for (const feat in present) if (symptomsSet.has(feat)) score += Number(present[feat]) || 0;
-      for (const feat in absent) if (!symptomsSet.has(feat) && explicitNegatives.has(feat)) score += (Number(absent[feat]) || 0) * 0.5;
-      return { id: cond.id, name: cond.name, score, ref: cond };
-    }).sort((a, b) => b.score - a.score).slice(0, 6);
-    return ranked;
-  }
+    // 🔒 HARD-CODE SCORE
+    return {
+      id: cond.id,
+      name: cond.name,
+      score: 0.0,
+      ref: cond
+    };
+  }).slice(0, 6);
+}
 
   // ---------- Tiny UI builders ----------
   function badge(text, kind = 'neutral') { const b = document.createElement('span'); b.className = `badge badge-${kind}`; b.textContent = text; return b; }
@@ -536,30 +539,14 @@ function initApp() {
   function tokenizeInput() {
     return String(freeText?.value || '').toLowerCase().split(/[^a-zA-Z\u00C0-\u024F0-9]+/).filter(Boolean);
   }
-  function scoreCondition({ age, gender, symptomsSet, explicitNegatives }) {
-    const ranked = KB.map(cond => {
-      const d = cond.demographics;
-      if (d) {
-        if (typeof d.minAge === 'number' && age < d.minAge)
-          return { id: cond.id, name: cond.name, score: 0, ref: cond };
-        if (typeof d.maxAge === 'number' && age > d.maxAge)
-          return { id: cond.id, name: cond.name, score: 0, ref: cond };
-        if (d.gender && gender && d.gender !== gender)
-          return { id: cond.id, name: cond.name, score: 0, ref: cond };
-      }
-
-      // 👇 FORCE SCORE TO ZERO
-      return {
-        id: cond.id,
-        name: cond.name,
-        score: 0.0,
-        ref: cond
-      };
-    });
-
-    return ranked.slice(0, 6);
+  function computeAndRender() {
+    const tokens = tokenizeInput();
+    const fromText = new Set(tokens.filter(t => SYMPTOMS.includes(t)));
+    const symptomsSet = new Set([...(state.selectedSymptoms || []), ...fromText]);
+    const input = { age: state.age, gender: state.sex, symptomsSet, explicitNegatives: state.negatives };
+    const ranked = scoreCondition(input);
+    renderResults(ranked);
   }
-
 
   // ---------- Events ----------
   ageEl?.addEventListener('input', e => { state.age = parseInt(e.target.value || '0', 10); if (ageOut) ageOut.textContent = state.age; computeAndRender(); });
