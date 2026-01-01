@@ -319,57 +319,23 @@ function initApp() {
   function tokenize(text) { return String(text).toLowerCase().split(/[^a-zA-Z\u00C0-\u024F0-9]+/).filter(Boolean); }
   function normalizeSymptom(s) { return String(s || '').trim().toLowerCase(); }
 
-function scoreCondition({ age, gender, symptomsSet, explicitNegatives }) {
-  const hasAnySymptoms =
-    symptomsSet.size > 0 || explicitNegatives.size > 0;
-
-  const ranked = KB.map(cond => {
-    const d = cond.demographics;
-    if (d) {
-      if (typeof d.minAge === 'number' && age < d.minAge)
-        return { id: cond.id, name: cond.name, score: 0, ref: cond };
-      if (typeof d.maxAge === 'number' && age > d.maxAge)
-        return { id: cond.id, name: cond.name, score: 0, ref: cond };
-      if (d.gender && gender && d.gender !== gender)
-        return { id: cond.id, name: cond.name, score: 0, ref: cond };
-    }
-
-    // ✅ STARTING STATE → ALL ZERO
-    if (!hasAnySymptoms) {
-      return {
-        id: cond.id,
-        name: cond.name,
-        score: 0.0,
-        ref: cond
-      };
-    }
-
-    // ✅ NORMAL SCORING AFTER SYMPTOMS
-    let score = cond.prevalenceWeight;
-    const present = cond.features.present || {};
-    const absent = cond.features.absent || {};
-
-    for (const feat in present) {
-      if (symptomsSet.has(feat)) {
-        score += Number(present[feat]) || 0;
+  function scoreCondition({ age, gender, symptomsSet, explicitNegatives }) {
+    const ranked = KB.map(cond => {
+      const d = cond.demographics;
+      if (d) {
+        if (typeof d.minAge === 'number' && age < d.minAge) return { id: cond.id, name: cond.name, score: 0, ref: cond };
+        if (typeof d.maxAge === 'number' && age > d.maxAge) return { id: cond.id, name: cond.name, score: 0, ref: cond };
+        if (d.gender && gender && d.gender !== gender) return { id: cond.id, name: cond.name, score: 0, ref: cond };
       }
-    }
-
-    for (const feat in absent) {
-      if (!symptomsSet.has(feat) && explicitNegatives.has(feat)) {
-        score += (Number(absent[feat]) || 0) * 0.5;
-      }
-    }
-
-    return { id: cond.id, name: cond.name, score, ref: cond };
-  })
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 6);
-
-  return ranked;
-}
-
-
+      let score = cond.prevalenceWeight;
+      const present = cond.features.present || {};
+      const absent = cond.features.absent || {};
+      for (const feat in present) if (symptomsSet.has(feat)) score += Number(present[feat]) || 0;
+      for (const feat in absent) if (!symptomsSet.has(feat) && explicitNegatives.has(feat)) score += (Number(absent[feat]) || 0) * 0.5;
+      return { id: cond.id, name: cond.name, score, ref: cond };
+    }).sort((a, b) => b.score - a.score).slice(0, 6);
+    return ranked;
+  }
 
   // ---------- Tiny UI builders ----------
   function badge(text, kind = 'neutral') { const b = document.createElement('span'); b.className = `badge badge-${kind}`; b.textContent = text; return b; }
