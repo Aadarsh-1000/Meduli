@@ -466,7 +466,8 @@
       "ICD10": "N40.1",
       "LOINC": "",
       "aliases": [
-        "Benign prostatic hypertrophy (BPH)"
+        "Benign prostatic hypertrophy (BPH)",
+        "BPHC"
       ],
       "references": {
         "icd10": [
@@ -497,7 +498,11 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
+        "HCAP",
         "healthcare",
+        "healthcare, PNA",
+        "Healthcare-associated pneumonia (HCAP)",
+        "Lung infection (pneumonia) associated with healthcare (HCAP)",
         "PNA"
       ],
       "references": {
@@ -528,8 +533,12 @@
       "ICD10": "J18.9",
       "LOINC": "",
       "aliases": [
-        "Community acquired pneumonia",
+        "\"Walking\", \"common\" or lung infection (community acquired pneumonia)",
         "CAP",
+        "CAP, PNA",
+        "CAPPNA",
+        "Community acquired pneumonia",
+        "Community acquired pneumonia (CAP)",
         "Pneumonia"
       ],
       "references": {
@@ -561,6 +570,7 @@
       "ICD10": "E11",
       "LOINC": "",
       "aliases": [
+        "Diabetes melltus type 2",
         "DM2"
       ],
       "references": {
@@ -591,7 +601,8 @@
       "Risk": 3,
       "ICD10": "D64.9",
       "aliases": [
-        "Anemia"
+        "Anemia",
+        "ANEMIAA"
       ],
       "references": {
         "icd10": [
@@ -621,6 +632,7 @@
       "Risk": 3,
       "ICD10": "D69.6",
       "aliases": [
+        "Low blood platelets level (thrombocytopenia)",
         "Thrombocytopenia"
       ],
       "references": {
@@ -652,6 +664,7 @@
       "ICD10": "A54.03",
       "LOINC": "",
       "aliases": [
+        "GcCervicitis",
         "Gonococcal urethritis (cervicitis)"
       ],
       "references": {
@@ -683,6 +696,7 @@
       "ICD10": "C61",
       "LOINC": "",
       "aliases": [
+        "PCaC",
         "Prostate cancer"
       ],
       "references": {
@@ -714,7 +728,8 @@
       "ICD10": "C61",
       "LOINC": "",
       "aliases": [
-        "History of prostate cancer"
+        "History of prostate cancer",
+        "HxOfPCaC"
       ],
       "references": {
         "icd10": [
@@ -745,6 +760,8 @@
       "ICD10": "N41.0",
       "LOINC": "",
       "aliases": [
+        "Prostate inflamation and / or infection (prostatitis)",
+        "ProstatisA",
         "Prostatitis"
       ],
       "references": {
@@ -776,6 +793,7 @@
       "ICD10": "A54.01",
       "LOINC": "",
       "aliases": [
+        "GcUA",
         "Gonococcal urethritis"
       ],
       "references": {
@@ -807,7 +825,10 @@
       "wiki4": "",
       "ICD10": "U07.1",
       "aliases": [
+        "COVID-19 virus identified",
         "Covid19",
+        "Covid19, SARS-CoV-2",
+        "Covid19Test",
         "SARS-CoV-2"
       ],
       "references": {
@@ -839,6 +860,7 @@
       "ICD10": "K51.90",
       "LOINC": "",
       "aliases": [
+        "CUC",
         "Ulcerative colitis"
       ],
       "references": {
@@ -870,6 +892,7 @@
       "ICD10": "K51.90",
       "LOINC": "",
       "aliases": [
+        "CUA",
         "Ulcerative colitis exacerbation"
       ],
       "references": {
@@ -901,7 +924,10 @@
       "wiki4": "",
       "ICD10": "Z20.822",
       "aliases": [
+        "Contact with and (suspected) exposure to COVID-19",
         "Covid19",
+        "Covid19, SARS-CoV-2",
+        "Covid19Contact",
         "SARS-CoV-2"
       ],
       "references": {
@@ -934,8 +960,12 @@
       "ICD10": "U07.1",
       "LOINC": "",
       "aliases": [
+        "Coronavirus disease 2019 (Covid-19) mostly upper respiratory tract infection with, or without bronchitis, but without significant pneumonia",
         "Covid19",
-        "SARS-CoV-2"
+        "Covid19, SARS-CoV-2",
+        "Covid19URTI",
+        "SARS-CoV-2",
+        "SARS-CoV-2 coronavirus disease 2019 (covid-19) mostly upper respiratory tract infection with, or without bronchitis, but without significant pneumonia"
       ],
       "references": {
         "icd10": [
@@ -967,7 +997,11 @@
       "ICD10": "J12.82",
       "LOINC": "",
       "aliases": [
+        "Coronavirus disease 2019 (covid-19) with pneumonia",
         "Covid19",
+        "Covid19, SARS-CoV-2 pneumonia",
+        "Covid19PNA",
+        "SARS-CoV-2 coronavirus disease 2019 (covid-19) with pneumonia",
         "SARS-CoV-2 pneumonia"
       ],
       "references": {
@@ -1000,9 +1034,11 @@
       "LOINC": "",
       "aliases": [
         "Common cold",
-        "Viral URI",
+        "Common cold or viral upper respiratory tract infection (URTI)",
+        "CommonCold",
         "Upper respiratory tract infection",
-        "URTI"
+        "URTI",
+        "Viral URI"
       ],
       "references": {
         "icd10": [
@@ -1033,7 +1069,8 @@
       "ICD10": "K85.2",
       "LOINC": "",
       "aliases": [
-        "Acute pancreatitis triggered by alcohol"
+        "Acute pancreatitis triggered by alcohol",
+        "PancreatitisETOH"
       ],
       "references": {
         "icd10": [
@@ -1064,7 +1101,8 @@
       "ICD10": "K85.00",
       "LOINC": "",
       "aliases": [
-        "Idiopathic acute pancreatitis"
+        "Idiopathic acute pancreatitis",
+        "PancreatitisA"
       ],
       "references": {
         "icd10": [
@@ -1095,7 +1133,8 @@
       "ICD10": "G44.009",
       "LOINC": "",
       "aliases": [
-        "Cluster headaches"
+        "Cluster headaches",
+        "ClusterHeadache"
       ],
       "references": {
         "icd10": [
@@ -1126,7 +1165,8 @@
       "ICD10": "I10,R03.0",
       "LOINC": "",
       "aliases": [
-        "Uncontrolled hypertension."
+        "Uncontrolled hypertension.",
+        "UncontrolledHTN"
       ],
       "references": {
         "icd10": [
@@ -1158,6 +1198,7 @@
       "ICD10": "E11.10",
       "LOINC": "",
       "aliases": [
+        "DiabetesKACA",
         "Diabetic ketoacidosis"
       ],
       "references": {
@@ -1189,7 +1230,9 @@
       "ICD10": "A69.1",
       "LOINC": "",
       "aliases": [
-        "Fusobacterium necrophorum pharyngitis complicated with Lemierre syndrome"
+        "Fusobacterium necrophorum pharyngitis complicated with Lemierre syndrome",
+        "FusobacteriumNecrophorumPharyngitisComplicatedWithLemierreSyndrome",
+        "Severe throat infection (pharyngitis) caused by fusobacterium necrophorum complicated by Lemierre syndrome"
       ],
       "references": {
         "icd10": [
@@ -1220,7 +1263,9 @@
       "ICD10": "I10",
       "LOINC": "",
       "aliases": [
-        "Primary systemic arterial hypertension"
+        "New diagnosis of high blood pressure (hypertension)",
+        "Primary systemic arterial hypertension",
+        "PrimaryArterialHypertension"
       ],
       "references": {
         "icd10": [
@@ -1251,7 +1296,9 @@
       "ICD10": "I10",
       "LOINC": "",
       "aliases": [
-        "History of systemic hypertension"
+        "History of systemic hypertension",
+        "Past medical history of high blood pressure (hypertension)",
+        "PrimaryArterialHypertensionByHx"
       ],
       "references": {
         "icd10": [
@@ -1282,7 +1329,8 @@
       "ICD10": "K85.9",
       "LOINC": "",
       "aliases": [
-        "Acute pancreatitis due to hyperglyceridemia"
+        "Acute pancreatitis due to hyperglyceridemia",
+        "PancreatitisHyperTGL"
       ],
       "references": {
         "icd10": [
@@ -1313,7 +1361,8 @@
       "ICD10": "K85.1",
       "LOINC": "",
       "aliases": [
-        "Acute pancreatitis due to gallstones"
+        "Acute pancreatitis due to gallstones",
+        "PancreatitisGAP"
       ],
       "references": {
         "icd10": [
@@ -1344,7 +1393,8 @@
       "ICD10": "K85.9",
       "LOINC": "",
       "aliases": [
-        "Acute pancreatitis due to HIV"
+        "Acute pancreatitis due to HIV",
+        "PancreatitisHIV"
       ],
       "references": {
         "icd10": [
@@ -1375,7 +1425,9 @@
       "ICD10": "I16.1",
       "LOINC": "",
       "aliases": [
-        "Hypertensive emergency"
+        "Emergency caused by severly elevated hypertension",
+        "Hypertensive emergency",
+        "HypertensiveEmergencyA"
       ],
       "references": {
         "icd10": [
@@ -1406,7 +1458,8 @@
       "ICD10": "C25.9",
       "LOINC": "",
       "aliases": [
-        "Acute pancreatitis due to pancreatic cancer"
+        "Acute pancreatitis due to pancreatic cancer",
+        "PancreatitisPancreaticCa"
       ],
       "references": {
         "icd10": [
@@ -1437,7 +1490,9 @@
       "ICD10": "I15.9,E66.01",
       "LOINC": "",
       "aliases": [
-        "Arterial hypertension (chronic) secondary to obesity"
+        "Arterial hypertension (chronic) secondary to obesity",
+        "High blood pressure (hypertension) secondary to obesity",
+        "SecondaryArterialHypertensionObesity"
       ],
       "references": {
         "icd10": [
@@ -1469,7 +1524,9 @@
       "ICD10": "T46.3X5A",
       "LOINC": "",
       "aliases": [
-        "headache from nitrates"
+        "Headache after use of nitroglycerin or nitrates.",
+        "headache from nitrates",
+        "HeadacheAfterNitrates"
       ],
       "references": {
         "icd10": [
@@ -1500,7 +1557,8 @@
       "ICD10": "I25.119",
       "LOINC": "",
       "aliases": [
-        "Coronary artery disease, stable angina (CAD)"
+        "Coronary artery disease, stable angina (CAD)",
+        "CoronaryArteryDiseaseCAD"
       ],
       "references": {
         "icd10": [
@@ -1531,7 +1589,8 @@
       "ICD10": "I20.0",
       "LOINC": "",
       "aliases": [
-        "Unstable angina (CAD)"
+        "Unstable angina (CAD)",
+        "UnstableAngina"
       ],
       "references": {
         "icd10": [
@@ -1562,7 +1621,9 @@
       "ICD10": "I67.4",
       "LOINC": "",
       "aliases": [
-        "headache from hypertension"
+        "Headache due to uncontrolled hypertension.",
+        "headache from hypertension",
+        "HeadacheDueToHTN"
       ],
       "references": {
         "icd10": [
@@ -1593,7 +1654,9 @@
       "ICD10": "I16.0",
       "LOINC": "",
       "aliases": [
-        "Hypertensive urgency"
+        "Hypertensive urgency",
+        "HypertensiveUrgencyA",
+        "Urgency caused by severly elevated hypertension"
       ],
       "references": {
         "icd10": [
@@ -1624,7 +1687,8 @@
       "ICD10": "F15.93",
       "LOINC": "",
       "aliases": [
-        "Headache due to caffeine withdrawal"
+        "Headache due to caffeine withdrawal",
+        "HeadacheDueToCaffeineWithdrawal"
       ],
       "references": {
         "icd10": [
@@ -1655,7 +1719,8 @@
       "ICD10": "K85.30",
       "LOINC": "",
       "aliases": [
-        "Acute pancreatitis due to medications"
+        "Acute pancreatitis due to medications",
+        "PancreatitisDueToMeds"
       ],
       "references": {
         "icd10": [
@@ -1686,7 +1751,8 @@
       "ICD10": "K85.9",
       "LOINC": "",
       "aliases": [
-        "Acute pancreatitis due to hypercalcemia"
+        "Acute pancreatitis due to hypercalcemia",
+        "PancreatitisHyperCalcemia"
       ],
       "references": {
         "icd10": [
@@ -1717,7 +1783,9 @@
       "ICD10": "I12",
       "LOINC": "",
       "aliases": [
-        "Arterial hypertension (chronic) secondary to chronic kidney disease"
+        "Arterial hypertension (chronic) secondary to chronic kidney disease",
+        "High blood pressure (hypertension) secondary to chronic kidney disease",
+        "SecondaryArterialHypertensionCKD"
       ],
       "references": {
         "icd10": [
@@ -1748,7 +1816,8 @@
       "ICD10": "G44.209",
       "LOINC": "",
       "aliases": [
-        "Tension headaches"
+        "Tension headaches",
+        "TensionHeadache"
       ],
       "references": {
         "icd10": [
@@ -1779,7 +1848,8 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
-        "Acute pancreatitis due to sphincter of Oddi dysfunction"
+        "Acute pancreatitis due to sphincter of Oddi dysfunction",
+        "PancreatitisOddis"
       ],
       "references": {
         "icd10": [],
@@ -1808,7 +1878,8 @@
       "ICD10": "K86.89",
       "LOINC": "",
       "aliases": [
-        "Acute pancreatitis due to recent endoscopic retrograde cholangiopancreatography (ERCP)"
+        "Acute pancreatitis due to recent endoscopic retrograde cholangiopancreatography (ERCP)",
+        "PancreatitisERCP"
       ],
       "references": {
         "icd10": [
@@ -1839,7 +1910,8 @@
       "ICD10": "K29.71",
       "LOINC": "",
       "aliases": [
-        "Gastritis related upper GI bleeding "
+        "Gastritis related upper GI bleeding",
+        "GastrittisBleedingA"
       ],
       "references": {
         "icd10": [
@@ -1870,6 +1942,8 @@
       "ICD10": "G43.909",
       "LOINC": "",
       "aliases": [
+        "Migraine headaches",
+        "MigraineHeadache",
         "Migraines"
       ],
       "references": {
@@ -1901,7 +1975,9 @@
       "ICD10": "A69.1",
       "LOINC": "",
       "aliases": [
-        "Fusobacterium necrophorum pharyngitis"
+        "Fusobacterium necrophorum pharyngitis",
+        "FusobacteriumNecrophorumPharyngitis",
+        "Severe throat infection (pharyngitis) caused by fusobacterium necrophorum"
       ],
       "references": {
         "icd10": [
@@ -1931,9 +2007,12 @@
       "wiki4": "",
       "ICD10": "D72.819",
       "aliases": [
-        "Leukopenia",
         "leukocytopenia",
-        "low WBC"
+        "Leukopenia",
+        "Leukopenia (leukocytopenia)",
+        "Leukopenia, leukocytopenia, low WBC",
+        "low WBC",
+        "Low white blood cells (leukopenia)"
       ],
       "references": {
         "icd10": [
@@ -1965,7 +2044,9 @@
       "LOINC": "",
       "aliases": [
         "Acute bronchitis",
-        "Chest infection"
+        "BRONCHITISA",
+        "Chest infection",
+        "Inflamation of lungs' airways (acute bronchitis)"
       ],
       "references": {
         "icd10": [
@@ -1996,8 +2077,9 @@
       "ICD10": "J10.1",
       "LOINC": "",
       "aliases": [
-        "Influenza",
         "Flu",
+        "FluA",
+        "Influenza",
         "Seasonal influenza"
       ],
       "references": {
@@ -2029,6 +2111,7 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
+        "AorticDissectionThoracic",
         "Thoracic aortic dissection"
       ],
       "references": {
@@ -2057,6 +2140,7 @@
       "IsCantMiss": false,
       "LOINC": "",
       "aliases": [
+        "PeritionitisA",
         "Peritonitis"
       ],
       "references": {
@@ -2087,7 +2171,8 @@
       "IsCantMiss": false,
       "LOINC": "",
       "aliases": [
-        "Variceal (esophagus) bleeding"
+        "Variceal (esophagus) bleeding",
+        "VaricealBleedingA"
       ],
       "references": {
         "icd10": [
@@ -2118,7 +2203,8 @@
       "ICD10": "K86.1",
       "LOINC": "",
       "aliases": [
-        "Chronic pancreatitis"
+        "Chronic pancreatitis",
+        "PancreatitisC"
       ],
       "references": {
         "icd10": [
@@ -2149,7 +2235,9 @@
       "ICD10": "I15.9",
       "LOINC": "",
       "aliases": [
-        "Secondary arterial hypertension (chronic)"
+        "High blood pressure (hypertension) secondary to another cause",
+        "Secondary arterial hypertension (chronic)",
+        "SecondaryArterialHypertension"
       ],
       "references": {
         "icd10": [
@@ -2180,7 +2268,8 @@
       "ICD10": "J93.9",
       "LOINC": "",
       "aliases": [
-        "Acute pneumothorax"
+        "Acute pneumothorax",
+        "PTXA"
       ],
       "references": {
         "icd10": [
@@ -2211,6 +2300,7 @@
       "ICD10": "K50.90",
       "LOINC": "",
       "aliases": [
+        "ChronsA",
         "Crohn's disease exacerbation"
       ],
       "references": {
@@ -2241,7 +2331,8 @@
       "ICD10": "J20.9",
       "LOINC": "",
       "aliases": [
-        "Acute tracheobronchitis"
+        "Acute tracheobronchitis",
+        "TracheobronchitisA"
       ],
       "references": {
         "icd10": [
@@ -2272,6 +2363,8 @@
       "ICD10": "N20.0",
       "LOINC": "",
       "aliases": [
+        "Stone or stones in ureters",
+        "Ureterolithiasis",
         "Ureterolithiasis (ureteral stones)"
       ],
       "references": {
@@ -2302,7 +2395,8 @@
       "IsCantMiss": false,
       "LOINC": "",
       "aliases": [
-        "Pericarditis"
+        "Pericarditis",
+        "PericarditisA"
       ],
       "references": {
         "icd10": [
@@ -2333,7 +2427,9 @@
       "ICD10": "J02.9",
       "LOINC": "",
       "aliases": [
-        "Viral pharyngitis (etiology usually rhinovirus, coronavirus, adenovirus, parainfluenza)"
+        "Throat infection (pharyngitis) caused by common viruses like rhinovirus, coronavirus, adenovirus or parainfluenza",
+        "Viral pharyngitis (etiology usually rhinovirus, coronavirus, adenovirus, parainfluenza)",
+        "ViralPharyngitis"
       ],
       "references": {
         "icd10": [
@@ -2364,7 +2460,9 @@
       "ICD10": "J30.9",
       "LOINC": "",
       "aliases": [
-        "Allergic rhinitis to pollen"
+        "Allergic rhinitis to pollen",
+        "AllergicRhinitisToPollen",
+        "Hay fever, allergic rhinitis to pollen"
       ],
       "references": {
         "icd10": [
@@ -2395,7 +2493,8 @@
       "ICD10": "J30.89",
       "LOINC": "",
       "aliases": [
-        "Allergic rhinitis to dust mites"
+        "Allergic rhinitis to dust mites",
+        "AllergicRhinitisToDustMites"
       ],
       "references": {
         "icd10": [
@@ -2426,6 +2525,8 @@
       "ICD10": "J02",
       "LOINC": "",
       "aliases": [
+        "Strep-throat (streptococcal pharyngitis)",
+        "StrepThroatA",
         "Streptococcal pharyngitis"
       ],
       "references": {
@@ -2457,7 +2558,9 @@
       "ICD10": "I50.1",
       "LOINC": "",
       "aliases": [
-        "Acute left ventricle heart failure"
+        "Acute left ventricle heart failure",
+        "Heart failure (specifically left ventricle failure, acute)",
+        "LVFA"
       ],
       "references": {
         "icd10": [
@@ -2488,7 +2591,8 @@
       "ICD10": "K21.9",
       "LOINC": "",
       "aliases": [
-        "Gastroesophageal reflux without esophagitis"
+        "Gastroesophageal reflux without esophagitis",
+        "GERDA"
       ],
       "references": {
         "icd10": [
@@ -2519,7 +2623,9 @@
       "ICD10": "I15. 0",
       "LOINC": "",
       "aliases": [
-        "Secondary arterial hypertension secondary to renal artery stenosis secondary to atherosclerosis"
+        "High blood pressure (hypertension) secondary to renal artery stenosis secondary to atherosclerosis",
+        "Secondary arterial hypertension secondary to renal artery stenosis secondary to atherosclerosis",
+        "SecondaryArterialHypertensionSecondaryRASAtherosclerotic"
       ],
       "references": {
         "icd10": [
@@ -2549,7 +2655,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Esophageal spasm"
+        "Esophageal spasm",
+        "EsophagealSpasmA"
       ],
       "references": {
         "icd10": [],
@@ -2578,7 +2685,9 @@
       "ICD10": "E26.1",
       "LOINC": "",
       "aliases": [
-        "Arterial hypertension (chronic) secondary to hyperaldosteronism"
+        "Arterial hypertension (chronic) secondary to hyperaldosteronism",
+        "High blood pressure (hypertension) secondary to hyperactive adrenal gland in producing aldosterone (hyperaldosteronism)",
+        "SecondaryArterialHypertensionHyperaldo"
       ],
       "references": {
         "icd10": [
@@ -2609,7 +2718,8 @@
       "ICD10": "K21.00",
       "LOINC": "",
       "aliases": [
-        "Gastroesophageal reflux with esophagitis without bleed"
+        "Gastroesophageal reflux with esophagitis without bleed",
+        "GERDAWEsophagitisWOBleed"
       ],
       "references": {
         "icd10": [
@@ -2640,7 +2750,9 @@
       "ICD10": "J32.9",
       "LOINC": "",
       "aliases": [
-        "Chronic sinusitis"
+        "Chronic sinusitis",
+        "Sinusitis - chronic",
+        "SinusitisC"
       ],
       "references": {
         "icd10": [
@@ -2671,8 +2783,11 @@
       "ICD10": "N18.9",
       "LOINC": "",
       "aliases": [
-        "CKD",
+        "Chronic kidney disease (III, IV and V)",
+        "Chronic kidney disease stages (III, IV and V)",
         "chronic renal failure",
+        "CKD",
+        "CKD, chronic renal failure, ESRD",
         "ESRD"
       ],
       "references": {
@@ -2704,8 +2819,11 @@
       "ICD10": "N18.9",
       "LOINC": "",
       "aliases": [
-        "CKD",
+        "!CKD",
+        "Chronic kidney disease",
         "chronic renal failure",
+        "CKD",
+        "CKD, chronic renal failure, ESRD",
         "ESRD"
       ],
       "references": {
@@ -2737,7 +2855,8 @@
       "ICD10": "I50.811",
       "LOINC": "",
       "aliases": [
-        "Acute right ventricle heart failure"
+        "Acute right ventricle heart failure",
+        "RVFA"
       ],
       "references": {
         "icd10": [
@@ -2768,7 +2887,8 @@
       "LOINC": "",
       "Risk": 3,
       "aliases": [
-        "Pleural effusion"
+        "Pleural effusion",
+        "PleuralEffusionA"
       ],
       "references": {
         "icd10": [
@@ -2799,6 +2919,7 @@
       "ICD10": "K60.2",
       "LOINC": "",
       "aliases": [
+        "FissureA",
         "Perirectal fissure"
       ],
       "references": {
@@ -2830,7 +2951,9 @@
       "ICD10": "J01.90",
       "LOINC": "",
       "aliases": [
-        "Acute sinusitis"
+        "Acute sinusitis",
+        "Sinusitis - acute",
+        "SinusitisA"
       ],
       "references": {
         "icd10": [
@@ -2861,7 +2984,8 @@
       "ICD10": "K21.01",
       "LOINC": "",
       "aliases": [
-        "Gastroesophageal reflux with esophagitis with bleed"
+        "Gastroesophageal reflux with esophagitis with bleed",
+        "GERDAWEsophagitisWBleed"
       ],
       "references": {
         "icd10": [
@@ -2892,7 +3016,8 @@
       "ICD10": "J04.0",
       "LOINC": "",
       "aliases": [
-        "Acute laryngitis"
+        "Acute laryngitis",
+        "LaryngitisA"
       ],
       "references": {
         "icd10": [
@@ -2923,7 +3048,8 @@
       "ICD10": "J96.02",
       "LOINC": "",
       "aliases": [
-        "Respiratory acidosis"
+        "Respiratory acidosis",
+        "RespiratoryAcidosis"
       ],
       "references": {
         "icd10": [
@@ -2954,7 +3080,8 @@
       "ICD10": "D62",
       "LOINC": "",
       "aliases": [
-        "Anemia from acute blood loss"
+        "Anemia from acute blood loss",
+        "ANEMIAAFromAcuteBloodLoss"
       ],
       "references": {
         "icd10": [
@@ -2973,7 +3100,8 @@
       "laytext": "Obesity hypoventilation syndrome",
       "category": "acute",
       "aliases": [
-        "Obesity hypoventilation syndrome"
+        "Obesity hypoventilation syndrome",
+        "ObesityHypeventA"
       ],
       "references": {
         "icd10": [],
@@ -3003,6 +3131,9 @@
       "LOINC": "",
       "aliases": [
         "BRCA1",
+        "BRCA1, BRCA2",
+        "BRCA1/2 (breast or ovarian gene carier) status",
+        "BRCA12Carier",
         "BRCA2"
       ],
       "references": {
@@ -3034,6 +3165,8 @@
       "ICD10": "I26.9",
       "LOINC": "",
       "aliases": [
+        "Blood clots in lungs - pulmonary embolus",
+        "PE",
         "Pulmonary embolus"
       ],
       "references": {
@@ -3065,6 +3198,8 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
+        "HxOfPE",
+        "Past history of blood clots in lungs - pulmonary embolus",
         "Past history of pulmonary embolus"
       ],
       "references": {
@@ -3094,6 +3229,8 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
+        "HxOfDVT",
+        "Past history of blood clots in deep veins",
         "Past history of deep vein thrombosis"
       ],
       "references": {
@@ -3123,6 +3260,7 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
+        "HxOfCHF",
         "Past history of congestive heart failure (CHF)"
       ],
       "references": {
@@ -3152,6 +3290,7 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
+        "HxOfCAD",
         "Past history of coronary artery disease (CAD)"
       ],
       "references": {
@@ -3181,6 +3320,7 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
+        "HxOfAfibAflut",
         "Past history of atrial fibrillation (Afib) or atrial flutter (Aflut)"
       ],
       "references": {
@@ -3210,6 +3350,7 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
+        "HxOfCVA",
         "Past history of cebrovascular accident (CVA)"
       ],
       "references": {
@@ -3238,7 +3379,8 @@
       "IsCantMiss": false,
       "LOINC": "",
       "aliases": [
-        "Gastroenteritis likely viral"
+        "Gastroenteritis likely viral",
+        "GastroenteritisViralA"
       ],
       "references": {
         "icd10": [
@@ -3300,7 +3442,9 @@
       "ICD10": "I15.9,G47.33",
       "LOINC": "",
       "aliases": [
-        "Arterial hypertension (chronic) secondary to OSA"
+        "Arterial hypertension (chronic) secondary to OSA",
+        "High blood pressure (hypertension) secondary to obstructive sleep apnea (OSA)",
+        "SecondaryArterialHypertensionOSA"
       ],
       "references": {
         "icd10": [
@@ -3332,7 +3476,10 @@
       "ICD10": "E10",
       "LOINC": "",
       "aliases": [
-        "DM1"
+        "DM1",
+        "DM1ByHx",
+        "Past medical history of diabetes melltus type 1 per history",
+        "Past medical history of diabetes melltus type 1 per history (chronic condition)"
       ],
       "references": {
         "icd10": [
@@ -3362,7 +3509,9 @@
       "Risk": 3,
       "ICD10": "N18.9",
       "aliases": [
-        "Diabetic Nephropathy"
+        "Diabetic Nephropathy",
+        "DiabeticNephropathy",
+        "Kidney disease secondary to diabetic damage (diabetic nephropathy)"
       ],
       "references": {
         "icd10": [
@@ -3391,7 +3540,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "!!!"
+        "!!!",
+        "AppendicitisA"
       ],
       "references": {
         "icd10": [
@@ -3422,7 +3572,8 @@
       "ICD10": "K25.1",
       "LOINC": "",
       "aliases": [
-        "Perforated peptic or duodenal ulcer"
+        "Perforated peptic or duodenal ulcer",
+        "PUDPerfA"
       ],
       "references": {
         "icd10": [
@@ -3453,6 +3604,7 @@
       "ICD10": "R65.21",
       "LOINC": "",
       "aliases": [
+        "SepsticShockA",
         "Septic shock"
       ],
       "references": {
@@ -3484,8 +3636,11 @@
       "ICD10": "R57.9",
       "LOINC": "",
       "aliases": [
+        "hypotension",
+        "Severly decreased blood pressure (shock)",
+        "Shock",
         "shock",
-        "hypotension"
+        "shock, hypotension"
       ],
       "references": {
         "icd10": [
@@ -3516,6 +3671,9 @@
       "ICD10": "K72.0",
       "LOINC": "",
       "aliases": [
+        "Liver damage caused by low pressure.",
+        "Shock liver",
+        "ShockLiver",
         "shocky liver"
       ],
       "references": {
@@ -3547,8 +3705,12 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
+        "HTN Nephropathy",
+        "Hypertensive nephropathy",
         "Hypertensive Nephropathy",
-        "HTN Nephropathy"
+        "Hypertensive Nephropathy, HTN Nephropathy",
+        "HypertensiveNephropathy",
+        "Kidney disease due to damage from high blood pressure (hypertension)"
       ],
       "references": {
         "icd10": [],
@@ -3577,7 +3739,9 @@
       "ICD10": "T78.00XA",
       "LOINC": "",
       "aliases": [
-        "Anaphylactic shock"
+        "Anaphylactic shock",
+        "AnaphylacticShock",
+        "Anaphylaxis with shock"
       ],
       "references": {
         "icd10": [
@@ -3608,7 +3772,9 @@
       "ICD10": "I82.819",
       "LOINC": "",
       "aliases": [
-        "Superficial vein thrombosis (SVT) of lower extremities"
+        "Blood clots in superficial veins (SVT) of lower extremities",
+        "Superficial vein thrombosis (SVT) of lower extremities",
+        "SVT"
       ],
       "references": {
         "icd10": [
@@ -3639,7 +3805,9 @@
       "ICD10": "I82.40",
       "LOINC": "",
       "aliases": [
-        "Deep vein thrombosis (DVT)"
+        "Blood clots in deep veins (DVT)",
+        "Deep vein thrombosis (DVT)",
+        "DVT"
       ],
       "references": {
         "icd10": [
@@ -3670,7 +3838,9 @@
       "ICD10": "J44.1",
       "LOINC": "",
       "aliases": [
-        "COPD exacerbation"
+        "Chronic obstructive pulmonary disease (COPD) exacerbation",
+        "COPD exacerbation",
+        "COPDA"
       ],
       "references": {
         "icd10": [
@@ -3701,6 +3871,7 @@
       "ICD10": "T46.4X5A",
       "LOINC": "",
       "aliases": [
+        "ACEinhibitorRelatedCough",
         "Cough caused by ACE (angiotensin converting enzyme) inhibitor, or ARB (angiotensin receptor blocker)"
       ],
       "references": {
@@ -3732,7 +3903,8 @@
       "ICD10": "J45.901",
       "LOINC": "",
       "aliases": [
-        "Asthma exacerbation without acute respiratory failure"
+        "Asthma exacerbation without acute respiratory failure",
+        "AsthmaA"
       ],
       "references": {
         "icd10": [
@@ -3763,7 +3935,8 @@
       "ICD10": "l20.9",
       "LOINC": "",
       "aliases": [
-        "Atopic dermatitis"
+        "Atopic dermatitis",
+        "AtopicDermatitis"
       ],
       "references": {
         "icd10": [
@@ -3794,7 +3967,8 @@
       "Risk": 4,
       "LOINC": "",
       "aliases": [
-        "Bowel obstruction"
+        "Bowel obstruction",
+        "BowelObstructionA"
       ],
       "references": {
         "icd10": [
@@ -3825,7 +3999,8 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
-        "Asthma exacerbation with acute respiratory failure"
+        "Asthma exacerbation with acute respiratory failure",
+        "AsthmaARFA"
       ],
       "references": {
         "icd10": [],
@@ -3853,7 +4028,8 @@
       "Risk": 3,
       "ICD10": "G47.33",
       "aliases": [
-        "Obstructive sleep apnea"
+        "Obstructive sleep apnea",
+        "OSA"
       ],
       "references": {
         "icd10": [
@@ -3884,7 +4060,8 @@
       "IsCantMiss": true,
       "Risk": 3,
       "aliases": [
-        "Pulmonary tuberculosis"
+        "Pulmonary tuberculosis",
+        "PulmTBA"
       ],
       "references": {
         "icd10": [],
@@ -3913,7 +4090,8 @@
       "IsCantMiss": true,
       "Risk": 3,
       "aliases": [
-        "Acute nontuberculous mycobacterial lung infection"
+        "Acute nontuberculous mycobacterial lung infection",
+        "NonTBMycobacteriaeA"
       ],
       "references": {
         "icd10": [],
@@ -3942,7 +4120,8 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "Lung abscess"
+        "Lung abscess",
+        "LungAbscessA"
       ],
       "references": {
         "icd10": [],
@@ -3971,7 +4150,8 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "Empyema"
+        "Empyema",
+        "EmpyemaA"
       ],
       "references": {
         "icd10": [],
@@ -4000,7 +4180,9 @@
       "LOINC": "",
       "Risk": 3,
       "aliases": [
-        "AOM"
+        "AOM",
+        "Otitis media",
+        "OtitisMediaA"
       ],
       "references": {
         "icd10": [
@@ -4031,7 +4213,9 @@
       "LOINC": "",
       "Risk": 3,
       "aliases": [
-        "AOE"
+        "AOE",
+        "Otitis externa",
+        "OtitisExternaA"
       ],
       "references": {
         "icd10": [
@@ -4050,7 +4234,8 @@
       "laytext": "Acute eye emergency",
       "category": "acute",
       "aliases": [
-        "Acute eye emergency"
+        "Acute eye emergency",
+        "AcuteEyeEmergencyA"
       ],
       "references": {
         "icd10": [],
@@ -4076,7 +4261,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Anxiety"
+        "Anxiety",
+        "AnxietyA"
       ],
       "references": {
         "icd10": [],
@@ -4104,7 +4290,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Acute aortic stenosis (AS)"
+        "Acute aortic stenosis (AS)",
+        "AorticStenosisA"
       ],
       "references": {
         "icd10": [],
@@ -4131,6 +4318,7 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
+        "PCDiabetesC",
         "Uncontrolled diabetes"
       ],
       "references": {
@@ -4159,7 +4347,8 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
-        "Acute aortic regurgitation (AR or AI)"
+        "Acute aortic regurgitation (AR or AI)",
+        "AorticRegurgitationA"
       ],
       "references": {
         "icd10": [],
@@ -4187,7 +4376,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Acute mitral regurgitation (MR)"
+        "Acute mitral regurgitation (MR)",
+        "MitralRegurgitationA"
       ],
       "references": {
         "icd10": [],
@@ -4215,7 +4405,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Pulmonary regurgitation (PR)"
+        "Pulmonary regurgitation (PR)",
+        "PulmonaryRegurgitationA"
       ],
       "references": {
         "icd10": [],
@@ -4232,7 +4423,8 @@
       "laytext": "Acute thyroid goiter airway obstruction",
       "category": "acute",
       "aliases": [
-        "Acute thyroid goiter airway obstruction"
+        "Acute thyroid goiter airway obstruction",
+        "ThyroidGoiterA"
       ],
       "references": {
         "icd10": [],
@@ -4261,6 +4453,8 @@
       "ICD10": "I21.9",
       "LOINC": "",
       "aliases": [
+        "Heart attack (myocardial infarction)",
+        "MIA",
         "Myocardial infarction"
       ],
       "references": {
@@ -4292,6 +4486,7 @@
       "Risk": 4,
       "LOINC": "",
       "aliases": [
+        "DiabetesHONKA",
         "Diabetic hyperosmolar hyperglycemic state"
       ],
       "references": {
@@ -4322,6 +4517,7 @@
       "IsCantMiss": false,
       "LOINC": "",
       "aliases": [
+        "ACSA",
         "Acute coronary syndrome"
       ],
       "references": {
@@ -4341,7 +4537,8 @@
       "laytext": "Acute ventricular septal (rupture) defect",
       "category": "acute",
       "aliases": [
-        "Acute ventricular septal (rupture) defect"
+        "Acute ventricular septal (rupture) defect",
+        "VSDA"
       ],
       "references": {
         "icd10": [],
@@ -4370,8 +4567,11 @@
       "IsCantMiss": false,
       "Risk": 4,
       "aliases": [
+        "chest pain",
+        "Costochondritis or otherwise musculoskeletal chest pain",
+        "CostochondritisAMSKChestPain",
         "msk",
-        "chest pain"
+        "msk, chest pain"
       ],
       "references": {
         "icd10": [
@@ -4390,7 +4590,8 @@
       "laytext": "Spinal facet joints related chest pain",
       "category": "acute",
       "aliases": [
-        "Spinal facet joints related chest pain"
+        "Spinal facet joints related chest pain",
+        "SpinalfacetjointsCPA"
       ],
       "references": {
         "icd10": [],
@@ -4407,7 +4608,8 @@
       "laytext": "Thoracic spine fracture related chest pain",
       "category": "acute",
       "aliases": [
-        "Thoracic spine fracture related chest pain"
+        "Thoracic spine fracture related chest pain",
+        "TSpineCPA"
       ],
       "references": {
         "icd10": [],
@@ -4424,7 +4626,8 @@
       "laytext": "Spinal discopathy related chest pain",
       "category": "acute",
       "aliases": [
-        "Spinal discopathy related chest pain"
+        "Spinal discopathy related chest pain",
+        "SpinalDiscopathyCPA"
       ],
       "references": {
         "icd10": [],
@@ -4452,7 +4655,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Pleuritis"
+        "Pleuritis",
+        "PleuritisA"
       ],
       "references": {
         "icd10": [],
@@ -4480,7 +4684,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Atelectasis"
+        "Atelectasis",
+        "AtelectasisA"
       ],
       "references": {
         "icd10": [],
@@ -4497,7 +4702,8 @@
       "laytext": "Lobar obstruction",
       "category": "acute",
       "aliases": [
-        "Lobar obstruction"
+        "Lobar obstruction",
+        "LobarObstructionA"
       ],
       "references": {
         "icd10": [],
@@ -4514,6 +4720,7 @@
       "laytext": "Patient seems free from acute respiratory issues",
       "category": "acute",
       "aliases": [
+        "HealthyA",
         "Patient seems free from acute respiratory issues"
       ],
       "references": {
@@ -4531,6 +4738,7 @@
       "laytext": "Patient seems free from acute issues",
       "category": "acute",
       "aliases": [
+        "HealthyAllA",
         "Patient seems free from acute issues"
       ],
       "references": {
@@ -4548,7 +4756,8 @@
       "laytext": "Ovarian torsion",
       "category": "acute",
       "aliases": [
-        "Ovarian torsion"
+        "Ovarian torsion",
+        "OvarianTorsionA"
       ],
       "references": {
         "icd10": [],
@@ -4575,7 +4784,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Missed abortion"
+        "Missed abortion",
+        "MissedAA"
       ],
       "references": {
         "icd10": [
@@ -4594,6 +4804,7 @@
       "laytext": "Risk of death within 24 hours",
       "category": "acute",
       "aliases": [
+        "DeathA",
         "Risk of death within 24 hours"
       ],
       "references": {
@@ -4611,7 +4822,8 @@
       "laytext": "Testicular torsion",
       "category": "acute",
       "aliases": [
-        "Testicular torsion"
+        "Testicular torsion",
+        "TesticularTorsionA"
       ],
       "references": {
         "icd10": [],
@@ -4640,7 +4852,8 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
-        "Hemorrhoids - acute thrombosis or infection"
+        "Hemorrhoids - acute thrombosis or infection",
+        "HemorrhoidsA"
       ],
       "references": {
         "icd10": [
@@ -4671,7 +4884,8 @@
       "ICD10": "K25.6",
       "LOINC": "",
       "aliases": [
-        "Bleeding peptic or duodenal ulcer"
+        "Bleeding peptic or duodenal ulcer",
+        "PUDBleed"
       ],
       "references": {
         "icd10": [
@@ -4702,7 +4916,8 @@
       "ICD10": "K27.9",
       "LOINC": "",
       "aliases": [
-        "Peptic ulcer disease"
+        "Peptic ulcer disease",
+        "PUDA"
       ],
       "references": {
         "icd10": [
@@ -4733,7 +4948,8 @@
       "ICD10": "B96.81",
       "LOINC": "",
       "aliases": [
-        "Helicobacter pylory infection"
+        "Helicobacter pylory infection",
+        "HPylor"
       ],
       "references": {
         "icd10": [
@@ -4763,7 +4979,8 @@
       "IsCantMiss": false,
       "LOINC": "",
       "aliases": [
-        "Gastroenteritis likely bacterial (i.e. Shigella)"
+        "Gastroenteritis likely bacterial (i.e. Shigella)",
+        "GastroenteritisBacterialA"
       ],
       "references": {
         "icd10": [
@@ -4792,7 +5009,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Portal vein thrombosis"
+        "Portal vein thrombosis",
+        "PortalVeinThrombosisA"
       ],
       "references": {
         "icd10": [
@@ -4811,7 +5029,8 @@
       "laytext": "Budd-Chiari syndrome",
       "category": "acute",
       "aliases": [
-        "Budd-Chiari syndrome"
+        "Budd-Chiari syndrome",
+        "BuddChiariA"
       ],
       "references": {
         "icd10": [],
@@ -4840,6 +5059,7 @@
       "ICD10": "E10",
       "LOINC": "",
       "aliases": [
+        "Diabetes melltus type 1",
         "DM1"
       ],
       "references": {
@@ -4871,7 +5091,8 @@
       "ICD10": "E78.5",
       "LOINC": "",
       "aliases": [
-        "Hyperglyceridemia"
+        "Hyperglyceridemia",
+        "HyperTGL"
       ],
       "references": {
         "icd10": [
@@ -4902,7 +5123,8 @@
       "LOINC": "",
       "Risk": 4,
       "aliases": [
-        "Pancreatic cancer"
+        "Pancreatic cancer",
+        "PancreaticCaA"
       ],
       "references": {
         "icd10": [
@@ -4933,7 +5155,8 @@
       "ICD10": "K81.9",
       "LOINC": "",
       "aliases": [
-        "Acute cholecystitis"
+        "Acute cholecystitis",
+        "CholecystitisA"
       ],
       "references": {
         "icd10": [
@@ -4964,7 +5187,8 @@
       "ICD10": "M10.9",
       "LOINC": "",
       "aliases": [
-        "Gout flair"
+        "Gout flair",
+        "GoutFlair"
       ],
       "references": {
         "icd10": [
@@ -4995,6 +5219,7 @@
       "ICD10": "S90.93",
       "LOINC": "",
       "aliases": [
+        "ToeTraumaPain",
         "Trauma to the toe"
       ],
       "references": {
@@ -5026,7 +5251,8 @@
       "ICD10": "M10.9",
       "LOINC": "",
       "aliases": [
-        "Gout flair related to diuretic use"
+        "Gout flair related to diuretic use",
+        "GoutFlairFromDiuretics"
       ],
       "references": {
         "icd10": [
@@ -5057,7 +5283,9 @@
       "Risk": 4,
       "LOINC": "",
       "aliases": [
-        "Esophageal rupture (rupture)"
+        "Esophageal rupture (perforation)",
+        "Esophageal rupture (rupture)",
+        "GerdA"
       ],
       "references": {
         "icd10": [
@@ -5087,6 +5315,7 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
+        "BIA",
         "Bowel ischaemia"
       ],
       "references": {
@@ -5116,6 +5345,7 @@
       "Risk": 3,
       "LOINC": "",
       "aliases": [
+        "CDCA",
         "Clostridium difficile colitis"
       ],
       "references": {
@@ -5147,7 +5377,8 @@
       "ICD10": "A41.9",
       "LOINC": "",
       "aliases": [
-        "Sepsis"
+        "Sepsis",
+        "SepsisA"
       ],
       "references": {
         "icd10": [
@@ -5178,7 +5409,10 @@
       "ICD10": "E11",
       "LOINC": "",
       "aliases": [
-        "DM2"
+        "DM2",
+        "DM2ByHx",
+        "Past medical history of diabetes melltus type 2 per history (chronic condition)",
+        "Past medical history of diabetes melltus type 2 per history (chronic)"
       ],
       "references": {
         "icd10": [
@@ -5208,7 +5442,8 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "Suicidal or purposeful overdose"
+        "Suicidal or purposeful overdose",
+        "SuicidialOverdoseA"
       ],
       "references": {
         "icd10": [
@@ -5227,7 +5462,8 @@
       "laytext": "Beer potomania",
       "category": "acute",
       "aliases": [
-        "Beer potomania"
+        "Beer potomania",
+        "BeerA"
       ],
       "references": {
         "icd10": [],
@@ -5244,6 +5480,7 @@
       "laytext": "Hyponatremia acute",
       "category": "acute",
       "aliases": [
+        "HypoNaA",
         "Hyponatremia acute"
       ],
       "references": {
@@ -5261,6 +5498,7 @@
       "laytext": "Hyponatremia SIADH",
       "category": "acute",
       "aliases": [
+        "HypoNaSIADHA",
         "Hyponatremia SIADH"
       ],
       "references": {
@@ -5278,6 +5516,7 @@
       "laytext": "Hyperkalemia",
       "category": "acute",
       "aliases": [
+        "HyperKA",
         "Hyperkalemia"
       ],
       "references": {
@@ -5305,6 +5544,7 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
+        "HyperCaA",
         "Hypercalcemia"
       ],
       "references": {
@@ -5331,6 +5571,7 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
+        "HyperParaCaA",
         "Hyperparathyroidism"
       ],
       "references": {
@@ -5360,7 +5601,8 @@
       "ICD10": "G00.9",
       "LOINC": "",
       "aliases": [
-        "Bacgterial meningitis"
+        "Bacgterial meningitis",
+        "MeningitisA"
       ],
       "references": {
         "icd10": [
@@ -5390,7 +5632,8 @@
       "IsCantMiss": false,
       "LOINC": "",
       "aliases": [
-        "Encephalitis"
+        "Encephalitis",
+        "EncephalitisA"
       ],
       "references": {
         "icd10": [
@@ -5421,7 +5664,8 @@
       "ICD10": "J96.02",
       "LOINC": "",
       "aliases": [
-        "Hypercapnic coma"
+        "Hypercapnic coma",
+        "HypercapnicA"
       ],
       "references": {
         "icd10": [
@@ -5452,7 +5696,8 @@
       "Risk": 4,
       "LOINC": "",
       "aliases": [
-        "Serotoninergic syndrome"
+        "Serotoninergic syndrome",
+        "SSA"
       ],
       "references": {
         "icd10": [
@@ -5483,7 +5728,8 @@
       "Risk": 4,
       "LOINC": "",
       "aliases": [
-        "Opiates overdose"
+        "Opiates overdose",
+        "OpiatesA"
       ],
       "references": {
         "icd10": [
@@ -5514,6 +5760,7 @@
       "Risk": 4,
       "LOINC": "",
       "aliases": [
+        "TCAA",
         "Tricyclic antidepressant overdose (TCA) overdose"
       ],
       "references": {
@@ -5545,7 +5792,8 @@
       "ICD10": "T73.0XXA",
       "LOINC": "",
       "aliases": [
-        "Starvation ketoacidosis"
+        "Starvation ketoacidosis",
+        "StarvationKA"
       ],
       "references": {
         "icd10": [
@@ -5606,7 +5854,8 @@
       "ICD10": "E87.2",
       "LOINC": "",
       "aliases": [
-        "Metabolic acidosis with elevated anion gap"
+        "Metabolic acidosis with elevated anion gap",
+        "MetabolicGapAcidosis"
       ],
       "references": {
         "icd10": [
@@ -5637,7 +5886,8 @@
       "ICD10": "E87.2",
       "LOINC": "",
       "aliases": [
-        "Metabolic acidosis without elevated anion gap"
+        "Metabolic acidosis without elevated anion gap",
+        "MetabolicNonGapAcidosis"
       ],
       "references": {
         "icd10": [
@@ -5667,7 +5917,8 @@
       "ICD10": "E87.2",
       "LOINC": "",
       "aliases": [
-        "Lactic acidosis"
+        "Lactic acidosis",
+        "LacticAcidosis"
       ],
       "references": {
         "icd10": [
@@ -5697,6 +5948,7 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
+        "HypoA",
         "Hypoglycemia"
       ],
       "references": {
@@ -5727,6 +5979,7 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
+        "HypoThyroA",
         "Hypothyroidism severe (myxedema coma or crisis)"
       ],
       "references": {
@@ -5757,6 +6010,7 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
+        "HyperthyroidCrisisA",
         "Hyperthyroidism acute (hyperthyroid crisis or thyrotoxic storm)"
       ],
       "references": {
@@ -5788,7 +6042,8 @@
       "Risk": 3,
       "LOINC": "",
       "aliases": [
-        "Gastroparesis"
+        "Gastroparesis",
+        "GastroparesisA"
       ],
       "references": {
         "icd10": [
@@ -5819,7 +6074,9 @@
       "ICD10": "I15",
       "LOINC": "",
       "aliases": [
-        "Secondary arterial hypertension secondary to renal artery stenosis, secondary to fibromuscular dysplasia"
+        "High blood pressure (hypertension) secondary to renal artery stenosis, secondary to fibromuscular dysplasia",
+        "Secondary arterial hypertension secondary to renal artery stenosis, secondary to fibromuscular dysplasia",
+        "SecondaryArterialHypertensionSecondaryRASFibromuscularDysplasia"
       ],
       "references": {
         "icd10": [
@@ -5849,7 +6106,8 @@
       "Risk": 4,
       "ICD10": "N17.9",
       "aliases": [
-        "Acute renal failure"
+        "Acute renal failure",
+        "ARFA"
       ],
       "references": {
         "icd10": [
@@ -5879,7 +6137,8 @@
       "Risk": 3,
       "ICD10": "N39.0",
       "aliases": [
-        "UTI"
+        "UTI",
+        "UTIA"
       ],
       "references": {
         "icd10": [
@@ -5898,7 +6157,8 @@
       "laytext": "Membranous nephropathy",
       "category": "chronic",
       "aliases": [
-        "Membranous nephropathy"
+        "Membranous nephropathy",
+        "MNKD"
       ],
       "references": {
         "icd10": [],
@@ -5927,7 +6187,8 @@
       "Risk": 3,
       "LOINC": "",
       "aliases": [
-        "Pelvic inflammatory disease"
+        "Pelvic inflammatory disease",
+        "PIDA"
       ],
       "references": {
         "icd10": [
@@ -5958,7 +6219,8 @@
       "ICD10": "O00.9",
       "LOINC": "",
       "aliases": [
-        "Ectopic pregnancy"
+        "Ectopic pregnancy",
+        "EPA"
       ],
       "references": {
         "icd10": [
@@ -5989,7 +6251,8 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
-        "Past history of pregnancy"
+        "Past history of pregnancy",
+        "PastHxOfPregnancy"
       ],
       "references": {
         "icd10": [],
@@ -6018,7 +6281,8 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
-        "Past history of spontaneous abortion"
+        "Past history of spontaneous abortion",
+        "PastHxOfSpontaneousAbortion"
       ],
       "references": {
         "icd10": [],
@@ -6046,6 +6310,7 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
+        "NeutropA",
         "Neutropenia"
       ],
       "references": {
@@ -6076,7 +6341,8 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "Neutropenic fever"
+        "Neutropenic fever",
+        "NeutroponicFeverA"
       ],
       "references": {
         "icd10": [
@@ -6107,7 +6373,8 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
-        "Morning sickness (pregnancy)"
+        "Morning sickness (pregnancy)",
+        "MSPregnancyA"
       ],
       "references": {
         "icd10": [
@@ -6126,7 +6393,8 @@
       "laytext": "Other acute diagnoses",
       "category": "acute",
       "aliases": [
-        "Other acute diagnoses"
+        "Other acute diagnoses",
+        "OtherDxA"
       ],
       "references": {
         "icd10": [],
@@ -6154,7 +6422,8 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "Acute bacterial endocarditis"
+        "Acute bacterial endocarditis",
+        "BacterialEndocarditisA"
       ],
       "references": {
         "icd10": [
@@ -6185,7 +6454,8 @@
       "ICD10": "I33.0",
       "LOINC": "",
       "aliases": [
-        "Tricuspid valve bacterial endocarditis"
+        "Tricuspid valve bacterial endocarditis",
+        "TVBacterialEndocarditisA"
       ],
       "references": {
         "icd10": [
@@ -6215,7 +6485,8 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "Metastatic abscesses from endocarditis"
+        "Metastatic abscesses from endocarditis",
+        "MetastaticAbscessesA"
       ],
       "references": {
         "icd10": [
@@ -6246,7 +6517,8 @@
       "Risk": 3,
       "LOINC": "",
       "aliases": [
-        "Acute pleurisy"
+        "Acute pleurisy",
+        "PleurisyA"
       ],
       "references": {
         "icd10": [
@@ -6277,7 +6549,8 @@
       "Risk": 4,
       "LOINC": "",
       "aliases": [
-        "Acute hemopneumothorax"
+        "Acute hemopneumothorax",
+        "HPTXA"
       ],
       "references": {
         "icd10": [
@@ -6309,7 +6582,8 @@
       "Risk": 4,
       "LOINC": "",
       "aliases": [
-        "Acute hemothorax"
+        "Acute hemothorax",
+        "HTXA"
       ],
       "references": {
         "icd10": [
@@ -6339,7 +6613,8 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
-        "Sciatica (radicular low back pain)"
+        "Sciatica (radicular low back pain)",
+        "SciaticaA"
       ],
       "references": {
         "icd10": [
@@ -6369,7 +6644,8 @@
       "Risk": 2,
       "ICD10": "S39.012A",
       "aliases": [
-        "Mechanical low back pain (muscle strain)"
+        "Mechanical low back pain (muscle strain)",
+        "MechanicalLBPA"
       ],
       "references": {
         "icd10": [
@@ -6400,7 +6676,8 @@
       "ICD10": "N39.0",
       "LOINC": "",
       "aliases": [
-        "Cystitis (urinary tract infection)"
+        "Cystitis (urinary tract infection)",
+        "CystitisUTIA"
       ],
       "references": {
         "icd10": [
@@ -6431,7 +6708,8 @@
       "ICD10": "N10",
       "LOINC": "",
       "aliases": [
-        "Pyelonephritis"
+        "Pyelonephritis",
+        "PyelonephritisUTIA"
       ],
       "references": {
         "icd10": [
@@ -6461,7 +6739,8 @@
       "Risk": 4,
       "ICD10": "T14.91",
       "aliases": [
-        "Suicide attempt"
+        "Suicide attempt",
+        "SuicideA"
       ],
       "references": {
         "icd10": [
@@ -6491,7 +6770,8 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "Acetaminophen overdose"
+        "Acetaminophen overdose",
+        "AcetaminophenOverdoseA"
       ],
       "references": {
         "icd10": [
@@ -6522,7 +6802,8 @@
       "ICD10": "T59.894",
       "LOINC": "",
       "aliases": [
-        "Ethylene glycol poisoning"
+        "Ethylene glycol poisoning",
+        "EthyleneGlycolOverdoseA"
       ],
       "references": {
         "icd10": [
@@ -6551,7 +6832,9 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "Patient in immediate life-threatening condition"
+        "Patient in immediate life-threatening condition",
+        "STATA",
+        "You may be in life-threatening condition, consider contacting healthcare provider as soon as possible."
       ],
       "references": {
         "icd10": [],
@@ -6579,6 +6862,7 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
+        "CNeoMeningitisA",
         "Cryptococcus neoformans meningoencephalitis"
       ],
       "references": {
@@ -6609,7 +6893,8 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "Fungal meningitis"
+        "Fungal meningitis",
+        "FungoMeningitisA"
       ],
       "references": {
         "icd10": [
@@ -6639,7 +6924,8 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "HSV-1 encephalitis"
+        "HSV-1 encephalitis",
+        "HSVEncephalitisA"
       ],
       "references": {
         "icd10": [
@@ -6670,6 +6956,7 @@
       "Risk": 4,
       "LOINC": "",
       "aliases": [
+        "BrainCaA",
         "Intracranial (i.e. brain) primary neoplasm or metastatic disease to the brain"
       ],
       "references": {
@@ -6701,9 +6988,12 @@
       "ICD10": "I63.50",
       "LOINC": "",
       "aliases": [
-        "Intracranial bleed",
         "brain bleed",
-        "brain hemorrhage."
+        "brain hemorrhage.",
+        "ICH",
+        "Intracranial bleed",
+        "Intracranial bleed, brain bleed, brain hemorrhage.",
+        "Intracranial hemorrhage."
       ],
       "references": {
         "icd10": [
@@ -6734,7 +7024,8 @@
       "ICD10": "S06.330A",
       "LOINC": "",
       "aliases": [
-        "Brain contusion"
+        "Brain contusion",
+        "ContusionA"
       ],
       "references": {
         "icd10": [
@@ -6764,7 +7055,8 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "Lower spine vertebral or lower spinal tumor"
+        "Lower spine vertebral or lower spinal tumor",
+        "SpineCaA"
       ],
       "references": {
         "icd10": [
@@ -6795,6 +7087,7 @@
       "ICD10": "S06.6X9",
       "LOINC": "",
       "aliases": [
+        "SAHA",
         "Subarachnoid hemorrhage (SAH)"
       ],
       "references": {
@@ -6826,7 +7119,8 @@
       "ICD10": "I63.9",
       "LOINC": "",
       "aliases": [
-        "Ischemic cerebrovascular accident (CVA)"
+        "Ischemic cerebrovascular accident (CVA)",
+        "IschemicCVADisease"
       ],
       "references": {
         "icd10": [
@@ -6856,7 +7150,8 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "Lambert-Eaton Myasthenic Syndrome (LEMS)"
+        "Lambert-Eaton Myasthenic Syndrome (LEMS)",
+        "LEMSA"
       ],
       "references": {
         "icd10": [
@@ -6885,7 +7180,8 @@
       "IsCantMiss": true,
       "Risk": 3,
       "aliases": [
-        "Myasthenia gravis"
+        "Myasthenia gravis",
+        "MyastheniaA"
       ],
       "references": {
         "icd10": [],
@@ -6913,7 +7209,8 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "Benzodiazepines overdose"
+        "Benzodiazepines overdose",
+        "BenzosA"
       ],
       "references": {
         "icd10": [
@@ -6943,7 +7240,8 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "Stomach cancer"
+        "Stomach cancer",
+        "StomachCa"
       ],
       "references": {
         "icd10": [
@@ -6974,7 +7272,8 @@
       "Risk": 4,
       "LOINC": "",
       "aliases": [
-        "Mechanical small bowel obstruction"
+        "Mechanical small bowel obstruction",
+        "MechanicalSmallBowelObstructionA"
       ],
       "references": {
         "icd10": [
@@ -7005,7 +7304,8 @@
       "Risk": 3,
       "LOINC": "",
       "aliases": [
-        "Adynamic (paralytic) ileus"
+        "Adynamic (paralytic) ileus",
+        "AdynamicSmallBowelObstructionA"
       ],
       "references": {
         "icd10": [
@@ -7037,6 +7337,8 @@
       "ICD10": "K56.69",
       "LOINC": "",
       "aliases": [
+        "Large bowel obstruction",
+        "LargeBowelObstructionA",
         "LBO"
       ],
       "references": {
@@ -7068,7 +7370,9 @@
       "ICD10": "K56.69",
       "LOINC": "",
       "aliases": [
-        "SBO"
+        "SBO",
+        "Small bowel obstruction",
+        "SmallBowelObstruction"
       ],
       "references": {
         "icd10": [
@@ -7099,7 +7403,8 @@
       "ICD10": "K55.059",
       "LOINC": "",
       "aliases": [
-        "Acute mesenteric ischemia"
+        "Acute mesenteric ischemia",
+        "MesentericIschemiaA"
       ],
       "references": {
         "icd10": [
@@ -7130,7 +7435,8 @@
       "ICD10": "K55.1",
       "LOINC": "",
       "aliases": [
-        "Chronic mesenteric ischemia (intestinal angina)"
+        "Chronic mesenteric ischemia (intestinal angina)",
+        "MesentericIschemiaC"
       ],
       "references": {
         "icd10": [
@@ -7161,7 +7467,8 @@
       "ICD10": "I74.3",
       "LOINC": "",
       "aliases": [
-        "Arterial embolism (embolization) caused lower extremity ischemia"
+        "Arterial embolism (embolization) caused lower extremity ischemia",
+        "EmbolicLowerLimbIschemiaA"
       ],
       "references": {
         "icd10": [
@@ -7192,6 +7499,8 @@
       "ICD10": "I70.229",
       "LOINC": "",
       "aliases": [
+        "Atherosclerotic lower extremities ischemia.",
+        "Atheroscleroticlowerextremitiesischemia",
         "Plaque"
       ],
       "references": {
@@ -7223,7 +7532,8 @@
       "ICD10": "K55.059",
       "LOINC": "",
       "aliases": [
-        "Acute ischemic colitis"
+        "Acute ischemic colitis",
+        "IschCoitisA"
       ],
       "references": {
         "icd10": [
@@ -7254,7 +7564,8 @@
       "ICD10": "K57.00",
       "LOINC": "",
       "aliases": [
-        "Acute diverticulitis"
+        "Acute diverticulitis",
+        "AcuteDiverticulitisA"
       ],
       "references": {
         "icd10": [
@@ -7273,7 +7584,8 @@
       "laytext": "Diabetes mellitus related kidney disease",
       "category": "chronic",
       "aliases": [
-        "Diabetes mellitus related kidney disease"
+        "Diabetes mellitus related kidney disease",
+        "DMKD"
       ],
       "references": {
         "icd10": [],
@@ -7302,7 +7614,8 @@
       "ICD10": "K35.32",
       "LOINC": "",
       "aliases": [
-        "Acute appendicitis"
+        "Acute appendicitis",
+        "AcuteappendicitisA"
       ],
       "references": {
         "icd10": [
@@ -7333,7 +7646,9 @@
       "ICD10": "A56.01",
       "LOINC": "",
       "aliases": [
-        "C. trachomatis"
+        "C. trachomatis",
+        "Chlamydia Trachomatis urethritis (cervicitis)",
+        "ChlamydialUA"
       ],
       "references": {
         "icd10": [
@@ -7364,7 +7679,9 @@
       "ICD10": "A74.9",
       "LOINC": "",
       "aliases": [
-        "C. trachomatis"
+        "C. trachomatis",
+        "Chlamydia Trachomatis cervicitis",
+        "ChlamydialCervicitis"
       ],
       "references": {
         "icd10": [
@@ -7426,7 +7743,8 @@
       "ICD10": "N77.1",
       "LOINC": "",
       "aliases": [
-        "Bacterial vaginosis"
+        "Bacterial vaginosis",
+        "BacterialvagA"
       ],
       "references": {
         "icd10": [
@@ -7457,7 +7775,8 @@
       "ICD10": "B37.3",
       "LOINC": "",
       "aliases": [
-        "Candidal vaginitis"
+        "Candidal vaginitis",
+        "CandidalvagA"
       ],
       "references": {
         "icd10": [
@@ -7488,7 +7807,8 @@
       "ICD10": "A59.01",
       "LOINC": "",
       "aliases": [
-        "Trichomonas vaginitis"
+        "Trichomonas vaginitis",
+        "TrichomonasvagA"
       ],
       "references": {
         "icd10": [
@@ -7519,7 +7839,8 @@
       "ICD10": "N95.2",
       "LOINC": "",
       "aliases": [
-        "Atrophic vaginitis"
+        "Atrophic vaginitis",
+        "AtrophicVaginitis"
       ],
       "references": {
         "icd10": [
@@ -7550,6 +7871,7 @@
       "Risk": 4,
       "LOINC": "",
       "aliases": [
+        "URetenA",
         "Urinary retention"
       ],
       "references": {
@@ -7580,7 +7902,8 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "Acute orchitis"
+        "Acute orchitis",
+        "OrchitisA"
       ],
       "references": {
         "icd10": [
@@ -7610,6 +7933,7 @@
       "IsCantMiss": false,
       "Risk": 2,
       "aliases": [
+        "MENPA",
         "Menstrual pain"
       ],
       "references": {
@@ -7656,7 +7980,8 @@
       "laytext": "Acute aspiration",
       "category": "acute",
       "aliases": [
-        "Acute aspiration"
+        "Acute aspiration",
+        "PlaceHolderAcuteDiagnosisAlias1AcuteDxAlias"
       ],
       "references": {
         "icd10": [],
@@ -7673,7 +7998,8 @@
       "laytext": "Atrial fibrillation with rapid ventricular response (Afib with RVR)",
       "category": "acute",
       "aliases": [
-        "Atrial fibrillation with rapid ventricular response (Afib with RVR)"
+        "Atrial fibrillation with rapid ventricular response (Afib with RVR)",
+        "PlaceHolderAcuteDiagnosisAlias2AcuteDxAlias"
       ],
       "references": {
         "icd10": [],
@@ -7690,7 +8016,8 @@
       "laytext": "Atrial fibrillation episode (Afib)",
       "category": "acute",
       "aliases": [
-        "Atrial fibrillation episode (Afib)"
+        "Atrial fibrillation episode (Afib)",
+        "PlaceHolderAcuteDiagnosisAlias3AcuteDxAlias"
       ],
       "references": {
         "icd10": [],
@@ -7718,7 +8045,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Fever of unknown origin (FUO)"
+        "Fever of unknown origin (FUO)",
+        "FUO"
       ],
       "references": {
         "icd10": [],
@@ -7747,7 +8075,8 @@
       "ICD10": "J81.0",
       "LOINC": "",
       "aliases": [
-        "Pulmonary edema."
+        "Pulmonary edema.",
+        "PulmonaryEdema"
       ],
       "references": {
         "icd10": [
@@ -7778,7 +8107,8 @@
       "ICD10": "K80",
       "LOINC": "",
       "aliases": [
-        "Bile duct stone in (with obstruction of) common bile duct (choledocholithiasis)"
+        "Bile duct stone in (with obstruction of) common bile duct (choledocholithiasis)",
+        "Choledocholithiasis"
       ],
       "references": {
         "icd10": [
@@ -7808,7 +8138,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Anticholinergics overdose"
+        "Anticholinergics overdose",
+        "AnticholinergicsOverdose"
       ],
       "references": {
         "icd10": [],
@@ -7836,7 +8167,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Ethanol overdose"
+        "Ethanol overdose",
+        "EthanolOverdose"
       ],
       "references": {
         "icd10": [],
@@ -7864,7 +8196,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Pulmonary hypertension (PulmHTN)"
+        "Pulmonary hypertension (PulmHTN)",
+        "PulmonaryHypertensionC"
       ],
       "references": {
         "icd10": [],
@@ -7881,7 +8214,8 @@
       "laytext": "Clonidine overdose",
       "category": "acute",
       "aliases": [
-        "Clonidine overdose"
+        "Clonidine overdose",
+        "PlaceHolderAcuteDiagnosisAlias12AcuteDxAlias"
       ],
       "references": {
         "icd10": [],
@@ -7898,7 +8232,8 @@
       "laytext": "Acute respiratory distress syndrome (ARDS)",
       "category": "acute",
       "aliases": [
-        "Acute respiratory distress syndrome (ARDS)"
+        "Acute respiratory distress syndrome (ARDS)",
+        "PlaceHolderAcuteDiagnosisAlias13AcuteDxAlias"
       ],
       "references": {
         "icd10": [],
@@ -7915,7 +8250,8 @@
       "laytext": "Hypersensitivity pneumonitis (HP)",
       "category": "acute",
       "aliases": [
-        "Hypersensitivity pneumonitis (HP)"
+        "Hypersensitivity pneumonitis (HP)",
+        "PlaceHolderAcuteDiagnosisAlias14AcuteDxAlias"
       ],
       "references": {
         "icd10": [],
@@ -7944,7 +8280,9 @@
       "ICD10": "J96.01",
       "LOINC": "",
       "aliases": [
-        "Hypoxic respiratory failure"
+        "Hypoxic respiratory failure",
+        "HypoxicRespiratoryfailure",
+        "Respiratory failure with inadequate oxygen delivery to tissues"
       ],
       "references": {
         "icd10": [
@@ -7975,7 +8313,9 @@
       "ICD10": "J96.12",
       "LOINC": "",
       "aliases": [
-        "Hypercapnic respiratory failure"
+        "Hypercapnic respiratory failure",
+        "HypercapnicRespiratoryfailure",
+        "Respiratory failure with retention of Co2"
       ],
       "references": {
         "icd10": [
@@ -8006,7 +8346,8 @@
       "ICD10": "I25.41",
       "LOINC": "",
       "aliases": [
-        "Angina cause by pulmonary artery aneurysm causing left main coronary"
+        "Angina cause by pulmonary artery aneurysm causing left main coronary",
+        "PulmonaryArteryPressingOnLMCAAngina"
       ],
       "references": {
         "icd10": [
@@ -8036,7 +8377,8 @@
       "Risk": 4,
       "ICD10": "I28.1",
       "aliases": [
-        "Pulmonary artery aneurysm"
+        "Pulmonary artery aneurysm",
+        "PulmonaryArteryAneurysm"
       ],
       "references": {
         "icd10": [
@@ -8066,7 +8408,8 @@
       "Risk": 4,
       "ICD10": "I20.9",
       "aliases": [
-        "Angina caused by low cardiac output"
+        "Angina caused by low cardiac output",
+        "AnginaCausedByLowCardiacOutput"
       ],
       "references": {
         "icd10": [
@@ -8097,7 +8440,8 @@
       "ICD10": "I50.9",
       "LOINC": "",
       "aliases": [
-        "Low (cardiac) output syndrome"
+        "Low (cardiac) output syndrome",
+        "LowCardiacOutputSyndrome"
       ],
       "references": {
         "icd10": [
@@ -8128,7 +8472,9 @@
       "ICD10": "I35.0",
       "LOINC": "",
       "aliases": [
-        "Angina caused by aortic stenosis"
+        "Angina caused by aortic stenosis",
+        "Angina caused by aortic valve narrowing",
+        "AnginaAS"
       ],
       "references": {
         "icd10": [
@@ -8159,7 +8505,8 @@
       "ICD10": "I21.A1",
       "LOINC": "",
       "aliases": [
-        "Demand myocardial ischaemia"
+        "Demand myocardial ischaemia",
+        "DemandMyocardialIschaemia"
       ],
       "references": {
         "icd10": [
@@ -8189,6 +8536,7 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
+        "Graves",
         "Graves' hyperthyroidism"
       ],
       "references": {
@@ -8219,7 +8567,8 @@
       "Risk": 2,
       "ICD10": "E06.9",
       "aliases": [
-        "Painless thyroiditis"
+        "Painless thyroiditis",
+        "Painlessthyroiditis"
       ],
       "references": {
         "icd10": [
@@ -8250,7 +8599,9 @@
       "ICD10": "I21.4",
       "LOINC": "",
       "aliases": [
-        "Non-ST-elevation myocardial infarction (NSTEMI)"
+        "Heart attack (without the ST segement elevation on ECG)",
+        "Non-ST-elevation myocardial infarction (NSTEMI)",
+        "NSTEMI"
       ],
       "references": {
         "icd10": [
@@ -8281,7 +8632,8 @@
       "ICD10": "I51.4",
       "LOINC": "",
       "aliases": [
-        "Myocarditis"
+        "Myocarditis",
+        "Myocarditis, inflamation of the heart muscle"
       ],
       "references": {
         "icd10": [
@@ -8312,7 +8664,9 @@
       "ICD10": "I21.3",
       "LOINC": "",
       "aliases": [
-        "ST-elevation myocardial infarction (STEMI)"
+        "Heart attack (with ST segement elevation on ECG)",
+        "ST-elevation myocardial infarction (STEMI)",
+        "STEMI"
       ],
       "references": {
         "icd10": [
@@ -8374,7 +8728,8 @@
       "ICD10": "K29",
       "LOINC": "",
       "aliases": [
-        "Gastritis"
+        "Gastritis",
+        "Stomach lining inflammation"
       ],
       "references": {
         "icd10": [
@@ -8405,7 +8760,9 @@
       "ICD10": "K92.2",
       "LOINC": "",
       "aliases": [
-        "Acute upper gastrointestinal tract bleeding"
+        "Acute upper gastrointestinal tract bleeding",
+        "AcutUpperGIBleed",
+        "Bleeding from upper portion of digestive tract"
       ],
       "references": {
         "icd10": [
@@ -8436,7 +8793,9 @@
       "ICD10": "K92.2",
       "LOINC": "",
       "aliases": [
-        "Acute lower gastrointestinal tract bleeding"
+        "Acute lower gastrointestinal tract bleeding",
+        "AcuteLowerGIBleed",
+        "Bleeding from lower portion of digestive tract"
       ],
       "references": {
         "icd10": [
@@ -8467,7 +8826,9 @@
       "ICD10": "R57.1",
       "LOINC": "",
       "aliases": [
-        "Hemorrhagic shock from gastrointestinal bleeding"
+        "HemorrhaficShock",
+        "Hemorrhagic shock from gastrointestinal bleeding",
+        "Severe life-threatening gastrointestinal bleeding with shock"
       ],
       "references": {
         "icd10": [
@@ -8486,7 +8847,8 @@
       "laytext": "Metastatic diseases to the liver or primary neoplasm of the liver",
       "category": "acute",
       "aliases": [
-        "Metastatic diseases to the liver or primary neoplasm of the liver"
+        "Metastatic diseases to the liver or primary neoplasm of the liver",
+        "PlaceHolderAcuteDiagnosisAlias32AcuteDxAlias"
       ],
       "references": {
         "icd10": [],
@@ -8533,6 +8895,7 @@
       "laytext": "Seasonal (pollen) allergies",
       "category": "acute",
       "aliases": [
+        "PlaceHolderAcuteDiagnosisAlias35AcuteDxAlias",
         "Seasonal (pollen) allergies"
       ],
       "references": {
@@ -8550,7 +8913,8 @@
       "laytext": "Hepatic encephalopathy",
       "category": "acute",
       "aliases": [
-        "Hepatic encephalopathy"
+        "Hepatic encephalopathy",
+        "PlaceHolderAcuteDiagnosisAlias36AcuteDxAlias"
       ],
       "references": {
         "icd10": [],
@@ -8579,7 +8943,8 @@
       "ICD10": "J44.9",
       "LOINC": "",
       "aliases": [
-        "Chronic obstructive pulmonary disease (COPD)"
+        "Chronic obstructive pulmonary disease (COPD)",
+        "COPDC"
       ],
       "references": {
         "icd10": [
@@ -8610,6 +8975,7 @@
       "ICD10": "J45.909",
       "LOINC": "",
       "aliases": [
+        "AsthmaC",
         "Chronic asthma"
       ],
       "references": {
@@ -8640,7 +9006,8 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "Churg-Strauss syndrome"
+        "Churg-Strauss syndrome",
+        "CSSC"
       ],
       "references": {
         "icd10": [
@@ -8671,7 +9038,8 @@
       "Risk": 4,
       "LOINC": "",
       "aliases": [
-        "Chronic left ventricle heart failure (LVHF)"
+        "Chronic left ventricle heart failure (LVHF)",
+        "LVFC"
       ],
       "references": {
         "icd10": [
@@ -8702,7 +9070,8 @@
       "Risk": 4,
       "LOINC": "",
       "aliases": [
-        "Hypertrophic cardiomyopathy"
+        "Hypertrophic cardiomyopathy",
+        "HypertrophicCardiomyopathyC"
       ],
       "references": {
         "icd10": [
@@ -8733,7 +9102,8 @@
       "Risk": 4,
       "LOINC": "",
       "aliases": [
-        "Dilated cardiomyopathy"
+        "Dilated cardiomyopathy",
+        "DilatedCardiomyopathyC"
       ],
       "references": {
         "icd10": [
@@ -8764,7 +9134,8 @@
       "Risk": 3,
       "LOINC": "",
       "aliases": [
-        "Chronic tricuspid regurgitation (TR)"
+        "Chronic tricuspid regurgitation (TR)",
+        "TricuspidRegurgitationC"
       ],
       "references": {
         "icd10": [
@@ -8795,6 +9166,7 @@
       "ICD10": "N13.2",
       "LOINC": "",
       "aliases": [
+        "Hydronephrosis",
         "Hydronephrosis."
       ],
       "references": {
@@ -8825,6 +9197,7 @@
       "IsCantMiss": true,
       "Risk": 3,
       "aliases": [
+        "InsulinomaC",
         "Pancreatic insulinoma"
       ],
       "references": {
@@ -8844,6 +9217,7 @@
       "laytext": "Atrial septal defect (ASD)",
       "category": "chronic",
       "aliases": [
+        "ASDC",
         "Atrial septal defect (ASD)"
       ],
       "references": {
@@ -8861,7 +9235,8 @@
       "laytext": "Ventricular septal defect (VSD) (chronic)",
       "category": "chronic",
       "aliases": [
-        "Ventricular septal defect (VSD) (chronic)"
+        "Ventricular septal defect (VSD) (chronic)",
+        "VSDC"
       ],
       "references": {
         "icd10": [],
@@ -8878,7 +9253,8 @@
       "laytext": "Patent ductus arteriosus (PTA)",
       "category": "chronic",
       "aliases": [
-        "Patent ductus arteriosus (PTA)"
+        "Patent ductus arteriosus (PTA)",
+        "PDAC"
       ],
       "references": {
         "icd10": [],
@@ -8906,7 +9282,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Chronic mitral regurgitation (MR)"
+        "Chronic mitral regurgitation (MR)",
+        "MitralRegurgitationC"
       ],
       "references": {
         "icd10": [],
@@ -8934,7 +9311,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Chronic mitral stenosis (MS)"
+        "Chronic mitral stenosis (MS)",
+        "MitralStenosisC"
       ],
       "references": {
         "icd10": [],
@@ -8962,7 +9340,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Chronic right ventricle heart failure (RVHF)"
+        "Chronic right ventricle heart failure (RVHF)",
+        "RVFC"
       ],
       "references": {
         "icd10": [],
@@ -8990,7 +9369,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Non constrictive pericarditis"
+        "Non constrictive pericarditis",
+        "NonConstrictivePericarditisC"
       ],
       "references": {
         "icd10": [],
@@ -9018,7 +9398,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Constrictive pericarditis"
+        "Constrictive pericarditis",
+        "ConstrictivePericarditisC"
       ],
       "references": {
         "icd10": [],
@@ -9047,6 +9428,7 @@
       "ICD10": "E26.9",
       "LOINC": "",
       "aliases": [
+        "Hyperactivity of adrenal gland in producing aldosterone (hyperaldosteronism)",
         "Hyperaldosteronism"
       ],
       "references": {
@@ -9078,7 +9460,8 @@
       "Risk": 3,
       "LOINC": "",
       "aliases": [
-        "Brain neoplasm"
+        "Brain neoplasm",
+        "BrainNeoC"
       ],
       "references": {
         "icd10": [
@@ -9108,6 +9491,7 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
+        "MSC",
         "Multiple sclerosis"
       ],
       "references": {
@@ -9137,7 +9521,9 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
-        "Chronic anemia"
+        "ANEMIAC",
+        "Chronic anemia",
+        "Low hemoglobin level (anemia)"
       ],
       "references": {
         "icd10": [],
@@ -9166,7 +9552,8 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
-        "Obesity"
+        "Obesity",
+        "ObesityC"
       ],
       "references": {
         "icd10": [
@@ -9197,7 +9584,8 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
-        "Normal weight"
+        "Normal weight",
+        "NormalWeightC"
       ],
       "references": {
         "icd10": [
@@ -9228,7 +9616,8 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
-        "Overweight"
+        "Overweight",
+        "OverweightC"
       ],
       "references": {
         "icd10": [
@@ -9259,7 +9648,8 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
-        "Extreme obesity"
+        "Extreme obesity",
+        "ExtremeObesityC"
       ],
       "references": {
         "icd10": [
@@ -9289,6 +9679,7 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
+        "BRONCHITISC",
         "Chronic bronchitis"
       ],
       "references": {
@@ -9317,6 +9708,7 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
+        "ILDC",
         "Interstitial lung disease"
       ],
       "references": {
@@ -9345,6 +9737,7 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
+        "LCC",
         "Lung cancer"
       ],
       "references": {
@@ -9373,7 +9766,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Idiopathic pulmonary fibrosis"
+        "Idiopathic pulmonary fibrosis",
+        "PFC"
       ],
       "references": {
         "icd10": [],
@@ -9390,7 +9784,8 @@
       "laytext": "Chronic thyroid goiter airway obstruction",
       "category": "chronic",
       "aliases": [
-        "Chronic thyroid goiter airway obstruction"
+        "Chronic thyroid goiter airway obstruction",
+        "ThyroidGoiterC"
       ],
       "references": {
         "icd10": [],
@@ -9407,7 +9802,8 @@
       "laytext": "Chronic nontuberculous mycobacterial lung infection",
       "category": "chronic",
       "aliases": [
-        "Chronic nontuberculous mycobacterial lung infection"
+        "Chronic nontuberculous mycobacterial lung infection",
+        "NonTBMycobacteriaeC"
       ],
       "references": {
         "icd10": [],
@@ -9424,6 +9820,7 @@
       "laytext": "Patient seems free from chronic respiratory issues",
       "category": "chronic",
       "aliases": [
+        "HealthyC",
         "Patient seems free from chronic respiratory issues"
       ],
       "references": {
@@ -9452,6 +9849,7 @@
       "Risk": 3,
       "ICD10": "C18.9",
       "aliases": [
+        "CCC",
         "Colon cancer"
       ],
       "references": {
@@ -9471,6 +9869,7 @@
       "laytext": "Endometrial neoplasm",
       "category": "chronic",
       "aliases": [
+        "EndomC",
         "Endometrial neoplasm"
       ],
       "references": {
@@ -9488,7 +9887,8 @@
       "laytext": "Ovarian neoplasm",
       "category": "chronic",
       "aliases": [
-        "Ovarian neoplasm"
+        "Ovarian neoplasm",
+        "OvarianC"
       ],
       "references": {
         "icd10": [],
@@ -9505,7 +9905,8 @@
       "laytext": "Cervical neoplasm",
       "category": "chronic",
       "aliases": [
-        "Cervical neoplasm"
+        "Cervical neoplasm",
+        "CervicalC"
       ],
       "references": {
         "icd10": [],
@@ -9522,6 +9923,7 @@
       "laytext": "Esophageal achalasia",
       "category": "chronic",
       "aliases": [
+        "EAC",
         "Esophageal achalasia"
       ],
       "references": {
@@ -9550,6 +9952,7 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
+        "IDAC",
         "Iron deficiency anemia"
       ],
       "references": {
@@ -9581,6 +9984,7 @@
       "IsCantMiss": true,
       "Risk": 3,
       "aliases": [
+        "ID",
         "Iron deficiency"
       ],
       "references": {
@@ -9612,7 +10016,8 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
-        "Anemia related to chronic kidney disease"
+        "Anemia related to chronic kidney disease",
+        "CKDAnemia"
       ],
       "references": {
         "icd10": [
@@ -9643,7 +10048,8 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
-        "Anemia from vitamin B12 deficiency"
+        "Anemia from vitamin B12 deficiency",
+        "B12DAC"
       ],
       "references": {
         "icd10": [
@@ -9674,6 +10080,7 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
+        "B12D",
         "Vitamin B12 deficiency"
       ],
       "references": {
@@ -9705,6 +10112,7 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
+        "B12DFromLackOfIntrinsicFactor",
         "Vitamin B12 deficiency due intrinsic factor deficiency"
       ],
       "references": {
@@ -9736,7 +10144,8 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
-        "Anemia from folate (vitamin B9) deficiency"
+        "Anemia from folate (vitamin B9) deficiency",
+        "FolateDAC"
       ],
       "references": {
         "icd10": [
@@ -9767,7 +10176,8 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
-        "Folate (vitamin B9) deficiency"
+        "Folate (vitamin B9) deficiency",
+        "FolateD"
       ],
       "references": {
         "icd10": [
@@ -9798,6 +10208,7 @@
       "IsCantMiss": false,
       "Risk": 3,
       "aliases": [
+        "PernDAC",
         "Pernicious anemia (anemia from b12 deficiency due to autoantibodies to intrinsic factor IF)"
       ],
       "references": {
@@ -9829,7 +10240,8 @@
       "IsCantMiss": true,
       "Risk": 4,
       "aliases": [
-        "Hemolytic anemia"
+        "Hemolytic anemia",
+        "HemolyticAnemia"
       ],
       "references": {
         "icd10": [
@@ -9848,6 +10260,7 @@
       "laytext": "Intestinal parasites",
       "category": "chronic",
       "aliases": [
+        "IntenParasC",
         "Intestinal parasites"
       ],
       "references": {
@@ -9877,6 +10290,7 @@
       "ICD10": "B15",
       "LOINC": "",
       "aliases": [
+        "HepA",
         "Hepatitis A"
       ],
       "references": {
@@ -9908,7 +10322,8 @@
       "ICD10": "B17.1",
       "LOINC": "",
       "aliases": [
-        "Acute hepatitis C"
+        "Acute hepatitis C",
+        "HepCA"
       ],
       "references": {
         "icd10": [
@@ -9939,7 +10354,8 @@
       "ICD10": "B19",
       "LOINC": "",
       "aliases": [
-        "Hepatitis B"
+        "Hepatitis B",
+        "HepBC"
       ],
       "references": {
         "icd10": [
@@ -9969,6 +10385,7 @@
       "Risk": 3,
       "ICD10": "B20",
       "aliases": [
+        "HIVC",
         "Human immunodeficiency virus (HIV) infection"
       ],
       "references": {
@@ -9999,7 +10416,8 @@
       "Risk": 3,
       "ICD10": "A53.9",
       "aliases": [
-        "Syphilis"
+        "Syphilis",
+        "SyphilisC"
       ],
       "references": {
         "icd10": [
@@ -10029,7 +10447,8 @@
       "Risk": 3,
       "ICD10": "K64",
       "aliases": [
-        "Hemorrhoids - chronic"
+        "Hemorrhoids - chronic",
+        "HemorrhoidsC"
       ],
       "references": {
         "icd10": [
@@ -10060,7 +10479,8 @@
       "ICD10": "K55.1",
       "LOINC": "",
       "aliases": [
-        "Chronic ischemic colitis"
+        "Chronic ischemic colitis",
+        "IschCoitisC"
       ],
       "references": {
         "icd10": [
@@ -10090,7 +10510,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Endometriosis"
+        "Endometriosis",
+        "EndometriosisC"
       ],
       "references": {
         "icd10": [],
@@ -10107,6 +10528,7 @@
       "laytext": "Depression",
       "category": "chronic",
       "aliases": [
+        "DepressC",
         "Depression"
       ],
       "references": {
@@ -10124,7 +10546,8 @@
       "laytext": "Hypogonadism",
       "category": "chronic",
       "aliases": [
-        "Hypogonadism"
+        "Hypogonadism",
+        "HypogonadismC"
       ],
       "references": {
         "icd10": [],
@@ -10141,6 +10564,7 @@
       "laytext": "Kidney neoplasm",
       "category": "chronic",
       "aliases": [
+        "KCC",
         "Kidney neoplasm"
       ],
       "references": {
@@ -10170,7 +10594,9 @@
       "ICD10": "C67.9",
       "LOINC": "",
       "aliases": [
-        "Bladder cancer"
+        "Bladder cancer",
+        "BladderCC",
+        "Urinary bladder cancer"
       ],
       "references": {
         "icd10": [
@@ -10201,7 +10627,8 @@
       "ICD10": "N39.3",
       "LOINC": "",
       "aliases": [
-        "Stress incontinence "
+        "Stress incontinence",
+        "StressIC"
       ],
       "references": {
         "icd10": [
@@ -10232,7 +10659,8 @@
       "ICD10": "N39.46",
       "LOINC": "",
       "aliases": [
-        "Mixed incontinence "
+        "Mixed incontinence",
+        "MixedIC"
       ],
       "references": {
         "icd10": [
@@ -10263,7 +10691,8 @@
       "ICD10": "N39.41",
       "LOINC": "",
       "aliases": [
-        "Urge incontinence "
+        "Urge incontinence",
+        "UrgencyIC"
       ],
       "references": {
         "icd10": [
@@ -10294,7 +10723,8 @@
       "ICD10": "N39.490",
       "LOINC": "",
       "aliases": [
-        "Overflow incontinence "
+        "Overflow incontinence",
+        "OverflowIC"
       ],
       "references": {
         "icd10": [
@@ -10324,7 +10754,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Ureter neoplasm"
+        "Ureter neoplasm",
+        "UreterCC"
       ],
       "references": {
         "icd10": [],
@@ -10353,6 +10784,7 @@
       "ICD10": "M31.0",
       "LOINC": "",
       "aliases": [
+        "GDS",
         "Goodpasture syndrome"
       ],
       "references": {
@@ -10383,7 +10815,8 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
-        "Anti-GBM disease"
+        "Anti-GBM disease",
+        "AntiGBM"
       ],
       "references": {
         "icd10": [],
@@ -10400,7 +10833,8 @@
       "laytext": "Ankylosing spondylitis",
       "category": "chronic",
       "aliases": [
-        "Ankylosing spondylitis"
+        "Ankylosing spondylitis",
+        "ASpondC"
       ],
       "references": {
         "icd10": [],
@@ -10417,7 +10851,8 @@
       "laytext": "Spinal stenosis",
       "category": "chronic",
       "aliases": [
-        "Spinal stenosis"
+        "Spinal stenosis",
+        "SSC"
       ],
       "references": {
         "icd10": [],
@@ -10434,6 +10869,7 @@
       "laytext": "Metastatic disease to spine or bones, or primary spine or bones neoplasm",
       "category": "chronic",
       "aliases": [
+        "MetasSpineC",
         "Metastatic disease to spine or bones, or primary spine or bones neoplasm"
       ],
       "references": {
@@ -10451,7 +10887,8 @@
       "laytext": "Kidneys' disease related to vasculitis",
       "category": "chronic",
       "aliases": [
-        "Kidneys' disease related to vasculitis"
+        "Kidneys' disease related to vasculitis",
+        "VascKD"
       ],
       "references": {
         "icd10": [],
@@ -10468,7 +10905,8 @@
       "laytext": "IgA nephropathy",
       "category": "chronic",
       "aliases": [
-        "IgA nephropathy"
+        "IgA nephropathy",
+        "IgAKD"
       ],
       "references": {
         "icd10": [],
@@ -10485,6 +10923,7 @@
       "laytext": "Fibrillary glomerulonephritis",
       "category": "chronic",
       "aliases": [
+        "FGKD",
         "Fibrillary glomerulonephritis"
       ],
       "references": {
@@ -10502,7 +10941,8 @@
       "laytext": "Poststreptococcal glomerulonephritis",
       "category": "chronic",
       "aliases": [
-        "Poststreptococcal glomerulonephritis"
+        "Poststreptococcal glomerulonephritis",
+        "PSKD"
       ],
       "references": {
         "icd10": [],
@@ -10519,6 +10959,7 @@
       "laytext": "Minimal change disease",
       "category": "chronic",
       "aliases": [
+        "MCKD",
         "Minimal change disease"
       ],
       "references": {
@@ -10536,7 +10977,8 @@
       "laytext": "Focal segmental glomerulosclerosis",
       "category": "chronic",
       "aliases": [
-        "Focal segmental glomerulosclerosis"
+        "Focal segmental glomerulosclerosis",
+        "FSGSKD"
       ],
       "references": {
         "icd10": [],
@@ -10553,7 +10995,8 @@
       "laytext": "Membranoproliferative glomerulonephritis",
       "category": "chronic",
       "aliases": [
-        "Membranoproliferative glomerulonephritis"
+        "Membranoproliferative glomerulonephritis",
+        "MPKD"
       ],
       "references": {
         "icd10": [],
@@ -10570,6 +11013,7 @@
       "laytext": "Kidney cysts",
       "category": "chronic",
       "aliases": [
+        "KC",
         "Kidney cysts"
       ],
       "references": {
@@ -10587,7 +11031,8 @@
       "laytext": "Acute tubular necrosis",
       "category": "chronic",
       "aliases": [
-        "Acute tubular necrosis"
+        "Acute tubular necrosis",
+        "ATN"
       ],
       "references": {
         "icd10": [],
@@ -10604,7 +11049,8 @@
       "laytext": "Acute interstitial nephritis",
       "category": "chronic",
       "aliases": [
-        "Acute interstitial nephritis"
+        "Acute interstitial nephritis",
+        "AIN"
       ],
       "references": {
         "icd10": [],
@@ -10621,6 +11067,7 @@
       "laytext": "Cushing syndrome or disease",
       "category": "chronic",
       "aliases": [
+        "CSDC",
         "Cushing syndrome or disease"
       ],
       "references": {
@@ -10638,6 +11085,7 @@
       "laytext": "Addisons disease (adrenal insufficiency)",
       "category": "chronic",
       "aliases": [
+        "ADC",
         "Addisons disease (adrenal insufficiency)"
       ],
       "references": {
@@ -10667,7 +11115,8 @@
       "ICD10": "Z34.90",
       "LOINC": "",
       "aliases": [
-        "Pregnancy"
+        "Pregnancy",
+        "PregnancyC"
       ],
       "references": {
         "icd10": [
@@ -10698,7 +11147,8 @@
       "ICD10": "C67.9",
       "LOINC": "",
       "aliases": [
-        "Bladder tumor."
+        "Bladder tumor.",
+        "BladderTumorC"
       ],
       "references": {
         "icd10": [
@@ -10729,7 +11179,8 @@
       "ICD10": "N40.1",
       "LOINC": "",
       "aliases": [
-        "History of Benign prostatic hypertrophy (BPH)"
+        "History of Benign prostatic hypertrophy (BPH)",
+        "HxOfBPHC"
       ],
       "references": {
         "icd10": [
@@ -10760,6 +11211,7 @@
       "ICD10": "C62.90",
       "LOINC": "",
       "aliases": [
+        "TesticC",
         "Testicular cancer"
       ],
       "references": {
@@ -10779,7 +11231,8 @@
       "laytext": "Varicocele",
       "category": "chronic",
       "aliases": [
-        "Varicocele"
+        "Varicocele",
+        "VaricoceleC"
       ],
       "references": {
         "icd10": [],
@@ -10807,7 +11260,8 @@
       "Risk": 3,
       "ICD10": "N45.1",
       "aliases": [
-        "Epididymitis"
+        "Epididymitis",
+        "EpididymitisC"
       ],
       "references": {
         "icd10": [
@@ -10837,7 +11291,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Epididymal cysts or spermatocele"
+        "Epididymal cysts or spermatocele",
+        "EpiSperC"
       ],
       "references": {
         "icd10": [],
@@ -10866,7 +11321,8 @@
       "ICD10": "K80.20",
       "LOINC": "",
       "aliases": [
-        "Gallbladder stones (cholelithiasis)"
+        "Gallbladder stones (cholelithiasis)",
+        "GallStonesC"
       ],
       "references": {
         "icd10": [
@@ -10897,6 +11353,7 @@
       "ICD10": "K58.9",
       "LOINC": "",
       "aliases": [
+        "IBSC",
         "Irritable bowel syndrome"
       ],
       "references": {
@@ -10916,7 +11373,8 @@
       "laytext": "Ascariasis",
       "category": "chronic",
       "aliases": [
-        "Ascariasis"
+        "Ascariasis",
+        "AscariasisC"
       ],
       "references": {
         "icd10": [],
@@ -10933,7 +11391,8 @@
       "laytext": "Enterobiasis (pinworm)",
       "category": "chronic",
       "aliases": [
-        "Enterobiasis (pinworm)"
+        "Enterobiasis (pinworm)",
+        "EnterobiasisC"
       ],
       "references": {
         "icd10": [],
@@ -10950,7 +11409,8 @@
       "laytext": "Giardiasis",
       "category": "chronic",
       "aliases": [
-        "Giardiasis"
+        "Giardiasis",
+        "GiardiasisC"
       ],
       "references": {
         "icd10": [],
@@ -10979,6 +11439,7 @@
       "ICD10": "K50.90",
       "LOINC": "",
       "aliases": [
+        "ChronsC",
         "Crohn's disease"
       ],
       "references": {
@@ -10998,6 +11459,7 @@
       "laytext": "Patient seems free from chronic issues",
       "category": "chronic",
       "aliases": [
+        "HealthyAllC",
         "Patient seems free from chronic issues"
       ],
       "references": {
@@ -11015,7 +11477,8 @@
       "laytext": "Chronic hypothyroidism",
       "category": "chronic",
       "aliases": [
-        "Chronic hypothyroidism"
+        "Chronic hypothyroidism",
+        "HypoThyroC"
       ],
       "references": {
         "icd10": [],
@@ -11032,7 +11495,8 @@
       "laytext": "Chronic hyperthyroidism",
       "category": "chronic",
       "aliases": [
-        "Chronic hyperthyroidism"
+        "Chronic hyperthyroidism",
+        "HyperThyroC"
       ],
       "references": {
         "icd10": [],
@@ -11060,6 +11524,7 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
+        "PheoC",
         "Pheochromocytoma"
       ],
       "references": {
@@ -11077,7 +11542,8 @@
       "laytext": "Carcinoid",
       "category": "chronic",
       "aliases": [
-        "Carcinoid"
+        "Carcinoid",
+        "CarcinoidC"
       ],
       "references": {
         "icd10": [],
@@ -11094,7 +11560,8 @@
       "laytext": "Metabolic syndrome",
       "category": "chronic",
       "aliases": [
-        "Metabolic syndrome"
+        "Metabolic syndrome",
+        "MetSynC"
       ],
       "references": {
         "icd10": [],
@@ -11122,7 +11589,8 @@
       "IsImmLifeThreatening": false,
       "IsCantMiss": false,
       "aliases": [
-        "Patent ductus arteriosus"
+        "Patent ductus arteriosus",
+        "PDA"
       ],
       "references": {
         "icd10": [],
@@ -11150,7 +11618,8 @@
       "Risk": 4,
       "ICD10": "Y84.4",
       "aliases": [
-        "Chronic aspiration"
+        "Chronic aspiration",
+        "ChronicAspiration"
       ],
       "references": {
         "icd10": [
@@ -11181,7 +11650,9 @@
       "ICD10": "N20.0",
       "LOINC": "",
       "aliases": [
-        "Nephrolithiasis (kidney stones)"
+        "Nephrolithiasis",
+        "Nephrolithiasis (kidney stones)",
+        "Stone or stones in kidney"
       ],
       "references": {
         "icd10": [
@@ -11212,7 +11683,8 @@
       "ICD10": "C50.919",
       "LOINC": "",
       "aliases": [
-        "Breast cancer"
+        "Breast cancer",
+        "BreastCancer"
       ],
       "references": {
         "icd10": [
@@ -11243,7 +11715,8 @@
       "ICD10": "I27.24",
       "LOINC": "",
       "aliases": [
-        "Thromboembolic pulmonary hypertension (CTEPH)"
+        "Thromboembolic pulmonary hypertension (CTEPH)",
+        "ThromboembolicPulmonaryHypertensionCTEPH"
       ],
       "references": {
         "icd10": [
@@ -11273,7 +11746,8 @@
       "Risk": 3,
       "ICD10": "I27.22",
       "aliases": [
-        "Pulmonary hypertension secondary to left heart disease"
+        "Pulmonary hypertension secondary to left heart disease",
+        "PulmonaryHTNSecondaryToLHD"
       ],
       "references": {
         "icd10": [
@@ -11304,7 +11778,8 @@
       "ICD10": "E78.5",
       "LOINC": "",
       "aliases": [
-        "cholesterol"
+        "cholesterol",
+        "Hypercholesterolemia"
       ],
       "references": {
         "icd10": [
@@ -11323,7 +11798,8 @@
       "laytext": "Chronic atrial fibrillation (Afib)",
       "category": "chronic",
       "aliases": [
-        "Chronic atrial fibrillation (Afib)"
+        "Chronic atrial fibrillation (Afib)",
+        "PlaceHolderChronicDiagnosisAlias8ChronicDxAlias"
       ],
       "references": {
         "icd10": [],
@@ -11340,7 +11816,8 @@
       "laytext": "Esophageal cancer (i.e. adenocarcinoma)",
       "category": "chronic",
       "aliases": [
-        "Esophageal cancer (i.e. adenocarcinoma)"
+        "Esophageal cancer (i.e. adenocarcinoma)",
+        "PlaceHolderChronicDiagnosisAlias9ChronicDxAlias"
       ],
       "references": {
         "icd10": [],
@@ -11357,7 +11834,8 @@
       "laytext": "Barrett's esophagus",
       "category": "chronic",
       "aliases": [
-        "Barrett's esophagus"
+        "Barrett's esophagus",
+        "PlaceHolderChronicDiagnosisAlias10ChronicDxAlias"
       ],
       "references": {
         "icd10": [],
@@ -11374,6 +11852,7 @@
       "laytext": "Stomach cancer (i.e. adenocarcinoma)",
       "category": "chronic",
       "aliases": [
+        "PlaceHolderChronicDiagnosisAlias11ChronicDxAlias",
         "Stomach cancer (i.e. adenocarcinoma)"
       ],
       "references": {
@@ -11391,7 +11870,8 @@
       "laytext": "Metastatic disease to lungs or primary lungs neoplasm",
       "category": "chronic",
       "aliases": [
-        "Metastatic disease to lungs or primary lungs neoplasm"
+        "Metastatic disease to lungs or primary lungs neoplasm",
+        "PlaceHolderChronicDiagnosisAlias12ChronicDxAlias"
       ],
       "references": {
         "icd10": [],
@@ -11408,7 +11888,8 @@
       "laytext": "Metastatic disease to brain or primary brain neoplasm",
       "category": "chronic",
       "aliases": [
-        "Metastatic disease to brain or primary brain neoplasm"
+        "Metastatic disease to brain or primary brain neoplasm",
+        "PlaceHolderChronicDiagnosisAlias13ChronicDxAlias"
       ],
       "references": {
         "icd10": [],
@@ -11437,7 +11918,8 @@
       "ICD10": "N13.9",
       "LOINC": "",
       "aliases": [
-        "Below-the-bladder urinary tract obstruction."
+        "Below-the-bladder urinary tract obstruction.",
+        "BladderOutletObstructionMale"
       ],
       "references": {
         "icd10": [
@@ -11468,7 +11950,8 @@
       "ICD10": "N13.9",
       "LOINC": "",
       "aliases": [
-        "Below-the-bladder urinary tract obstruction."
+        "Below-the-bladder urinary tract obstruction.",
+        "BladderOutletObstructionFeMale"
       ],
       "references": {
         "icd10": [
@@ -11487,6 +11970,7 @@
       "laytext": "Portal hypertension",
       "category": "chronic",
       "aliases": [
+        "PlaceHolderChronicDiagnosisAlias14ChronicDxAlias",
         "Portal hypertension"
       ],
       "references": {
@@ -11504,7 +11988,8 @@
       "laytext": "Cirrhosis",
       "category": "chronic",
       "aliases": [
-        "Cirrhosis"
+        "Cirrhosis",
+        "PlaceHolderChronicDiagnosisAlias15ChronicDxAlias"
       ],
       "references": {
         "icd10": [],
@@ -11533,8 +12018,11 @@
       "ICD10": "N04.9",
       "LOINC": "",
       "aliases": [
+        "nephrosis",
         "nephrotic syndrome",
-        "nephrosis"
+        "Nephrotic syndrome",
+        "nephrotic syndrome, nephrosis",
+        "NephroticSyndrome"
       ],
       "references": {
         "icd10": [
@@ -11565,7 +12053,9 @@
       "ICD10": "N00.9",
       "LOINC": "",
       "aliases": [
-        "nephritic syndrome"
+        "Nephritic syndrome",
+        "nephritic syndrome",
+        "NephriticSyndrome"
       ],
       "references": {
         "icd10": [
@@ -11596,6 +12086,8 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
+        "Membranous nephropathy",
+        "MembranousNephropathy",
         "MN"
       ],
       "references": {
@@ -11625,7 +12117,9 @@
       "ICD10": "N05.2",
       "LOINC": "",
       "aliases": [
-        "Primary MN"
+        "Primary membranous nephropathy",
+        "Primary MN",
+        "PrimaryMembranousNephropathy"
       ],
       "references": {
         "icd10": [
@@ -11656,7 +12150,9 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
-        "Secondary MN"
+        "Secondary membranous nephropathy",
+        "Secondary MN",
+        "SecondaryMembranousNephropathy"
       ],
       "references": {
         "icd10": [],
@@ -11684,7 +12180,10 @@
       "Risk": 3,
       "ICD10": "D64.9",
       "aliases": [
-        "AnemiaM"
+        "Anemia in male",
+        "AnemiaInMale",
+        "AnemiaM",
+        "low hemoglobin (anemia in male)"
       ],
       "references": {
         "icd10": [
@@ -11714,7 +12213,10 @@
       "Risk": 3,
       "ICD10": "D64.9",
       "aliases": [
-        "AnemiaF"
+        "Anemia in female",
+        "AnemiaF",
+        "AnemiaInFemale",
+        "low hemoglobin (anemia in female)"
       ],
       "references": {
         "icd10": [
@@ -11744,7 +12246,9 @@
       "ICD10": "",
       "LOINC": "",
       "aliases": [
-        "Healthy patient"
+        "Healthy patient",
+        "State of health, no health issues.",
+        "StateOfHealth"
       ],
       "references": {
         "icd10": [],
@@ -11773,9 +12277,13 @@
       "ICD10": "A48.1",
       "LOINC": "3085-4",
       "aliases": [
-        "Legionnaires' disease",
         "Legionella infection",
+        "Legionella pneumonia: Infection causing severe lung inflammation, often from contaminated water sources",
+        "Legionella pneumonia: Pneumonia caused by Legionella bacteria",
+        "LegionellaPneumonia_AI",
         "Legionellosis",
+        "Legionnaires' disease",
+        "Legionnaires' disease, Legionella infection, Legionellosis, Pontiac fever",
         "Pontiac fever"
       ],
       "references": {

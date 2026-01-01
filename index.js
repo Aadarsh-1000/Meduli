@@ -212,80 +212,85 @@ function initApp() {
           c.notes
         ].filter(Boolean).join(' • ');
 
-
-        // (2) Clinical keyword heuristics for common entities in your dataset
-        if (Object.keys(present).length === 0) {
-          const label = `${c.name || ''} ${c.text || ''} ${c.laytext || ''} ${c.alias || ''}`.toLowerCase();
-
-          const heuristics = [
-            { when: /(pneumonia|pna|hcap|cap)\b/, add: ['cough', 'fever', 'shortness of breath', 'chest pain', 'rigors'] },
-            { when: /\bbronchitis|tracheobronchitis\b/, add: ['cough', 'wheeze', 'fatigue', 'shortness of breath'] },
-            { when: /\bpharyngitis|sore throat|strep\b/, add: ['sore throat', 'fever', 'headache'] },
-            { when: /\bsinusitis\b/, add: ['runny nose', 'headache', 'fever'] },
-            { when: /\blaryngitis\b/, add: ['sore throat', 'cough', 'hoarseness'] },
-            { when: /\bpneumothorax|ptx\b/, add: ['chest pain', 'shortness of breath'] },
-            { when: /\bpulmonary embol(ism|us)|\bpe\b/, add: ['shortness of breath', 'chest pain', 'hematuria'] }, // hematuria not classic but in vocab; okay to omit if you prefer
-            { when: /\bpancreatitis\b/, add: ['abdominal pain', 'nausea', 'vomiting', 'back pain', 'fever'] },
-            { when: /\bgastroenteritis\b/, add: ['diarrhoea', 'vomiting', 'abdominal pain', 'fever'] },
-            { when: /\bgerd|reflux|esophagitis\b/, add: ['chest pain', 'sore throat'] },
-            { when: /\bmi\b|\bacute coronary|unstable angina|cad\b/, add: ['chest pain', 'nausea', 'sweating', 'shortness of breath'] },
-            { when: /\ballergic rhinitis|hay fever\b/, add: ['runny nose', 'sore throat', 'cough'] }
-          ];
-
-          heuristics.forEach(rule => {
-            if (rule.when.test(label)) {
-              rule.add.forEach(s => {
-                const k = s.toLowerCase();
-                present[k] = Math.max(present[k] || 0, 0.7);
-              });
-            }
-          });
+        const inferred = inferFromText(textFields);
+        if (Object.keys(inferred).length) {
+          present = { ...present, ...inferred };
         }
+      }
 
-        // Enrich vocabulary with anything seen
-        Object.keys(present).forEach(k => { if (k && !SYMPTOMS.includes(k)) SYMPTOMS.push(k); });
-        Object.keys(absent).forEach(k => { if (k && !SYMPTOMS.includes(k)) SYMPTOMS.push(k); });
+      // (2) Clinical keyword heuristics for common entities in your dataset
+      if (Object.keys(present).length === 0) {
+        const label = `${c.name || ''} ${c.text || ''} ${c.laytext || ''} ${c.alias || ''}`.toLowerCase();
 
-        // Treatment (aliases)
-        const studyTreatment = pickFirstList(c, [
-          'studyTreatment', 'studyTreatement', 'treatment', 'treatments', 'management', 'managementPlan', 'therapy', 'therapies', 'tx', 'plan', 'treatment_plan'
-        ]);
+        const heuristics = [
+          { when: /(pneumonia|pna|hcap|cap)\b/, add: ['cough', 'fever', 'shortness of breath', 'chest pain', 'rigors'] },
+          { when: /\bbronchitis|tracheobronchitis\b/, add: ['cough', 'wheeze', 'fatigue', 'shortness of breath'] },
+          { when: /\bpharyngitis|sore throat|strep\b/, add: ['sore throat', 'fever', 'headache'] },
+          { when: /\bsinusitis\b/, add: ['runny nose', 'headache', 'fever'] },
+          { when: /\blaryngitis\b/, add: ['sore throat', 'cough', 'hoarseness'] },
+          { when: /\bpneumothorax|ptx\b/, add: ['chest pain', 'shortness of breath'] },
+          { when: /\bpulmonary embol(ism|us)|\bpe\b/, add: ['shortness of breath', 'chest pain', 'hematuria'] }, // hematuria not classic but in vocab; okay to omit if you prefer
+          { when: /\bpancreatitis\b/, add: ['abdominal pain', 'nausea', 'vomiting', 'back pain', 'fever'] },
+          { when: /\bgastroenteritis\b/, add: ['diarrhoea', 'vomiting', 'abdominal pain', 'fever'] },
+          { when: /\bgerd|reflux|esophagitis\b/, add: ['chest pain', 'sore throat'] },
+          { when: /\bmi\b|\bacute coronary|unstable angina|cad\b/, add: ['chest pain', 'nausea', 'sweating', 'shortness of breath'] },
+          { when: /\ballergic rhinitis|hay fever\b/, add: ['runny nose', 'sore throat', 'cough'] }
+        ];
 
-        // Info/meta with aliases + defaults
-        const ICD10 = str(keyPickCI(c, ['ICD10', 'icd10', 'ICD', 'icd']) || '');
-        const alias = str(keyPickCI(c, ['alias', 'aka', 'otherNames']) || '');
-        const category = str(keyPickCI(c, ['category', 'type', 'class']) || '');
-        const wikiList = [
-          typeof c.references?.wikidata === 'string'
-            ? c.references.wikidata
-            : c.references?.wikidata?.url,
+        heuristics.forEach(rule => {
+          if (rule.when.test(label)) {
+            rule.add.forEach(s => {
+              const k = s.toLowerCase();
+              present[k] = Math.max(present[k] || 0, 0.7);
+            });
+          }
+        });
+      }
 
-          c.wiki,
-          c.wiki2,
-          c.wiki3,
-          c.wiki4
-        ].filter(x => typeof x === 'string' && x.startsWith('http'));
+      // Enrich vocabulary with anything seen
+      Object.keys(present).forEach(k => { if (k && !SYMPTOMS.includes(k)) SYMPTOMS.push(k); });
+      Object.keys(absent).forEach(k => { if (k && !SYMPTOMS.includes(k)) SYMPTOMS.push(k); });
+
+      // Treatment (aliases)
+      const studyTreatment = pickFirstList(c, [
+        'studyTreatment', 'studyTreatement', 'treatment', 'treatments', 'management', 'managementPlan', 'therapy', 'therapies', 'tx', 'plan', 'treatment_plan'
+      ]);
+
+      // Info/meta with aliases + defaults
+      const ICD10 = str(keyPickCI(c, ['ICD10', 'icd10', 'ICD', 'icd']) || '');
+      const alias = str(keyPickCI(c, ['alias', 'aka', 'otherNames']) || '');
+      const category = str(keyPickCI(c, ['category', 'type', 'class']) || '');
+      const wikiList = [
+        typeof c.references?.wikidata === 'string'
+          ? c.references.wikidata
+          : c.references?.wikidata?.url,
+
+        c.wiki,
+        c.wiki2,
+        c.wiki3,
+        c.wiki4
+      ].filter(x => typeof x === 'string' && x.startsWith('http'));
 
 
 
-        const pearls = toArray(c.pearls);
-        const redFlags = toArray(c.redFlags || c.redflags);
-        const prevalenceWeight = (typeof c.prevalenceWeight === 'number') ? c.prevalenceWeight : riskToWeight(c.Risk);
+      const pearls = toArray(c.pearls);
+      const redFlags = toArray(c.redFlags || c.redflags);
+      const prevalenceWeight = (typeof c.prevalenceWeight === 'number') ? c.prevalenceWeight : riskToWeight(c.Risk);
 
-        const meta = {
-          category,
-          ICD10,
-          alias,
-          wiki: wikiList,
-          IsRare: !!c.IsRare,
-          IsCantMiss: !!c.IsCantMiss,
-          IsImmLifeThreatening: !!c.IsImmLifeThreatening,
-          IsGenderSpecific: !!c.IsGenderSpecific,
-          Risk: (c.Risk != null ? Number(c.Risk) : undefined)
-        };
+      const meta = {
+        category,
+        ICD10,
+        alias,
+        wiki: wikiList,
+        IsRare: !!c.IsRare,
+        IsCantMiss: !!c.IsCantMiss,
+        IsImmLifeThreatening: !!c.IsImmLifeThreatening,
+        IsGenderSpecific: !!c.IsGenderSpecific,
+        Risk: (c.Risk != null ? Number(c.Risk) : undefined)
+      };
 
-        return { id, name: displayName, demographics, features: { present, absent }, pearls, redFlags, studyTreatment, prevalenceWeight, meta };
-      });
+      return { id, name: displayName, demographics, features: { present, absent }, pearls, redFlags, studyTreatment, prevalenceWeight, meta };
+    });
 
   // ---------- State ----------
   const state = {
