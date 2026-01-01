@@ -19,7 +19,6 @@ fetch('diseases.json', { cache: 'no-store' })
             : [];
 
     PACK = { symptomVocabulary: vocab, conditions: rootArr };
-    console.log('resultsEl:', resultsEl)
     initApp();
   })
   .catch(err => {
@@ -243,12 +242,16 @@ function initApp() {
       const alias = str(keyPickCI(c, ['alias', 'aka', 'otherNames']) || '');
       const category = str(keyPickCI(c, ['category', 'type', 'class']) || '');
       const wikiList = [
-        c.references?.wikidata,
+        typeof c.references?.wikidata === 'string'
+          ? c.references.wikidata
+          : c.references?.wikidata?.url,
+
         c.wiki,
         c.wiki2,
         c.wiki3,
         c.wiki4
-      ].filter(Boolean);
+      ].filter(x => typeof x === 'string' && x.startsWith('http'));
+
 
 
       const pearls = toArray(c.pearls);
