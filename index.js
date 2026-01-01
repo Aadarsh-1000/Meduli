@@ -423,7 +423,7 @@ function initApp() {
       grid.appendChild(row('ICD-10', icd10));
       grid.appendChild(
         row(
-          'Also known as',
+          'Aliases',
           cond.aliases.length
             ? cond.aliases.join(', ')
             : 'Not provided'
