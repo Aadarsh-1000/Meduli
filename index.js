@@ -19,6 +19,7 @@ fetch('diseases.json', { cache: 'no-store' })
             : [];
 
     PACK = { symptomVocabulary: vocab, conditions: rootArr };
+    const resultsEl = document.getElementById('results');
     initApp();
   })
   .catch(err => {
