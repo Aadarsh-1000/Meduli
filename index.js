@@ -546,12 +546,12 @@ function initApp() {
       // Explain
       const showExplain = (explainToggle?.checked ?? true);
       if (showExplain) {
-        const expl = document.createElement('div'); expl.className = 'explain';
+        const expl = document.createElement('div'); expl.className = '';
         const d = cond.demographics; const demoBits = [];
         if (d?.gender) demoBits.push(`gender: ${d.gender}`);
         if (typeof d?.minAge === 'number') demoBits.push(`minAge: ${d.minAge}`);
         if (typeof d?.maxAge === 'number') demoBits.push(`maxAge: ${d.maxAge}`);
-        expl.innerHTML = '<strong>Why it ranked here:</strong> Prior (risk) + symptom matches'
+        
           + (demoBits.length ? ` • ${demoBits.join(' • ')}` : '')
           + '. This is a simple rules/weights demo — not a medical diagnosis.';
         wrap.append(head, flagsRow, tabs, panels, expl);
