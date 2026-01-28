@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Meduli</title>
     <link href="index.css" rel="stylesheet" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <div class="container">
         <header style="display:flex;flex-direction:column;gap:6px;margin-bottom:16px">
-            <h1>🩺 Meduli</h1>
-            <div class="muted">For training and study only. Not for diagnosis or treatment of real patients.</div>
+            <h1>Meduli</h1>
+            <div class="muted">This website is not for preffesional and medical use .</div>
         </header>
         <div class="alert disclaimer">
             <strong>Safety first:</strong> This is a simplified, rule-based teaching tool. Outputs may be inaccurate or
@@ -25,10 +30,10 @@
             <!-- LEFT: Inputs -->
             <div class="card">
                 <div class="content section">
-                    <h2>Patient (Simulated) Details</h2>
+                    <h2>Patient Details</h2>
 
                     <div>
-                        <label>Age: <span id="ageOut" class="age-out">22</span></label>
+                        <label>Age: <span id="ageOut" class="age-out">20</span></label>
                         <div class="slider-row">
                             <input id="age" type="range" min="0" max="100" value="22" />
                         </div>

@@ -307,7 +307,7 @@ function initApp() {
   // ---------- State ----------
   const state = {
     age: parseInt(ageEl?.value || '22', 10),
-    sex: 'female',
+    sex: 'Male',
     selectedSymptoms: new Set(),
     negatives: new Set(),
     freeText: '',
@@ -320,22 +320,53 @@ function initApp() {
   function normalizeSymptom(s) { return String(s || '').trim().toLowerCase(); }
 
   function scoreCondition({ age, gender, symptomsSet, explicitNegatives }) {
+    const hasAnySymptoms =
+      symptomsSet && symptomsSet.size > 0;
+
     const ranked = KB.map(cond => {
       const d = cond.demographics;
+
+      // demographic exclusion
       if (d) {
         if (typeof d.minAge === 'number' && age < d.minAge) return { id: cond.id, name: cond.name, score: 0, ref: cond };
         if (typeof d.maxAge === 'number' && age > d.maxAge) return { id: cond.id, name: cond.name, score: 0, ref: cond };
         if (d.gender && gender && d.gender !== gender) return { id: cond.id, name: cond.name, score: 0, ref: cond };
       }
-      let score = cond.prevalenceWeight;
+
+      // 🔑 IMPORTANT FIX:
+      // Start at 0 if no symptoms selected
+      let score = hasAnySymptoms ? cond.prevalenceWeight : 0;
+
       const present = cond.features.present || {};
       const absent = cond.features.absent || {};
-      for (const feat in present) if (symptomsSet.has(feat)) score += Number(present[feat]) || 0;
-      for (const feat in absent) if (!symptomsSet.has(feat) && explicitNegatives.has(feat)) score += (Number(absent[feat]) || 0) * 0.5;
-      return { id: cond.id, name: cond.name, score, ref: cond };
-    }).sort((a, b) => b.score - a.score).slice(0, 6);
+
+      if (hasAnySymptoms) {
+        for (const feat in present) {
+          if (symptomsSet.has(feat)) {
+            score += Number(present[feat]) || 0;
+          }
+        }
+
+        for (const feat in absent) {
+          if (!symptomsSet.has(feat) && explicitNegatives.has(feat)) {
+            score += (Number(absent[feat]) || 0) * 0.5;
+          }
+        }
+      }
+
+      return {
+        id: cond.id,
+        name: cond.name,
+        score,
+        ref: cond
+      };
+    })
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 6);
+
     return ranked;
   }
+
 
   // ---------- Tiny UI builders ----------
   function badge(text, kind = 'neutral') { const b = document.createElement('span'); b.className = `badge badge-${kind}`; b.textContent = text; return b; }
@@ -388,7 +419,7 @@ function initApp() {
 
       // Header
       const head = document.createElement('div'); head.className = 'result-head';
-      const title = document.createElement('div'); title.innerHTML = (idx === 0 ? '🧠 ' : 'ℹ️ ') + r.name;
+      const title = document.createElement('div'); title.innerHTML = (idx === 0 ? ' ' : '') + r.name;
       const score = document.createElement('div'); score.className = 'pill'; score.textContent = 'Score: ' + r.score.toFixed(2);
       head.append(title, score);
 

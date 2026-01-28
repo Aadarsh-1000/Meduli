@@ -1,12 +1,35 @@
 :root {
-    --bg: #f8fafc;
-    --text: #0f172a;
-    --muted: #475569;
-    --card: #fff;
-    --border: #e2e8f0;
-    --accent: #111827;
-    --shadow: 0 1px 2px rgba(15, 23, 42, .06), 0 8px 24px rgba(15, 23, 42, .08);
-    --rounded: 16px
+    /* Backgrounds */
+    --bg: #0b1220;
+    /* deep navy, not pure black */
+    --bg-soft: #000000;
+
+    /* Cards & surfaces */
+    --card: #121a2f;
+    --card-soft: #16213a;
+
+    /* Text */
+    --text: #66799e;
+    /* soft white */
+    --muted: #000000;
+    /* bluish gray */
+
+    /* Borders & dividers */
+    --border: #233055;
+
+    /* Accent */
+    --accent: #6ea8ff;
+    /* human-picked blue */
+    --accent-soft: #1e3a8a;
+
+    /* Status */
+    --warn: #fbbf24;
+    --danger: #fb7185;
+    --info: #38bdf8;
+
+    /* UI */
+    --shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+    --rounded: 14px;
 }
 
 * {
@@ -15,15 +38,16 @@
 
 html,
 body {
-    height: 100%
+    height: 100%vh;
 }
 
 body {
     margin: 0;
-    font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial;
-    color: var(--text);
-    background: linear-gradient(#f8fafc, #fff)
+    font-family: "Exo", system-ui, sans-serif;
+    background: linear-gradient(180deg, var(--bg), var(--bg-soft));
+    color: black;
 }
+
 
 .container {
     max-width: 1200px;
@@ -36,12 +60,17 @@ h1 {
     margin: 0 0 4px 0;
     display: flex;
     gap: 8px;
-    align-items: center
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 .muted {
     color: var(--muted);
-    font-size: 14px
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .row {
@@ -57,11 +86,12 @@ h1 {
 }
 
 .card {
-    background: var(--card);
+    background: #D3D3D3;
     border: 1px solid var(--border);
-    border-radius: var(--rounded);
-    box-shadow: var(--shadow)
+    border-radius: 10px;
+    box-shadow: var(--shadow);
 }
+
 
 .card h2 {
     margin: 0 0 8px 0;
@@ -69,7 +99,7 @@ h1 {
 }
 
 .card .content {
-    padding: 18px
+    padding: 20px
 }
 
 .section {
@@ -116,6 +146,7 @@ textarea {
 }
 
 .btn.small {
+
     padding: 6px 10px;
     font-size: 13px
 }
@@ -253,7 +284,8 @@ textarea {
 footer {
     color: #64748b;
     font-size: 11px;
-    margin-top: 16px
+    margin-top: 16px;
+    text-align:center;
 }
 
 .disclaimer {
@@ -261,7 +293,8 @@ footer {
 }
 
 .kbd {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: "Oswald";
+
     background: #f1f5f9;
     border: 1px solid var(--border);
     padding: 2px 6px;
