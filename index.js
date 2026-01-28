@@ -306,7 +306,7 @@ function initApp() {
 
   // ---------- State ----------
   const state = {
-    age: parseInt(ageEl?.value || '22', 10),
+    age: parseInt(ageEl?.value || '20', 10),
     sex: 'Male',
     selectedSymptoms: new Set(),
     negatives: new Set(),
