@@ -36,7 +36,7 @@ i made meduli as a fun project because i was bored. I first got the ideas when i
 
 ---
 
-## 📄 Links and Resources used to create this project
+## Links and Resources used to create this project
 
 [Sources taken for the website](https://www.endlessmedical.com/dictionaries-json/)
 
