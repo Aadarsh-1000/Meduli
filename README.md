@@ -34,18 +34,7 @@
 
 ---
 
-##  Use Cases
-
-* Educational demonstrations
-* Health-tech project showcases
-* Hackathons and competitions
-* Learning medical data handling concepts
-
----
-
-## 📄 License
-
-This project is created for educational purposes only.
+## 📄 Links and Resources used to create this project
 
 [Sources taken for the website](https://www.endlessmedical.com/dictionaries-json/)
 
