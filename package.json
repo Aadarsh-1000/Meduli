@@ -1,0 +1,18 @@
+{
+  "name": "meduli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Meduli is a medical assistance website designed to provide preliminary health insights based on user-provided information.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "openai": "^6.16.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}

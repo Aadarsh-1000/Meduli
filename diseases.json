@@ -76,6 +76,24 @@
       "references": {
         "icd10": [],
         "wikidata": "https://www.wikidata.org/wiki/Q12125"
+      },
+      "evidence": {
+        "symptoms": {
+          "fever": [
+            {
+              "source": "CDC",
+              "text": "Fever is a common manifestation of infectious and inflammatory conditions",
+              "type": "guideline"
+            }
+          ],
+          "cough": [
+            {
+              "source": "CDC",
+              "text": "Cough commonly reflects airway or lung involvement",
+              "type": "guideline"
+            }
+          ]
+        }
       }
     },
     {
@@ -97,7 +115,7 @@
       },
       "pearls": [
         "Abrupt onset fever, myalgia, and headache are typical.",
-        "Consider antivirals for high‑risk per guidelines."
+        "Consider antivirals for high\u2011risk per guidelines."
       ],
       "redFlags": [
         "Dyspnoea",
@@ -106,7 +124,7 @@
       ],
       "studyTreatment": [
         "Supportive care",
-        "Antivirals for high‑risk or severe disease (verify local guidance)"
+        "Antivirals for high\u2011risk or severe disease (verify local guidance)"
       ],
       "aliases": [
         "Influenza"
@@ -114,11 +132,29 @@
       "references": {
         "icd10": [],
         "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Influenza"
+      },
+      "evidence": {
+        "symptoms": {
+          "fever": [
+            {
+              "source": "CDC",
+              "text": "Fever is a common manifestation of infectious and inflammatory conditions",
+              "type": "guideline"
+            }
+          ],
+          "cough": [
+            {
+              "source": "CDC",
+              "text": "Cough commonly reflects airway or lung involvement",
+              "type": "guideline"
+            }
+          ]
+        }
       }
     },
     {
       "id": "covid19",
-      "name": "COVID‑19",
+      "name": "COVID\u201119",
       "prevalenceWeight": 0.4,
       "features": {
         "present": {
@@ -148,16 +184,41 @@
         "Consider antivirals per current protocols"
       ],
       "aliases": [
-        "COVID‑19"
+        "COVID\u201119"
       ],
       "references": {
         "icd10": [],
         "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=COVID%E2%80%9119"
+      },
+      "evidence": {
+        "symptoms": {
+          "anosmia": [
+            {
+              "source": "CDC",
+              "text": "Loss of smell is a specific symptom of COVID-19",
+              "type": "guideline"
+            }
+          ],
+          "fever": [
+            {
+              "source": "WHO",
+              "text": "Fever is a common symptom of COVID-19",
+              "type": "guideline"
+            }
+          ],
+          "cough": [
+            {
+              "source": "CDC",
+              "text": "Cough commonly reflects airway or lung involvement",
+              "type": "guideline"
+            }
+          ]
+        }
       }
     },
     {
       "id": "pneumonia",
-      "name": "Community‑Acquired Pneumonia",
+      "name": "Community\u2011Acquired Pneumonia",
       "prevalenceWeight": 0.3,
       "features": {
         "present": {
@@ -174,7 +235,7 @@
       },
       "pearls": [
         "Pleuritic chest pain and focal findings suggest consolidation.",
-        "Assess severity scores in practice (e.g., CURB‑65)"
+        "Assess severity scores in practice (e.g., CURB\u201165)"
       ],
       "redFlags": [
         "Hypoxia",
@@ -183,14 +244,39 @@
       ],
       "studyTreatment": [
         "Empiric antibiotics per local guidelines if clinical diagnosis",
-        "Consider chest X‑ray and oximetry"
+        "Consider chest X\u2011ray and oximetry"
       ],
       "aliases": [
-        "Community‑Acquired Pneumonia"
+        "Community\u2011Acquired Pneumonia"
       ],
       "references": {
         "icd10": [],
         "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Community%E2%80%91Acquired%20Pneumonia"
+      },
+      "evidence": {
+        "symptoms": {
+          "fever": [
+            {
+              "source": "NICE",
+              "text": "Fever is a common presenting feature of community-acquired pneumonia",
+              "type": "guideline"
+            }
+          ],
+          "cough": [
+            {
+              "source": "CDC",
+              "text": "Cough is a common symptom of pneumonia",
+              "type": "guideline"
+            }
+          ],
+          "chest pain": [
+            {
+              "source": "NICE",
+              "text": "Pleuritic chest pain may occur in pneumonia",
+              "type": "guideline"
+            }
+          ]
+        }
       }
     },
     {
@@ -217,7 +303,7 @@
         "Sepsis signs"
       ],
       "studyTreatment": [
-        "First‑line oral options vary by region; verify local antibiogram",
+        "First\u2011line oral options vary by region; verify local antibiogram",
         "Hydration; consider urine dipstick/urinalysis"
       ],
       "aliases": [
@@ -226,6 +312,9 @@
       "references": {
         "icd10": [],
         "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Uncomplicated%20Urinary%20Tract%20Infection"
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -246,7 +335,7 @@
         }
       },
       "pearls": [
-        "Watch for warning signs around defervescence (days 3–7).",
+        "Watch for warning signs around defervescence (days 3\u20137).",
         "Avoid NSAIDs if bleeding risk; confirm with labs in practice."
       ],
       "redFlags": [
@@ -265,11 +354,14 @@
       "references": {
         "icd10": [],
         "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Dengue%20Fever"
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
       "id": "malaria",
-      "name": "Malaria (falciparum/non‑falciparum)",
+      "name": "Malaria (falciparum/non\u2011falciparum)",
       "prevalenceWeight": 0.2,
       "features": {
         "present": {
@@ -297,11 +389,14 @@
         "Antimalarial regimen depends on species/resistance; follow national guidelines"
       ],
       "aliases": [
-        "Malaria (falciparum/non‑falciparum)"
+        "Malaria (falciparum/non\u2011falciparum)"
       ],
       "references": {
         "icd10": [],
         "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Malaria%20%28falciparum/non%E2%80%91falciparum%29"
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -340,6 +435,9 @@
       "references": {
         "icd10": [],
         "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Acute%20Appendicitis"
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -358,7 +456,7 @@
         }
       },
       "pearls": [
-        "Most cases are viral and self‑limited.",
+        "Most cases are viral and self\u2011limited.",
         "Assess dehydration."
       ],
       "redFlags": [
@@ -377,6 +475,38 @@
       "references": {
         "icd10": [],
         "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Acute%20Gastroenteritis"
+      },
+      "evidence": {
+        "symptoms": {
+          "diarrhoea": [
+            {
+              "source": "WHO",
+              "text": "Diarrhoea is a defining symptom of acute gastroenteritis",
+              "type": "guideline"
+            }
+          ],
+          "vomiting": [
+            {
+              "source": "CDC",
+              "text": "Vomiting commonly accompanies gastrointestinal pathology",
+              "type": "guideline"
+            }
+          ],
+          "abdominal pain": [
+            {
+              "source": "NICE",
+              "text": "Abdominal pain is a key feature of many intra\u2011abdominal conditions",
+              "type": "guideline"
+            }
+          ],
+          "fever": [
+            {
+              "source": "CDC",
+              "text": "Fever is a common manifestation of infectious and inflammatory conditions",
+              "type": "guideline"
+            }
+          ]
+        }
       }
     },
     {
@@ -404,7 +534,7 @@
       ],
       "studyTreatment": [
         "Inhaled bronchodilators",
-        "Systemic steroids if moderate–severe"
+        "Systemic steroids if moderate\u2013severe"
       ],
       "aliases": [
         "Asthma"
@@ -412,6 +542,31 @@
       "references": {
         "icd10": [],
         "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Asthma"
+      },
+      "evidence": {
+        "symptoms": {
+          "wheeze": [
+            {
+              "source": "NICE",
+              "text": "Wheeze reflects airflow limitation, commonly seen in asthma",
+              "type": "guideline"
+            }
+          ],
+          "shortness of breath": [
+            {
+              "source": "CDC",
+              "text": "Dyspnea suggests cardiopulmonary pathology and warrants evaluation",
+              "type": "guideline"
+            }
+          ],
+          "cough": [
+            {
+              "source": "CDC",
+              "text": "Cough commonly reflects airway or lung involvement",
+              "type": "guideline"
+            }
+          ]
+        }
       }
     },
     {
@@ -446,6 +601,24 @@
       "references": {
         "icd10": [],
         "wikidata": "https://www.wikidata.org/wiki/Special:Search?search=Acute%20Coronary%20Syndrome%20%28MI/UA%29"
+      },
+      "evidence": {
+        "symptoms": {
+          "chest pain": [
+            {
+              "source": "NICE",
+              "text": "Central chest pain radiating to arm or jaw is characteristic of acute coronary syndrome",
+              "type": "guideline"
+            }
+          ],
+          "shortness of breath": [
+            {
+              "source": "CDC",
+              "text": "Dyspnea may accompany myocardial infarction",
+              "type": "guideline"
+            }
+          ]
+        }
       }
     },
     {
@@ -478,6 +651,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -512,6 +688,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -550,6 +729,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -582,6 +764,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -613,6 +798,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -644,6 +832,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -676,6 +867,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -708,6 +902,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -740,6 +937,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -773,6 +973,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -805,6 +1008,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -840,6 +1046,24 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {
+          "anosmia": [
+            {
+              "source": "CDC",
+              "text": "Loss of smell is a specific symptom of COVID-19",
+              "type": "guideline"
+            }
+          ],
+          "fever": [
+            {
+              "source": "WHO",
+              "text": "Fever is a common symptom of COVID-19",
+              "type": "guideline"
+            }
+          ]
+        }
       }
     },
     {
@@ -872,6 +1096,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -904,6 +1131,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -939,6 +1169,24 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {
+          "anosmia": [
+            {
+              "source": "CDC",
+              "text": "Loss of smell is a specific symptom of COVID-19",
+              "type": "guideline"
+            }
+          ],
+          "fever": [
+            {
+              "source": "WHO",
+              "text": "Fever is a common symptom of COVID-19",
+              "type": "guideline"
+            }
+          ]
+        }
       }
     },
     {
@@ -976,6 +1224,24 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {
+          "anosmia": [
+            {
+              "source": "CDC",
+              "text": "Loss of smell is a specific symptom of COVID-19",
+              "type": "guideline"
+            }
+          ],
+          "fever": [
+            {
+              "source": "WHO",
+              "text": "Fever is a common symptom of COVID-19",
+              "type": "guideline"
+            }
+          ]
+        }
       }
     },
     {
@@ -1013,6 +1279,24 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {
+          "anosmia": [
+            {
+              "source": "CDC",
+              "text": "Loss of smell is a specific symptom of COVID-19",
+              "type": "guideline"
+            }
+          ],
+          "fever": [
+            {
+              "source": "WHO",
+              "text": "Fever is a common symptom of COVID-19",
+              "type": "guideline"
+            }
+          ]
+        }
       }
     },
     {
@@ -1049,6 +1333,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1081,6 +1368,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1113,6 +1403,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1145,6 +1438,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1178,6 +1474,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1210,6 +1509,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1243,6 +1545,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1276,6 +1581,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1309,6 +1617,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1341,6 +1652,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1373,6 +1687,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1405,6 +1722,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1438,6 +1758,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1470,6 +1793,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1504,6 +1830,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1537,6 +1866,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1569,6 +1901,24 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {
+          "chest pain": [
+            {
+              "source": "NICE",
+              "text": "Central chest pain radiating to arm or jaw is characteristic of acute coronary syndrome",
+              "type": "guideline"
+            }
+          ],
+          "shortness of breath": [
+            {
+              "source": "CDC",
+              "text": "Dyspnea may accompany myocardial infarction",
+              "type": "guideline"
+            }
+          ]
+        }
       }
     },
     {
@@ -1601,6 +1951,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1634,6 +1987,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1667,6 +2023,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1699,6 +2058,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1731,6 +2093,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1763,6 +2128,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1796,6 +2164,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1828,6 +2199,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1858,6 +2232,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1890,6 +2267,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1922,6 +2302,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1955,6 +2338,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -1988,6 +2374,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2023,6 +2412,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2057,6 +2449,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2091,6 +2486,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2121,6 +2519,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2152,6 +2553,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2183,6 +2587,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2215,6 +2622,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2248,6 +2658,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2280,6 +2693,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2312,6 +2728,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2343,6 +2762,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2376,6 +2798,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2407,6 +2832,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2440,6 +2868,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2473,6 +2904,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2505,6 +2939,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2538,6 +2975,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2571,6 +3011,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2603,6 +3046,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2636,6 +3082,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2665,6 +3114,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2698,6 +3150,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2730,6 +3185,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2763,6 +3221,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2799,6 +3260,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2835,6 +3299,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2867,6 +3334,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2899,6 +3369,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2931,6 +3404,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2964,6 +3440,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -2996,6 +3475,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3028,6 +3510,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3060,6 +3545,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3092,6 +3580,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3110,6 +3601,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3145,6 +3639,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3178,6 +3675,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3209,6 +3709,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3240,6 +3743,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3270,6 +3776,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3300,6 +3809,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3330,6 +3842,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3360,6 +3875,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3391,6 +3909,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3422,6 +3943,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3456,6 +3980,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3490,6 +4017,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3522,6 +4052,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3552,6 +4085,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3584,6 +4120,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3616,6 +4155,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3651,6 +4193,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3685,6 +4230,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3719,6 +4267,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3752,6 +4303,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3785,6 +4339,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3818,6 +4375,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3851,6 +4411,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3883,6 +4446,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3915,6 +4481,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3947,6 +4516,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -3979,6 +4551,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4009,6 +4584,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4040,6 +4618,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4070,6 +4651,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4100,6 +4684,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4130,6 +4717,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4160,6 +4750,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4193,6 +4786,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4226,6 +4822,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4244,6 +4843,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4271,6 +4873,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4300,6 +4905,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4328,6 +4936,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4357,6 +4968,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4386,6 +5000,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4415,6 +5032,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4433,6 +5053,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4466,6 +5089,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4498,6 +5124,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4529,6 +5158,24 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {
+          "chest pain": [
+            {
+              "source": "NICE",
+              "text": "Central chest pain radiating to arm or jaw is characteristic of acute coronary syndrome",
+              "type": "guideline"
+            }
+          ],
+          "shortness of breath": [
+            {
+              "source": "CDC",
+              "text": "Dyspnea may accompany myocardial infarction",
+              "type": "guideline"
+            }
+          ]
+        }
       }
     },
     {
@@ -4547,6 +5194,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4582,6 +5232,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4600,6 +5253,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4618,6 +5274,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4636,6 +5295,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4665,6 +5327,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4694,6 +5359,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4712,6 +5380,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4730,6 +5401,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4748,6 +5422,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4766,6 +5443,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4796,6 +5476,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4814,6 +5497,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4832,6 +5518,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4864,6 +5553,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4896,6 +5588,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4928,6 +5623,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4960,6 +5658,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -4991,6 +5692,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5021,6 +5725,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5039,6 +5746,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5071,6 +5781,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5103,6 +5816,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5135,6 +5851,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5167,6 +5886,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5199,6 +5921,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5231,6 +5956,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5263,6 +5991,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5296,6 +6027,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5325,6 +6059,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5357,6 +6094,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5389,6 +6129,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5423,6 +6166,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5454,6 +6200,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5472,6 +6221,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5490,6 +6242,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5508,6 +6263,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5526,6 +6284,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5554,6 +6315,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5581,6 +6345,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5613,6 +6380,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5644,6 +6414,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5676,6 +6449,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5708,6 +6484,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5740,6 +6519,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5772,6 +6554,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5804,6 +6589,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5834,6 +6622,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5866,6 +6657,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5898,6 +6692,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5929,6 +6726,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5960,6 +6760,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -5991,6 +6794,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6022,6 +6828,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6054,6 +6863,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6087,6 +6899,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6118,6 +6933,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6149,6 +6967,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6167,6 +6988,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6199,6 +7023,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6231,6 +7058,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6261,6 +7091,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6291,6 +7124,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6322,6 +7158,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6354,6 +7193,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6385,6 +7227,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6403,6 +7248,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6434,6 +7282,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6466,6 +7317,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6497,6 +7351,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6529,6 +7386,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6562,6 +7422,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6594,6 +7457,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6625,6 +7491,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6656,6 +7525,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6688,6 +7560,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6720,6 +7595,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6751,6 +7629,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6782,6 +7663,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6814,6 +7698,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6843,6 +7730,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6874,6 +7764,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6905,6 +7798,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6936,6 +7832,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -6968,6 +7867,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7004,6 +7906,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7036,6 +7941,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7067,6 +7975,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7099,6 +8010,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7131,6 +8045,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7162,6 +8079,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7190,6 +8110,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7221,6 +8144,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7252,6 +8178,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7284,6 +8213,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7317,6 +8249,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7350,6 +8285,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7383,6 +8321,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7415,6 +8356,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7447,6 +8391,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7479,6 +8426,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7512,6 +8462,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7544,6 +8497,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7576,6 +8532,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7594,6 +8553,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7626,6 +8588,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7659,6 +8624,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7692,6 +8660,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7723,6 +8694,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7755,6 +8729,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7787,6 +8764,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7819,6 +8799,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7851,6 +8834,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7883,6 +8869,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7914,6 +8903,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7945,6 +8937,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7972,6 +8967,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -7990,6 +8988,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8008,6 +9009,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8026,6 +9030,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8055,6 +9062,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8087,6 +9097,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8119,6 +9132,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8148,6 +9164,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8177,6 +9196,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8206,6 +9228,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8224,6 +9249,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8242,6 +9270,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8260,6 +9291,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8293,6 +9327,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8326,6 +9363,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8358,6 +9398,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8389,6 +9432,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8420,6 +9466,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8452,6 +9501,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8485,6 +9537,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8517,6 +9572,24 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {
+          "chest pain": [
+            {
+              "source": "NICE",
+              "text": "Central chest pain radiating to arm or jaw is characteristic of acute coronary syndrome",
+              "type": "guideline"
+            }
+          ],
+          "shortness of breath": [
+            {
+              "source": "CDC",
+              "text": "Dyspnea may accompany myocardial infarction",
+              "type": "guideline"
+            }
+          ]
+        }
       }
     },
     {
@@ -8548,6 +9621,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8579,6 +9655,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8612,6 +9691,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8644,6 +9726,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8677,6 +9762,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8708,6 +9796,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8740,6 +9831,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8773,6 +9867,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8806,6 +9903,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8839,6 +9939,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8857,6 +9960,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8887,6 +9993,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8905,6 +10014,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8923,6 +10035,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8955,6 +10070,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -8987,6 +10105,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9018,6 +10139,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9050,6 +10174,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9082,6 +10209,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9114,6 +10244,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9146,6 +10279,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9178,6 +10314,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9209,6 +10348,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9227,6 +10369,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9245,6 +10390,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9263,6 +10411,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9292,6 +10443,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9321,6 +10475,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9350,6 +10507,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9379,6 +10539,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9408,6 +10571,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9440,6 +10606,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9472,6 +10641,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9503,6 +10675,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9532,6 +10707,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9564,6 +10742,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9596,6 +10777,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9628,6 +10812,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9660,6 +10847,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9689,6 +10879,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9718,6 +10911,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9747,6 +10943,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9776,6 +10975,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9794,6 +10996,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9812,6 +11017,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9830,6 +11038,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9861,6 +11072,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9879,6 +11093,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9897,6 +11114,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9915,6 +11135,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9933,6 +11156,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9964,6 +11190,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -9996,6 +11225,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10028,6 +11260,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10060,6 +11295,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10092,6 +11330,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10124,6 +11365,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10156,6 +11400,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10188,6 +11435,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10220,6 +11470,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10252,6 +11505,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10270,6 +11526,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10302,6 +11561,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10334,6 +11596,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10366,6 +11631,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10397,6 +11665,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10428,6 +11699,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10459,6 +11733,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10491,6 +11768,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10520,6 +11800,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10538,6 +11821,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10556,6 +11842,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10574,6 +11863,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10607,6 +11899,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10639,6 +11934,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10671,6 +11969,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10703,6 +12004,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10735,6 +12039,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10764,6 +12071,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10796,6 +12106,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10825,6 +12138,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10843,6 +12159,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10861,6 +12180,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10879,6 +12201,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10897,6 +12222,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10915,6 +12243,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10933,6 +12264,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10951,6 +12285,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10969,6 +12306,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -10987,6 +12327,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11005,6 +12348,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11023,6 +12369,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11041,6 +12390,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11059,6 +12411,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11077,6 +12432,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11095,6 +12453,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11127,6 +12488,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11159,6 +12523,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11191,6 +12558,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11223,6 +12593,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11241,6 +12614,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11272,6 +12648,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11301,6 +12680,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11333,6 +12715,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11365,6 +12750,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11383,6 +12771,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11401,6 +12792,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11419,6 +12813,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11451,6 +12848,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11469,6 +12869,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11487,6 +12890,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11505,6 +12911,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11534,6 +12943,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11552,6 +12964,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11570,6 +12985,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11599,6 +13017,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11630,6 +13051,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11663,6 +13087,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11695,6 +13122,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11727,6 +13157,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11758,6 +13191,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11790,6 +13226,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11808,6 +13247,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11826,6 +13268,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11844,6 +13289,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11862,6 +13310,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11880,6 +13331,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11898,6 +13352,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11930,6 +13387,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11962,6 +13422,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11980,6 +13443,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -11998,6 +13464,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -12033,6 +13502,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -12066,6 +13538,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -12097,6 +13572,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -12130,6 +13608,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -12161,6 +13642,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -12194,6 +13678,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -12227,6 +13714,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -12257,6 +13747,9 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {}
       }
     },
     {
@@ -12295,6 +13788,31 @@
       "features": {
         "present": {},
         "absent": {}
+      },
+      "evidence": {
+        "symptoms": {
+          "fever": [
+            {
+              "source": "NICE",
+              "text": "Fever is a common presenting feature of community-acquired pneumonia",
+              "type": "guideline"
+            }
+          ],
+          "cough": [
+            {
+              "source": "CDC",
+              "text": "Cough is a common symptom of pneumonia",
+              "type": "guideline"
+            }
+          ],
+          "chest pain": [
+            {
+              "source": "NICE",
+              "text": "Pleuritic chest pain may occur in pneumonia",
+              "type": "guideline"
+            }
+          ]
+        }
       }
     }
   ]

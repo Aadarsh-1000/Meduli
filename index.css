@@ -1,8 +1,8 @@
 :root {
     /* Backgrounds */
-    --bg: #0b1220;
+    --bg-soft: #19023a;
     /* deep navy, not pure black */
-    --bg-soft: #000000;
+    --bg: #05011f;
 
     /* Cards & surfaces */
     --card: #121a2f;
