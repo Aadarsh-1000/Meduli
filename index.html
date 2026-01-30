@@ -2,101 +2,238 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Meduli</title>
-    <link href="index.css" rel="stylesheet" />
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meduli — Understand Medicine Simply</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Young+Serif&display=swap"
         rel="stylesheet">
+    <style>
+        :root {
+            --bg: #000000;
+            --card: #000000;
+            --text: #e5e7eb;
+            --muted: #94a3b8;
+            --accent: #ffa600;
+        }
 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Young Serif";
+
+
+        }
+
+        body {
+            background: radial-gradient(circle at top, #020617, var(--bg));
+            color: var(--text);
+
+            height: 90vh;
+
+        }
+
+
+
+
+        /* HERO */
+        .hero {
+            text-align: center;
+            margin-top: 6rem;
+            padding: 0 2rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 4.5%;
+
+        }
+
+        .hero p {
+            max-width: 600px;
+            margin: auto;
+            color: var(--muted);
+            line-height: 1.6;
+        }
+
+
+
+        button {
+            padding: 0.9rem 1.6rem;
+            border-radius: 10px;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            margin: 0 0.5rem;
+        }
+
+        button:hover {
+            padding: 0.9rem 1.6rem;
+            border-radius: 15px;
+            border: none;
+            font-size: 1.2rem;
+            cursor: pointer;
+            margin: 0 0.9rem;
+            transition-duration: 250ms;
+            margin-bottom: 4.65%;
+        }
+
+        .primary {
+            background: var(--accent);
+            color: #020617;
+            margin-bottom: 5%;
+            width: 20%;
+        }
+
+
+        /* FEATURES */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+            padding: 2rem 3rem;
+
+        }
+
+        .card {
+            background: rgb(27, 27, 27);
+            border: 1px solid #1e293b;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .card:hover {
+            background: rgb(27, 27, 27);
+            border: 1px solid #1e293b;
+            border-radius: 20px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 40px rgba(54, 54, 54, 0.4);
+            transition-duration: 250ms;
+        }
+
+        .card2 {
+            background: rgb(27, 27, 27);
+            border: 1px solid #1e293b;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .card2:hover {
+            background: rgb(27, 27, 27);
+            border: 1px solid #1e293b;
+            border-radius: 20px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 40px rgba(54, 54, 54, 0.4);
+            transition-duration: 250ms;
+        }
+
+        .card1 {
+            background: rgb(27, 27, 27);
+            border: 1px solid #1e293b;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .card1:hover {
+            background: rgb(27, 27, 27);
+            border: 1px solid #1e293b;
+            border-radius: 20px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 40px rgba(54, 54, 54, 0.4);
+            transition-duration: 250ms;
+        }
+
+        .card h3 {
+            margin-bottom: 0.6rem;
+            text-align: center;
+            justify-content: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        .card {
+            text-align: center;
+        }
+
+        .card1 {
+            text-align: center;
+        }
+
+        .card2 {
+            text-align: center;
+        }
+
+
+        /* Only allow one card to stand out at a time */
+        .features:hover .card,
+        .features:hover .card1,
+        .features:hover .card2 {
+            opacity: 0.4;
+            transform: scale(0.98);
+        }
+
+        /* Restore the hovered card */
+        .features .card:hover,
+        .features .card1:hover,
+        .features .card2:hover {
+            opacity: 1;
+            transform: scale(1.03);
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <header style="display:flex;flex-direction:column;gap:6px;margin-bottom:16px">
-            <h1>Meduli</h1>
-            <div class="muted">This website is not for preffesional and medical use .</div>
-        </header>
-        <div class="alert disclaimer">
-            <strong>Safety first:</strong> This is a simplified, rule-based teaching tool. Outputs may be inaccurate or
-            incomplete. Do not use for patient care. If a scenario suggests an emergency, escalate immediately according
-            to local protocols.
+    <header class="nav">
+
+        <nav>
+
+        </nav>
+    </header>
+
+    <main class="hero">
+        <h1>MEDULI</h1>
+        <p>
+
+        </p>
+
+        <div class="actions">
+            <a href="index.html">
+                <button class="primary">Get Started</button>
+            </a>
+        </div>
+    </main>
+    <h2>FEATURES</h2>
+    <section class="features">
+
+        <div class="card1">
+            <h3>Over 700+ Diseases</h3>
+        </div>
+        <div class="card">
+            <h3>Instant results</h3>
         </div>
 
-
-        <div class="row">
-            <!-- LEFT: Inputs -->
-            <div class="card">
-                <div class="content section">
-                    <h2>Patient Details</h2>
-
-                    <div>
-                        <label>Age: <span id="ageOut" class="age-out">20</span></label>
-                        <div class="slider-row">
-                            <input id="age" type="range" min="0" max="100" value="22" />
-                        </div>
-                    </div>
-
-                    <div>
-                        <label>Sex</label>
-                        <div class="chips" id="sexChips">
-                            <button class="chip active" data-sex="female">Female</button>
-                            <button class="chip" data-sex="male">Male</button>
-                            <button class="chip" data-sex="other">Other</button>
-                        </div>
-                    </div>
-
-                    <div class="toolbar">
-                        <label class="muted" style="font-weight:600">Symptoms</label>
-                        <input id="symptomSearch" class="pill-input" type="text" placeholder="Search symptoms…" />
-                        <button id="clearAllBtn" class="btn small">Clear all</button>
-                    </div>
-                    <div id="symptomChips" class="chips" aria-live="polite"></div>
-
-                    <div>
-                        <label for="customSymptom">Add a custom symptom</label>
-                        <div style="display:flex;gap:8px">
-                            <input id="customSymptom" type="text" placeholder="e.g., flank pain" />
-                            <button id="addCustomBtn" class="btn small">Add</button>
-                        </div>
-                    </div>
-
-                    <div>
-                        <label>Explicit negatives (absent findings)</label>
-                        <input id="negInput" class="pill-input" type="text"
-                            placeholder="e.g., shortness of breath (press Enter)" />
-                        <div id="negBadges" class="badges"></div>
-                    </div>
-
-                    <div>
-                        <label for="freeText">Free text (optional)</label>
-                        <textarea id="freeText"
-                            placeholder="Type a brief case note. Keywords will be taken if they match known symptoms."></textarea>
-                    </div>
-
-                    <div style="display:flex;align-items:center;gap:8px">
-
-
-                    </div>
-                </div>
-            </div>
-       
-            <!-- RIGHT: Results -->
-            <div class="card">
-                <div class="content">
-                    <h2>Top Differentials</h2>
-                    <div id="results" class="grid"></div>
-                </div>
-            </div>
+        <div class="card2">
+            <h3>ICD 10 ten codes and references</h3>
         </div>
+    </section>
 
-        <footer>© <span id="year"></span> — For education only. No warranties. Not a medical device.</footer>
-    </div>
-    <script src="index.js"></script>
+    <footer>© 2026 Meduli</footer>
 </body>
 
 </html>
