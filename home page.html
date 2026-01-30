@@ -24,15 +24,21 @@
             padding: 0;
             box-sizing: border-box;
             font-family: "Young Serif";
+
+
         }
 
         body {
             background: radial-gradient(circle at top, #020617, var(--bg));
             color: var(--text);
-            min-height: 100vh;
+
+            height: 90vh;
+
         }
 
- 
+
+
+
         /* HERO */
         .hero {
             text-align: center;
@@ -42,7 +48,13 @@
 
         .hero h1 {
             font-size: 3rem;
-            margin-bottom: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 4.5%;
+
         }
 
         .hero p {
@@ -52,7 +64,7 @@
             line-height: 1.6;
         }
 
-    
+
 
         button {
             padding: 0.9rem 1.6rem;
@@ -63,28 +75,32 @@
             margin: 0 0.5rem;
         }
 
-        button:hover{
-             padding: 0.9rem 1.6rem;
+        button:hover {
+            padding: 0.9rem 1.6rem;
             border-radius: 15px;
             border: none;
             font-size: 1.2rem;
             cursor: pointer;
             margin: 0 0.9rem;
             transition-duration: 250ms;
+            margin-bottom: 4.65%;
         }
 
         .primary {
             background: var(--accent);
             color: #020617;
+            margin-bottom: 5%;
+            width: 20%;
         }
 
-      
+
         /* FEATURES */
         .features {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
             gap: 1.5rem;
-            padding: 5rem 3rem;
+            padding: 2rem 3rem;
+
         }
 
         .card {
@@ -95,8 +111,53 @@
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
         }
 
+        .card:hover {
+            background: rgb(27, 27, 27);
+            border: 1px solid #1e293b;
+            border-radius: 20px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 40px rgba(54, 54, 54, 0.4);
+            transition-duration: 250ms;
+        }
+
+        .card2 {
+            background: rgb(27, 27, 27);
+            border: 1px solid #1e293b;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .card2:hover {
+            background: rgb(27, 27, 27);
+            border: 1px solid #1e293b;
+            border-radius: 20px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 40px rgba(54, 54, 54, 0.4);
+            transition-duration: 250ms;
+        }
+
+        .card1 {
+            background: rgb(27, 27, 27);
+            border: 1px solid #1e293b;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .card1:hover {
+            background: rgb(27, 27, 27);
+            border: 1px solid #1e293b;
+            border-radius: 20px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 40px rgba(54, 54, 54, 0.4);
+            transition-duration: 250ms;
+        }
+
         .card h3 {
             margin-bottom: 0.6rem;
+            text-align: center;
+            justify-content: center;
         }
 
         footer {
@@ -104,6 +165,35 @@
             padding: 2rem;
             color: var(--muted);
             font-size: 0.9rem;
+        }
+
+        .card {
+            text-align: center;
+        }
+
+        .card1 {
+            text-align: center;
+        }
+
+        .card2 {
+            text-align: center;
+        }
+
+
+        /* Only allow one card to stand out at a time */
+        .features:hover .card,
+        .features:hover .card1,
+        .features:hover .card2 {
+            opacity: 0.4;
+            transform: scale(0.98);
+        }
+
+        /* Restore the hovered card */
+        .features .card:hover,
+        .features .card1:hover,
+        .features .card2:hover {
+            opacity: 1;
+            transform: scale(1.03);
         }
     </style>
 </head>
@@ -123,20 +213,23 @@
         </p>
 
         <div class="actions">
-            <button class="primary">Try Meduli</button>
-        
+            <a href="index.html">
+                <button class="primary">Get Started</button>
+            </a>
         </div>
     </main>
-
+    <h2>FEATURES</h2>
     <section class="features">
-        <div class="card">
 
+        <div class="card1">
+            <h3>Over 700+ Diseases</h3>
         </div>
         <div class="card">
-
+            <h3>Instant results</h3>
         </div>
-        <div class="card">
 
+        <div class="card2">
+            <h3>ICD 10 ten codes and references</h3>
         </div>
     </section>
 
